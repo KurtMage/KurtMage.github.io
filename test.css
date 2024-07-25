@@ -116,6 +116,7 @@ span.stick.left {
 .fight-stick .stick.right {
     width: 70px;
     height: 70px;
+    background: #333333;
     display: block;
     border-radius: 100%;
 }
