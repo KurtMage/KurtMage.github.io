@@ -62,8 +62,7 @@ span.stick.left {
 .fight-stick .b {
     bottom: 60px;
     right: -345px;
-    background: #06b5ab; /* Color of S2 */
-    -webkit-filter: brightness(50%)
+    background: url(https://imgur.com/PW6cFcZ.png); /* Image of S2 */
 }
 
 .fight-stick .x {
@@ -100,7 +99,7 @@ span.stick.left {
 
 .fight-stick .bumper.pressed {
     transform: translateY(5px);
-    -webkit-filter: brightness(0%) invert(1)
+    -webkit-filter: brightness(40%) invert(0)
 }
 
 .fight-stick .trigger-button.pressed {
