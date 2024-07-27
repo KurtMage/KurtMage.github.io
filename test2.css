@@ -51,6 +51,11 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
     background-position: -123px -123px; /* Position of L button */
 }
 
+.fight-stick .button.pressed {
+    transform: translateY(5px);
+    -webkit-filter: invert(0);
+}
+
 .fight-stick .bumper.right {
     position: absolute;
     right: 172px;
@@ -83,11 +88,6 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
     background: url(https://imgur.com/Dg2SRLd.png);
 }
 
-.fight-stick .button.pressed {
-    transform: translateY(5px);
-    -webkit-filter: invert(0);
-}
-
 .fight-stick .trigger-button.right {
     position: absolute;
     right: 203px;
@@ -108,7 +108,7 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
     background-position: -369px -246px; /* Position of bottom-right button */
 }
 
-.fight-stick .trigger-button.right.pressed {
+.fight-stick .trigger-button.left.pressed {
     background-position: -369px -369px; /* Position of bottom-right button */
 }
 
@@ -116,4 +116,8 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
     background: url(https://imgur.com/Dg2SRLd.png); 
 }
 
+.fight-stick .trigger-button.pressed {
+    transform: translateY(5px);
+    -webkit-filter: invert(0);
+}
 
