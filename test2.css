@@ -7,6 +7,10 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
     width: 1500px;
 }
 
+.fight-stick .button {
+    background: url(https://imgur.com/Dg2SRLd.png);
+}
+
 .fight-stick .a {
     bottom: -5px;
     left: 376px;
@@ -68,10 +72,5 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
     background-position-y: -123px;
     transform: translateY(5px);
 }
-
-.fight-stick .button {
-    background: url(https://imgur.com/Dg2SRLd.png);
-}
-
 
 
