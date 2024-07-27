@@ -1,0 +1,174 @@
+
+body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
+
+.controller.fight-stick {
+    background: url(https://i.imgur.com/TNKKLVM.png) center no-repeat;
+    height: 530px;
+    width: 1500px;
+}
+
+.fight-stick .back {
+    position: absolute;
+    bottom: -5px;
+    left: 610px;
+}
+
+.fight-stick .start {
+    position: absolute;
+    bottom: -5px;
+    left: 701px;
+}
+
+.fight-stick .back, .fight-stick .start, .fight-stick .stick.left {
+    width: 70px;
+    height: 70px;
+    background: #333333;
+    display: block;
+    border-radius: 100%;
+}
+
+.fight-stick .back.pressed, .fight-stick .start.pressed, .fight-stick .stick.right.pressed, .fight-stick .stick.left.pressed {
+    transform: translateY(5px);
+    -webkit-filter: brightness(0%) invert(1);
+}
+
+span.stick.right {
+    position: absolute;
+    bottom: 37px;
+    left: 748px;
+}
+
+span.stick.left {
+    position: absolute;
+    bottom: 37px;
+    left: 659px;
+}
+
+.fight-stick .quadrant {
+    display: none;
+}
+
+.fight-stick .fstick {
+    display: none;
+}
+
+.fight-stick .a {
+    bottom: -5px;
+    left: 376px;
+    background: #de60df; /* Color of S1 */
+    -webkit-filter: brightness(50%)
+}
+
+.fight-stick .b {
+    bottom: 60px;
+    right: -345px;
+    background: url(https://imgur.com/PW6cFcZ.png); /* Image of S2 */
+}
+
+.fight-stick .x {
+    top: 70px;
+    left: 409px;
+    background: #64d0ff; /* Color of L */
+    -webkit-filter: brightness(50%)
+}
+
+.fight-stick .y {
+    right: -378px;
+    top: 4px;
+    background: #6e78f4; /* Color of M */
+    -webkit-filter: brightness(50%)
+}
+
+.fight-stick .trigger-button.right {
+    position: absolute;
+    right: 203px;
+    top: 5px;
+    float: left;
+    background: #cdf463; /* Color of T */
+    -webkit-filter: brightness(50%) 
+}
+
+.fight-stick .bumper.right {
+    position: absolute;
+    right: 172px;
+    top: 2px;
+    float: left;
+    background: #fa6a6a; /* Color of H */
+    -webkit-filter: brightness(50%)
+}
+
+.fight-stick .bumper.pressed {
+    transform: translateY(5px);
+    -webkit-filter: brightness(40%) invert(0)
+}
+
+.fight-stick .trigger-button.pressed {
+    transform: translateY(5px);
+    -webkit-filter: brightness(0%) invert(1)
+}
+
+.fight-stick .button.pressed {
+    transform: translateY(5px);
+    -webkit-filter: brightness(0%) invert(1)
+}
+
+.fight-stick .stick.right {
+    width: 70px;
+    height: 70px;
+    background: #333333;
+    display: block;
+    border-radius: 100%;
+}
+
+.fight-stick .face.up {
+    width: 123px;
+    height: 123px;
+    background: #333333;
+    border-radius: 100%;
+    opacity: 1;
+    display: block;
+    position:absolute;
+    bottom: 15px;
+    left: 493px;
+}
+
+.fight-stick .face.right {
+    width: 123px;
+    height: 123px;
+    background: #333333;
+    border-radius: 100%;
+    opacity: 1;
+    display: block;
+    position: absolute;
+    bottom: 226px;
+    left: 485px;
+}
+
+.fight-stick .face.down {
+    width: 123px;
+    height: 123px;
+    background: #333333;
+    border-radius: 100%;
+    opacity: 1;
+    display: block;
+    position: absolute;
+    bottom: 318px;
+    left: 352px;
+}
+
+.fight-stick .face.left {
+    width: 123px;
+    height: 123px;
+    background: #333333;
+    border-radius: 100%;
+    opacity: 1;
+    display: block;
+    position: absolute;
+    bottom: 334px;
+    left: 185px;
+}
+
+.fight-stick .face.pressed {
+    transform: translateY(5px);
+    -webkit-filter: brightness(0%) invert(1);
+}
