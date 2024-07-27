@@ -47,6 +47,18 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
     background-position: -123px -123px; /* Position of L button */
 }
 
+.fight-stick .bumper.right {
+    position: absolute;
+    right: 172px;
+    top: 2px;
+    float: left;
+    background-position: -246px 0px; /* Position of H button */
+}
+
+.fight-stick .bumper.pressed {
+    background-position: -246px -123px; /* Position of pressed H button */
+}
+
 .fight-stick .button.pressed {
     background-position-y: -123px;
     transform: translateY(5px);
@@ -55,4 +67,6 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
 .fight-stick .button {
     background: url(https://imgur.com/Dg2SRLd.png);
 }
+
+
 
