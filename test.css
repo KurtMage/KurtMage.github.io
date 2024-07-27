@@ -55,28 +55,41 @@ span.stick.left {
 .fight-stick .a {
     bottom: -5px;
     left: 376px;
-    background: #de60df; /* Color of S1 */
-    -webkit-filter: brightness(50%)
+    background-position: 0px -246px; /* Position of S1 button */
+}
+
+.fight-stick .a.pressed {
+    background-position: 0px -369px; /* Position of pressed S1 button */
 }
 
 .fight-stick .b {
     bottom: 60px;
     right: -345px;
-    background: url(https://imgur.com/PW6cFcZ.png); /* Image of S2 */
+    background-position: -123px -246px; /* Position of S2 button */
+}
+
+.fight-stick .b.pressed {
+    background-position: -123px -369px; /* Position of S2 button */
 }
 
 .fight-stick .x {
     top: 70px;
     left: 409px;
-    background: #64d0ff; /* Color of L */
-    -webkit-filter: brightness(50%)
+    background-position: 0px 0px; /* Position of L button */
+}
+
+.fight-stick .x.pressed {
+    background-position: 0px -123px; /* Position of L button */
 }
 
 .fight-stick .y {
     right: -378px;
     top: 4px;
-    background: #6e78f4; /* Color of M */
-    -webkit-filter: brightness(50%)
+    background-position: -123px 0px; /* Position of M button */
+}
+
+.fight-stick .y.pressed {
+    background-position: -123px -123px; /* Position of L button */
 }
 
 .fight-stick .trigger-button.right {
@@ -108,8 +121,12 @@ span.stick.left {
 }
 
 .fight-stick .button.pressed {
+    background-position-y: -123px;
     transform: translateY(5px);
-    -webkit-filter: brightness(0%) invert(1)
+}
+
+.fight-stick .button {
+    background: url(https://imgur.com/Dg2SRLd.png);
 }
 
 .fight-stick .stick.right {
