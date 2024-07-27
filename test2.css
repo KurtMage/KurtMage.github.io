@@ -97,7 +97,11 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
 }
 
 .fight-stick .trigger-button.left {
-    background-position: -369px -246px; /* Position of bottom-right button */
+    position: absolute;
+    right: 42px;
+    top: 77px;
+    float: left;
+    background-position: -369px -246px;
 }
 
 .fight-stick .trigger-button.left.pressed {
