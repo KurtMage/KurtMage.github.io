@@ -59,8 +59,23 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
     background-position: -246px 0px; /* Position of H button */
 }
 
-.fight-stick .bumper.pressed {
+.fight-stick .bumper.right.pressed {
     background-position: -246px -123px; /* Position of pressed H button */
+}
+
+.fight-stick .bumper.left {
+    position: absolute;
+    right: 172px;
+    top: 2px;
+    float: left;
+    background-position: -369px 0px; /* Position of H button */
+}
+
+.fight-stick .bumper.left.pressed {
+    background-position: -369px -123px; /* Position of pressed H button */
+}
+
+.fight-stick .bumper.pressed {
     -webkit-filter: invert(0);
 }
 
