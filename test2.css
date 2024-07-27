@@ -7,11 +7,8 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
     width: 1500px;
 }
 
-.fight-stick .button {
-    background: url(https://imgur.com/Dg2SRLd.png);
-}
-
 .fight-stick .a {
+    background: url(https://imgur.com/Dg2SRLd.png);
     bottom: -5px;
     left: 376px;
     background-position: 0px -246px; /* Position of S1 button */
@@ -22,6 +19,7 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
 }
 
 .fight-stick .b {
+    background: url(https://imgur.com/Dg2SRLd.png);
     bottom: 60px;
     right: -345px;
     background-position: -123px -246px; /* Position of S2 button */
@@ -32,6 +30,7 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
 }
 
 .fight-stick .x {
+    background: url(https://imgur.com/Dg2SRLd.png);
     top: 70px;
     left: 409px;
     background-position: 0px 0px; /* Position of L button */
@@ -42,6 +41,7 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
 }
 
 .fight-stick .y {
+    background: url(https://imgur.com/Dg2SRLd.png);
     right: -378px;
     top: 4px;
     background-position: -123px 0px; /* Position of M button */
