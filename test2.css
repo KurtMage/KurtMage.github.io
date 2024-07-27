@@ -7,6 +7,8 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
     width: 1500px;
 }
 
+/* start/back */
+
 .fight-stick .back {
     position: absolute;
     bottom: -5px;
