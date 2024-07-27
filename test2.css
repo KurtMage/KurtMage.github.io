@@ -85,7 +85,7 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
 
 .fight-stick .button.pressed {
     transform: translateY(5px);
-    -webkit-filter: invert(1);
+    -webkit-filter: invert(0);
 }
 
 
