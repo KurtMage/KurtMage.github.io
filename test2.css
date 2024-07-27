@@ -7,6 +7,51 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
     width: 1500px;
 }
 
+.fight-stick .back {
+    position: absolute;
+    bottom: -5px;
+    left: 610px;
+}
+
+.fight-stick .start {
+    position: absolute;
+    bottom: -5px;
+    left: 701px;
+}
+
+.fight-stick .back, .fight-stick .start, .fight-stick .stick.left {
+    width: 70px;
+    height: 70px;
+    background: #333333;
+    display: block;
+    border-radius: 100%;
+}
+
+.fight-stick .back.pressed, .fight-stick .start.pressed, .fight-stick .stick.right.pressed, .fight-stick .stick.left.pressed {
+    transform: translateY(5px);
+    -webkit-filter: brightness(0%) invert(1);
+}
+
+span.stick.right {
+    position: absolute;
+    bottom: 37px;
+    left: 748px;
+}
+
+span.stick.left {
+    position: absolute;
+    bottom: 37px;
+    left: 659px;
+}
+
+.fight-stick .quadrant {
+    display: none;
+}
+
+.fight-stick .fstick {
+    display: none;
+}
+
 .fight-stick .a {
     background: url(https://imgur.com/Dg2SRLd.png);
     bottom: -5px;
@@ -111,5 +156,66 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
 .fight-stick .trigger-button.pressed {
     transform: translateY(5px);
     -webkit-filter: invert(0);
+}
+
+.fight-stick .stick.right {
+    width: 70px;
+    height: 70px;
+    background: orange;
+    display: block;
+    border-radius: 100%;
+}
+
+.fight-stick .face.up {
+    width: 123px;
+    height: 123px;
+    background: #333333;
+    border-radius: 100%;
+    opacity: 1;
+    display: block;
+    position:absolute;
+    bottom: 15px;
+    left: 493px;
+}
+
+.fight-stick .face.right {
+    width: 123px;
+    height: 123px;
+    background: #333333;
+    border-radius: 100%;
+    opacity: 1;
+    display: block;
+    position: absolute;
+    bottom: 226px;
+    left: 485px;
+}
+
+.fight-stick .face.down {
+    width: 123px;
+    height: 123px;
+    background: #333333;
+    border-radius: 100%;
+    opacity: 1;
+    display: block;
+    position: absolute;
+    bottom: 318px;
+    left: 352px;
+}
+
+.fight-stick .face.left {
+    width: 123px;
+    height: 123px;
+    background: #333333;
+    border-radius: 100%;
+    opacity: 1;
+    display: block;
+    position: absolute;
+    bottom: 334px;
+    left: 185px;
+}
+
+.fight-stick .face.pressed {
+    transform: translateY(5px);
+    -webkit-filter: brightness(0%) invert(1);
 }
 
