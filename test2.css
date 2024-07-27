@@ -32,6 +32,8 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
     -webkit-filter: brightness(0%) invert(1);
 }
 
+/** Direction buttons */
+
 span.stick.right {
     position: absolute;
     bottom: 37px;
@@ -51,6 +53,8 @@ span.stick.left {
 .fight-stick .fstick {
     display: none;
 }
+
+/* Face buttons */
 
 .fight-stick .a {
     background: url(https://imgur.com/Dg2SRLd.png);
@@ -101,6 +105,8 @@ span.stick.left {
     -webkit-filter: invert(0);
 }
 
+/* Bumpers */
+
 .fight-stick .bumper.right {
     position: absolute;
     right: 172px;
@@ -128,6 +134,8 @@ span.stick.left {
 .fight-stick .bumper {
     background: url(https://imgur.com/Dg2SRLd.png);
 }
+
+/* Triggers */
 
 .fight-stick .trigger-button.right {
     position: absolute;
@@ -157,6 +165,8 @@ span.stick.left {
     transform: translateY(5px);
     -webkit-filter: invert(0);
 }
+
+/* Right Stick */
 
 .fight-stick .stick.right {
     width: 70px;
