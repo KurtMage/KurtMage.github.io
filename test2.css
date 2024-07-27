@@ -88,4 +88,32 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
     -webkit-filter: invert(0);
 }
 
+.fight-stick .trigger-button.right {
+    position: absolute;
+    right: 203px;
+    top: 5px;
+    float: left;
+    background-position: -246px -246px; /* Position of T button */
+}
+
+.fight-stick .trigger-button.right.pressed {
+    background-position: -246px -369px; /* Position of T button */
+}
+
+.fight-stick .trigger-button.left {
+    position: absolute;
+    right: 203px;
+    top: 5px;
+    float: left;
+    background-position: -369px -246px; /* Position of bottom-right button */
+}
+
+.fight-stick .trigger-button.right.pressed {
+    background-position: -369px -369px; /* Position of bottom-right button */
+}
+
+.fight-stick .trigger-button {
+    background: url(https://imgur.com/Dg2SRLd.png); 
+}
+
 
