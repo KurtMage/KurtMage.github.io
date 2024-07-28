@@ -95,10 +95,6 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
     -webkit-filter: brightness(50%);
 }
 
-.fight-stick .trigger-button {
-    background: url(https://imgur.com/Dg2SRLd.png); 
-}
-
 .fight-stick .trigger-button.pressed {
     transform: translateY(5px);
     -webkit-filter: brightness(0%) invert(1)
