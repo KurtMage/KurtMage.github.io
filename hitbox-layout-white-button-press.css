@@ -16,8 +16,8 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
 
 .fight-stick .start {
     position: absolute;
-    bottom: -5px;
-    left: 701px;
+    top: -42px;
+    left: 1362px;
 }
 
 .fight-stick .back, .fight-stick .start, .fight-stick .stick.left {
