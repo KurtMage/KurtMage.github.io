@@ -30,8 +30,10 @@ https://gamepadviewer.com/?p=1&s=7&map=%7B%7D&editcss=https://kurtmage.github.io
 ```
 https://gamepadviewer.com/?p=2&s=7&map=%7B%7D&editcss=https://kurtmage.github.io/hitbox%20layout/white-button-press.css
 ```
-
-
-
+## Layout 3
+![](https://github.com/KurtMage/KurtMage.github.io/blob/main/gifs/dim%20buttons.gif)
+```
+https://gamepadviewer.com/?p=2&s=7&map=%7B%7D&editcss=https://kurtmage.github.io/hitbox%20layout/dim-buttons.css
+```
 
 # Street Fighter
