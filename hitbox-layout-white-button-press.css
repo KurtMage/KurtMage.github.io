@@ -2,7 +2,7 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
 
 .controller.fight-stick {
     background: url(https://imgur.com/AEMTeDY.png) center no-repeat;
-    height: 530px;
+    height: 535px;
     width: 1500px;
 }
 
@@ -193,7 +193,7 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
     display: block;
     position: absolute;
     bottom: 226px;
-    left: 485px;
+    left: 704px;
 }
 
 .fight-stick .face.down {
