@@ -37,7 +37,7 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
 
 .fight-stick .a {
     background: url(https://imgur.com/Dg2SRLd.png);
-    bottom: 14px;
+    bottom: 19px;
     left: 376px;
     background-position: 0px -246px; /* Position of S1 button */
 }
@@ -48,7 +48,7 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
 
 .fight-stick .b {
     background: url(https://imgur.com/Dg2SRLd.png);
-    bottom: 79px;
+    bottom: 84px;
     right: -345px;
     background-position: -123px -246px; /* Position of S2 button */
 }
@@ -59,7 +59,7 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
 
 .fight-stick .x {
     background: url(https://imgur.com/Dg2SRLd.png);
-    top: 51px;
+    top: 46px;
     left: 409px;
     background-position: 0px 0px; /* Position of L button */
 }
@@ -71,7 +71,7 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
 .fight-stick .y {
     background: url(https://imgur.com/Dg2SRLd.png);
     right: -378px;
-    top: -15px;
+    top: -19px;
     background-position: -123px 0px; /* Position of M button */
 }
 
@@ -123,7 +123,7 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
 .fight-stick .trigger-button.right {
     position: absolute;
     right: 203px;
-    top: -14px;
+    top: -19px;
     float: left;
     background-position: -246px -246px; /* Position of T button */
 }
