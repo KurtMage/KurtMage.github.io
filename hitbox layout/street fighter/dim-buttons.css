@@ -75,8 +75,12 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
     right: 172px;
     top: -17px;
     float: left;
-    background-position: -246px 0px; /* Position of H button */
+    background: red;
     -webkit-filter: brightness(50%);
+}
+
+.fight-stick .bumper.right {
+    bottom: 20px;
 }
 
 .fight-stick .bumper.pressed {
@@ -98,9 +102,9 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
 .fight-stick .trigger-button.left {
     position: absolute;
     float: right;
-    bottom: 4px;
+    bottom: 20px;
     right: 42px;
-    -webkit-filter: brightness(50%);
+    background: #333333;
 }
 
 .fight-stick .trigger-button.pressed {
