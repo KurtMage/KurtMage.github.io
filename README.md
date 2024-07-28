@@ -14,26 +14,34 @@ NOTE: Every URL below has `p=1` in it. This is what determines what player your 
 Note: you need to give it an input from the controller for it to show up.
 
 
-# Layouts by Game
+# Layouts by Controller Layout
+
+[Hitbox](#hitbox-layouts-by-game)
+
+# Hitbox layouts by game
 [2XKO](#2xko)
 
 [Street Fighter](#street-fighter)
-
-# 2XKO
-## Layout 1
+## 2XKO
+### Layout 1
 ![](https://github.com/KurtMage/KurtMage.github.io/blob/main/gifs/hitbox/2XKO/white%20buttons%20with%20border.gif)
 ```
 https://gamepadviewer.com/?p=1&s=7&map=%7B%7D&editcss=https://kurtmage.github.io/hitbox%20layout/white-button-press-outlined-letters.css
 ```
-## Layout 2
+### Layout 2
 ![](https://github.com/KurtMage/KurtMage.github.io/blob/main/gifs/hitbox/2XKO/white%20pressed%20buttons.gif)
 ```
 https://gamepadviewer.com/?p=2&s=7&map=%7B%7D&editcss=https://kurtmage.github.io/hitbox%20layout/white-button-press.css
 ```
-## Layout 3
+### Layout 3
 ![](https://github.com/KurtMage/KurtMage.github.io/blob/main/gifs/hitbox/2XKO/dim%20buttons.gif)
 ```
 https://gamepadviewer.com/?p=2&s=7&map=%7B%7D&editcss=https://kurtmage.github.io/hitbox%20layout/dim-buttons.css
 ```
 
-# Street Fighter
+## Street Fighter
+### Layout 1
+![](https://github.com/KurtMage/KurtMage.github.io/blob/main/gifs/hitbox/Street%20Fighter/dim%20buttons.gif)
+```
+https://gamepadviewer.com/?p=2&s=7&map=%7B%7D&editcss=https://kurtmage.github.io/hitbox%20layout/street%20fighter/dim-buttons.css
+```
