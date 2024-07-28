@@ -172,6 +172,8 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
     border-radius: 100%;
 }
 
+/* Direction buttons */
+
 .fight-stick .face.up {
     width: 123px;
     height: 123px;
@@ -180,8 +182,8 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
     opacity: 1;
     display: block;
     position:absolute;
-    bottom: 15px;
-    left: 493px;
+    bottom: 17px;
+    left: 705px;
 }
 
 .fight-stick .face.right {
@@ -204,8 +206,8 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
     opacity: 1;
     display: block;
     position: absolute;
-    bottom: 318px;
-    left: 352px;
+    bottom: 322px;
+    left: 563px;
 }
 
 .fight-stick .face.left {
@@ -216,8 +218,8 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
     opacity: 1;
     display: block;
     position: absolute;
-    bottom: 334px;
-    left: 185px;
+    bottom: 338px;
+    left: 397px;
 }
 
 .fight-stick .face.pressed {
