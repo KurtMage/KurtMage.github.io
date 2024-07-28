@@ -95,6 +95,14 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
     -webkit-filter: brightness(50%);
 }
 
+.fight-stick .trigger-button.left {
+    position: absolute;
+    float: right;
+    bottom: 4px;
+    right: 42px;
+    -webkit-filter: brightness(50%);
+}
+
 .fight-stick .trigger-button.pressed {
     transform: translateY(5px);
     -webkit-filter: brightness(0%) invert(1)
