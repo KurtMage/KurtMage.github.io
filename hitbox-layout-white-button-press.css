@@ -1,7 +1,7 @@
 body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
 
 .controller.fight-stick {
-    background: url(https://imgur.com/AEMTeDY) center no-repeat;
+    background: url(https://imgur.com/AEMTeDY.png) center no-repeat;
     height: 530px;
     width: 1500px;
 }
