@@ -156,18 +156,6 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
 
 /* L3/R3 */
 
-span.stick.right {
-    position: absolute;
-    bottom: 37px;
-    left: 748px;
-}
-
-span.stick.left {
-    position: absolute;
-    bottom: 37px;
-    left: 659px;
-}
-
 .fight-stick .quadrant {
     display: none;
 }
