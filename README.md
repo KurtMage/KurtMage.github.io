@@ -2,7 +2,7 @@
 
 Various controller layouts for gamepad viewer. Example of a 2XKO layout:
 
-![](https://github.com/KurtMage/KurtMage.github.io/blob/main/gifs/white%20buttons%20with%20border.gif)
+![](https://github.com/KurtMage/KurtMage.github.io/blob/main/gifs/hitbox/2XKO/white%20buttons%20with%20border.gif)
 
 # How to set up for OBS
 1. Choose a layout from [the layouts section](#layouts-by-game). Copy the link for the layout you want.
@@ -21,17 +21,17 @@ Note: you need to give it an input from the controller for it to show up.
 
 # 2XKO
 ## Layout 1
-![](https://github.com/KurtMage/KurtMage.github.io/blob/main/gifs/white%20buttons%20with%20border.gif)
+![](https://github.com/KurtMage/KurtMage.github.io/blob/main/gifs/hitbox/2XKO/white%20buttons%20with%20border.gif)
 ```
 https://gamepadviewer.com/?p=1&s=7&map=%7B%7D&editcss=https://kurtmage.github.io/hitbox%20layout/white-button-press-outlined-letters.css
 ```
 ## Layout 2
-![](https://github.com/KurtMage/KurtMage.github.io/blob/main/gifs/white%20pressed%20buttons.gif)
+![](https://github.com/KurtMage/KurtMage.github.io/blob/main/gifs/hitbox/2XKO/white%20pressed%20buttons.gif)
 ```
 https://gamepadviewer.com/?p=2&s=7&map=%7B%7D&editcss=https://kurtmage.github.io/hitbox%20layout/white-button-press.css
 ```
 ## Layout 3
-![](https://github.com/KurtMage/KurtMage.github.io/blob/main/gifs/dim%20buttons.gif)
+![](https://github.com/KurtMage/KurtMage.github.io/blob/main/gifs/hitbox/2XKO/dim%20buttons.gif)
 ```
 https://gamepadviewer.com/?p=2&s=7&map=%7B%7D&editcss=https://kurtmage.github.io/hitbox%20layout/dim-buttons.css
 ```
