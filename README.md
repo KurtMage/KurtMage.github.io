@@ -17,6 +17,7 @@ Note: you need to give it an input from the controller for it to show up.
 # Layouts by Controller Layout
 
 [Hitbox](#hitbox-layouts-by-game)
+[Playstation 4 controller](#playstation-4-controller-layouts-by-game)
 
 # Hitbox layouts by game
 [2XKO](#2xko)
@@ -31,17 +32,25 @@ https://gamepadviewer.com/?p=1&s=7&map=%7B%7D&editcss=https://kurtmage.github.io
 ### Layout 2
 ![](https://github.com/KurtMage/KurtMage.github.io/blob/main/gifs/hitbox/2XKO/white%20pressed%20buttons.gif)
 ```
-https://gamepadviewer.com/?p=2&s=7&map=%7B%7D&editcss=https://kurtmage.github.io/hitbox%20layout/white-button-press.css
+https://gamepadviewer.com/?p=1&s=7&map=%7B%7D&editcss=https://kurtmage.github.io/hitbox%20layout/white-button-press.css
 ```
 ### Layout 3
 ![](https://github.com/KurtMage/KurtMage.github.io/blob/main/gifs/hitbox/2XKO/dim%20buttons.gif)
 ```
-https://gamepadviewer.com/?p=2&s=7&map=%7B%7D&editcss=https://kurtmage.github.io/hitbox%20layout/dim-buttons.css
+https://gamepadviewer.com/?p=1&s=7&map=%7B%7D&editcss=https://kurtmage.github.io/hitbox%20layout/dim-buttons.css
 ```
 
 ## Street Fighter
 ### Layout 1
 ![](https://github.com/KurtMage/KurtMage.github.io/blob/main/gifs/hitbox/Street%20Fighter/dim%20buttons.gif)
 ```
-https://gamepadviewer.com/?p=2&s=7&map=%7B%7D&editcss=https://kurtmage.github.io/hitbox%20layout/street%20fighter/dim-buttons.css
+https://gamepadviewer.com/?p=1&s=7&map=%7B%7D&editcss=https://kurtmage.github.io/hitbox%20layout/street%20fighter/dim-buttons.css
+```
+
+# Playstation 4 controller layouts by game
+[2XKO](#2xko)
+
+## 2XKO
+```
+https://gamepadviewer.com/?p=1&s=5&map=%7B%7D&editcss=https://kurtmage.github.io/PS4%20controller/2XKO/pressed-white-outlined-buttons.css
 ```
