@@ -160,63 +160,10 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
     display: none;
 }
 
+/* Stick */
+
 .fight-stick .fstick {
     position: absolute;
     left: 600px;
     top: 150px;
-}
-
-/* Direction buttons */
-
-.fight-stick .face.up {
-    width: 123px;
-    height: 123px;
-    background: #333333;
-    border-radius: 100%;
-    opacity: 1;
-    display: block;
-    position:absolute;
-    bottom: 17px;
-    left: 705px;
-}
-
-.fight-stick .face.right {
-    width: 123px;
-    height: 123px;
-    background: #333333;
-    border-radius: 100%;
-    opacity: 1;
-    display: block;
-    position: absolute;
-    bottom: 231px;
-    left: 698px;
-}
-
-.fight-stick .face.down {
-    width: 123px;
-    height: 123px;
-    background: #333333;
-    border-radius: 100%;
-    opacity: 1;
-    display: block;
-    position: absolute;
-    bottom: 322px;
-    left: 563px;
-}
-
-.fight-stick .face.left {
-    width: 123px;
-    height: 123px;
-    background: #333333;
-    border-radius: 100%;
-    opacity: 1;
-    display: block;
-    position: absolute;
-    bottom: 338px;
-    left: 397px;
-}
-
-.fight-stick .face.pressed {
-    transform: translateY(5px);
-    -webkit-filter: brightness(0%) invert(1);
 }
