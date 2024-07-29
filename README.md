@@ -48,8 +48,9 @@ https://gamepadviewer.com/?p=1&s=7&map=%7B%7D&editcss=https://kurtmage.github.io
 ```
 
 # Playstation 4 controller layouts by game
-[2XKO](#2xko)
+[2XKO](#ps4-2xko)
 
+<!----><a name="ps4-2xko"></a>
 ## 2XKO
 ![](https://github.com/KurtMage/KurtMage.github.io/blob/main/gifs/Playstation%204%20controller/2XKO/press%20white%20outlined.gif)
 ```
