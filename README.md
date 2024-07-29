@@ -27,7 +27,7 @@ Note: you need to give it an input from the controller for it to show up.
 ### Layout 1
 ![](https://github.com/KurtMage/KurtMage.github.io/blob/main/gifs/hitbox/2XKO/white%20buttons%20with%20border.gif)
 ```
-https://gamepadviewer.com/?p=1&s=7&map=%7B%7D&editcss=https://kurtmage.github.io/hitbox%20layout/white-button-press-outlined-letters.css
+https://gamepadviewer.com/?p=1&s=7&map=%7B%7D&editcss=https://kurtmage.github.io/hitbox%20layout/2XKO/white-button-press-outlined-letters.css
 ```
 ### Layout 2
 ![](https://github.com/KurtMage/KurtMage.github.io/blob/main/gifs/hitbox/2XKO/white%20pressed%20buttons.gif)
