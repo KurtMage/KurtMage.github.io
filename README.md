@@ -51,6 +51,7 @@ https://gamepadviewer.com/?p=1&s=7&map=%7B%7D&editcss=https://kurtmage.github.io
 [2XKO](#2xko)
 
 ## 2XKO
+![](https://github.com/KurtMage/KurtMage.github.io/blob/main/gifs/Playstation%204%20controller/2XKO/press%20white%20outlined.gif)
 ```
 https://gamepadviewer.com/?p=1&s=5&map=%7B%7D&editcss=https://kurtmage.github.io/PS4%20controller/2XKO/pressed-white-outlined-buttons.css
 ```
