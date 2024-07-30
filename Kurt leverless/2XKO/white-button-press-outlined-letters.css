@@ -187,7 +187,7 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
 
 .fight-stick .stick.left.pressed {
     position: absolute;
-    top: 100px;
+    top: 110px;
     background-position: -246px -369px; /* Position of T button */
 }
 
