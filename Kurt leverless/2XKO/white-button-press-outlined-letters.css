@@ -167,9 +167,26 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
     border-radius: 100%;
 }
 
-.fight-stick .stick.right.pressed, .fight-stick .stick.left.pressed {
+.fight-stick .stick.right.pressed {
     transform: translateY(200px);
     -webkit-filter: brightness(0%) invert(1);
+}
+
+.fight-stick .stick.left {
+    background: url(https://imgur.com/CT0mI4D.png);
+    background-position: -246px -246px; /* Position of T button */
+    position: absolute;
+    top:105px;
+    left: 238px;
+    width: 123px;
+    height: 123px;
+    display: block;
+    border-radius: 100%;
+}
+
+.fight-stick .stick.left.pressed {
+    transform: translateY(200px);
+    background-position: -246px -369px; /* Position of T button */
 }
 
 .fight-stick .quadrant {
