@@ -177,7 +177,7 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
     background: url(https://imgur.com/CT0mI4D.png);
     background-position: -246px -246px; /* Position of T button */
     position: absolute;
-    top: 105px;
+    top: 104px;
     left: 238px;
     width: 123px;
     height: 123px;
@@ -187,7 +187,7 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
 
 .fight-stick .stick.left.pressed {
     position: absolute;
-    top: 110px;
+    top: 109px;
     background-position: -246px -369px; /* Position of T button */
 }
 
