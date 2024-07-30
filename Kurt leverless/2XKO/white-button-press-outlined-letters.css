@@ -37,7 +37,7 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
 
 .fight-stick .a {
     background: url(https://imgur.com/CT0mI4D.png);
-    bottom: 54px;
+    bottom: 55px;
     left: 376px;
     background-position: 0px -246px; /* Position of S1 button */
 }
@@ -48,7 +48,7 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
 
 .fight-stick .b {
     background: url(https://imgur.com/CT0mI4D.png);
-    bottom: 119px;
+    bottom: 120px;
     right: -345px;
     background-position: -123px -246px; /* Position of S2 button */
 }
