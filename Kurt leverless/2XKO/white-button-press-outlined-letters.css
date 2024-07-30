@@ -156,6 +156,20 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
 
 /* L3/R3 */
 
+span.stick.right {
+    position: absolute;
+    bottom: 19px;
+    left: 795px;
+}
+
+.fight-stick .stick.right {
+    width: 123px;
+    height: 123px;
+    background: #333333;
+    display: block;
+    border-radius: 100%;
+}
+
 .fight-stick .quadrant {
     display: none;
 }
