@@ -89,7 +89,7 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
 .fight-stick .bumper.right {
     position: absolute;
     right: 172px;
-    top: -52px;
+    top: -53px;
     float: left;
     background-position: -246px 0px; /* Position of H button */
 }
