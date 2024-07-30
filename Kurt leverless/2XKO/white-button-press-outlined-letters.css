@@ -156,18 +156,20 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
 
 /* L3/R3 */
 
-span.stick.right {
+.fight-stick .stick.right {
     position: absolute;
     bottom: 19px;
     left: 795px;
-}
-
-.fight-stick .stick.right {
     width: 123px;
     height: 123px;
     background: #333333;
     display: block;
     border-radius: 100%;
+}
+
+.fight-stick .stick.right.pressed, .fight-stick .stick.left.pressed {
+    transform: translateY(200px);
+    -webkit-filter: brightness(0%) invert(1);
 }
 
 .fight-stick .quadrant {
