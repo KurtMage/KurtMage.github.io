@@ -125,11 +125,13 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
     right: 203px;
     top: -54px;
     float: left;
-    background-position: -246px -246px; /* Position of T button */
+/*     background-position: -246px -246px; /* Position of T button */ */
+    background: #333333;
 }
 
 .fight-stick .trigger-button.right.pressed {
-    background-position: -246px -369px; /* Position of T button */
+/*     background-position: -246px -369px; /* Position of T button */ */
+    -webkit-filter: invert(1);
 }
 
 .fight-stick .trigger-button.left {
