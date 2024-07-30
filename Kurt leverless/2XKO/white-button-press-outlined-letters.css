@@ -168,7 +168,8 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
 }
 
 .fight-stick .stick.right.pressed {
-    transform: translateY(200px);
+    position: absolute;
+    bottom: 14px;
     -webkit-filter: brightness(0%) invert(1);
 }
 
@@ -176,7 +177,7 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
     background: url(https://imgur.com/CT0mI4D.png);
     background-position: -246px -246px; /* Position of T button */
     position: absolute;
-    top:105px;
+    top: 105px;
     left: 238px;
     width: 123px;
     height: 123px;
@@ -185,7 +186,8 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
 }
 
 .fight-stick .stick.left.pressed {
-    transform: translateY(200px);
+    position: absolute;
+    top: 100px;
     background-position: -246px -369px; /* Position of T button */
 }
 
