@@ -51,6 +51,7 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
     --lb-top: var(--rb-top);
     --rt-top: calc(var(--rb-top) - 183px + var(--vert-clearance));
     --lt-top: var(--rt-top);
+    
     --a-left: 370px;
     --b-left: calc(var(--a-left) + var(--diag-horz-clearance));
     --x-left: var(--a-left);
@@ -59,6 +60,7 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
     --lb-left: calc(var(--rb-left) + var(--horz-clearance));
     --rt-left: calc(var(--rb-left) + 31px);
     --lt-left: calc(var(--rt-left) + var(--horz-clearance));
+    
     --dir-right-top: calc(var(--x-top) + 62px + 75px);
     --dir-right-left: calc(var(--x-left) + 472px - 150px);
     --dir-down-top: calc(var(--dir-right-top) - var(--diag-vert-clearance));
@@ -67,6 +69,7 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
     --dir-left-left: calc(var(--dir-down-left) - var(--horz-clearance));
     --dir-up-top: calc(var(--dir-right-top) + 230px);
     --dir-up-left: calc(var(--dir-right-left) + 75px);
+    
     --vert-clearance: 160px;
     --diag-vert-clearance: 80px;
     --diag-horz-clearance: 140px;
