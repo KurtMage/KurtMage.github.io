@@ -13,8 +13,7 @@ NOTE: Every URL below has `p=1` in it. This is what determines what player your 
 2. In OBS, click the + in sources to add a source. Select Browser as the type.
 3. In the URL box, put the URL from step 1.
 4. Change the Width to 1500.
-5. It's all set up! 
-Note: you need to give it an input from the controller for it to show up.
+5. Final important note: you need to give it an input from the controller for it to show up. Other than that, you're all set up!
 
 
 # Layouts by Controller Layout
