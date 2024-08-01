@@ -34,6 +34,12 @@ Note: you need to give it an input from the controller for it to show up.
 https://gamepadviewer.com/?p=3&s=7&map=%7B%7D&editcss=https://kurtmage.github.io/hitbox%20layout/2XKO/dark-mode.css
 ```
 
+### Dark mode white borders
+![](https://github.com/KurtMage/KurtMage.github.io/blob/main/gifs/hitbox/2XKO/dark%20mode%20white%20border.gif)
+```
+https://gamepadviewer.com/?p=3&s=7&map=%7B%7D&editcss=https://kurtmage.github.io/hitbox%20layout/2XKO/dark-mode-white-outlines.css
+```
+
 ### Layout 1
 ![](https://github.com/KurtMage/KurtMage.github.io/blob/main/gifs/hitbox/2XKO/white%20buttons%20with%20border1.gif)
 ```
