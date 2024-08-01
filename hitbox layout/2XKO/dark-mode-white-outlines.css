@@ -83,11 +83,11 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
 }
 
 .fight-stick .back, .fight-stick .start {
+    display: none;
     width: 100px;
     height: 100px;
-    background: url(https://imgur.com/JhI2qGK.png);
+    background: black;
     top: -30px;
-    display: block;
     border-radius: 100%;
 }
 
