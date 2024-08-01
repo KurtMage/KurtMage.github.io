@@ -1,3 +1,6 @@
+# NOTE:
+This is currently a work in progress. I plan on adding more layouts and ways that you can customize it to change buttons layouts.
+
 # Gamepad Viewer Layouts
 
 Various controller layouts for gamepad viewer. Example of a 2XKO layout:
