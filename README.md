@@ -62,7 +62,7 @@ So, for example, if you wanted to set the top-right button to `T`, you would loo
 
 4. Hit "Ok" in the dialog box and then input something on your controller to display your layout.
 
-## Example demo:
+## Example demo of customizing button layout:
 ![](https://github.com/KurtMage/KurtMage.github.io/blob/main/gifs/customize%20controls.gif)
 
 
