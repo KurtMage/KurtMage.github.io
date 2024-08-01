@@ -83,6 +83,12 @@ So, for example, if you wanted to set the top-right button to `T`, you would loo
 https://gamepadviewer.com/?p=1&s=7&map=%7B%7D&editcss=https://kurtmage.github.io/hitbox%20layout/2XKO/dark-mode.css
 ```
 
+### Light mode black borders
+![](https://github.com/KurtMage/KurtMage.github.io/blob/main/gifs/hitbox/2XKO/light%20mode.gif)
+```
+https://gamepadviewer.com/?p=1&s=7&map=%7B%7D&editcss=https://kurtmage.github.io/hitbox%20layout/2XKO/light-mode.css
+```
+
 ### Dark mode white borders
 ![](https://github.com/KurtMage/KurtMage.github.io/blob/main/gifs/hitbox/2XKO/dark%20mode%20white%20border.gif)
 ```
