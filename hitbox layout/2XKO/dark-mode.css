@@ -41,23 +41,6 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
     height: 150px;
 }
 
-.fight-stick .a {
-    background: url(https://imgur.com/ctjqEeT.png);
-    top: var(--a-top);
-    left: var(--a-left);
-    background-position: 0px -300px; /* Position of S1 button */
-}
-
-.fight-stick .a.pressed {
-    background-position: 0px -450px; /* Position of pressed S1 button */
-}
-
-.fight-stick .b {
-    background: url(https://imgur.com/ctjqEeT.png);
-    top: var(--b-top);
-    left: var(--b-left);
-    background-position: -150px -300px; /* Position of S2 button */
-}
 
 :root {
     --a-top: 200px;
@@ -92,7 +75,48 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
     --diag-vert-clearance: 80px;
     --diag-horz-clearance: 140px;
     --horz-clearance: var(--vert-clearance);
+
+    --top-row-index-button-row: 0;
+    --top-row-index-button-col: 0;
+
+    --num-buttons-in-row: 4;
+     --shf: 4.9406564584124654e-324;
+    
+    --top-row-index-finger-button: 0;
+    --top-row-middle-finger-button: 1;
+    --top-row-ring-finger-button: 2;
+    --top-row-pinky-finger-button: 3;
+    
+    --bot-row-index-finger-button: 4;
+    --bot-row-middle-finger-button: 5;
+    --bot-row-ring-finger-button: 6;
+    --bot-row-pinky-finger-button: 7;
 }
+
+.fight-stick .a {
+    background: url(https://imgur.com/ctjqEeT.png);
+    top: var(--a-top);
+    left: var(--a-left);
+    --button-number: var(--bot-row-index-finger-button);
+    background-position: calc((rem(var(--button-number),
+                                   var(--num-buttons-in-row))) * -150px)
+        calc(round(down, var(--button-number) / var(--num-buttons-in-row), 1) * -300px);
+}
+
+.fight-stick .a.pressed {
+    background-position: 0px -450px; /* Position of pressed S1 button */
+}
+
+.fight-stick .b {
+    background: url(https://imgur.com/ctjqEeT.png);
+    top: var(--b-top);
+    left: var(--b-left);
+    --button-number: var(--bot-row-middle-finger-button);
+    background-position: calc((rem(var(--button-number),
+                                   var(--num-buttons-in-row))) * -150px)
+        calc(round(down, var(--button-number) / var(--num-buttons-in-row), 1) * -300px);
+}
+
 
 .fight-stick .b.pressed {
     background-position: -150px -450px; /* Position of S2 button */
@@ -102,7 +126,10 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
     background: url(https://imgur.com/ctjqEeT.png);
     top: var(--x-top);
     left: var(--x-left);
-    background-position: 0px 0px; /* Position of L button */
+    --button-number: var(--top-row-index-finger-button);
+    background-position: calc((rem(var(--button-number),
+                                   var(--num-buttons-in-row))) * -150px)
+        calc(round(down, var(--button-number) / var(--num-buttons-in-row), 1) * -300px);
 }
 
 .fight-stick .x.pressed {
@@ -113,7 +140,10 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
     background: url(https://imgur.com/ctjqEeT.png);
     top: var(--y-top);
     left: var(--y-left);
-    background-position: -150px 0px; /* Position of M button */
+    --button-number: var(--top-row-middle-finger-button);
+    background-position: calc((rem(var(--button-number),
+                                   var(--num-buttons-in-row))) * -150px)
+        calc(round(down, var(--button-number) / var(--num-buttons-in-row), 1) * -300px);
 }
 
 .fight-stick .y.pressed {
@@ -136,7 +166,10 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
     position: absolute;
     top: var(--rb-top);
     left: var(--rb-left);
-    background-position: -300px 0px; /* Position of H button */
+    --button-number: var(--top-row-ring-finger-button);
+    background-position: calc((rem(var(--button-number),
+                                   var(--num-buttons-in-row))) * -150px)
+        calc(round(down, var(--button-number) / var(--num-buttons-in-row), 1) * -300px);
 }
 
 .fight-stick .bumper.right.pressed {
@@ -148,7 +181,10 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
     float: right;
     top: var(--lb-top);
     left: var(--lb-left);
-    background-position: -450px 0px; /* Position of H button */
+    --button-number: var(--top-row-pinky-finger-button);
+    background-position: calc((rem(var(--button-number),
+                                   var(--num-buttons-in-row))) * -150px)
+        calc(round(down, var(--button-number) / var(--num-buttons-in-row), 1) * -300px);
 }
 
 .fight-stick .bumper.left.pressed {
@@ -176,7 +212,10 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
     top: var(--rt-top);
     left: var(--rt-left);
     float: left;
-    background-position: -300px -300px; /* Position of T button */
+    --button-number: var(--bot-row-ring-finger-button);
+    background-position: calc((rem(var(--button-number),
+                                   var(--num-buttons-in-row))) * -150px)
+        calc(round(down, var(--button-number) / var(--num-buttons-in-row), 1) * -300px);
 }
 
 .fight-stick .trigger-button.right.pressed {
@@ -188,7 +227,10 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
     top: var(--lt-top);
     left: var(--lt-left);
     float: left;
-    background-position: -450px -300px;
+    --button-number: var(--bot-row-pinky-finger-button);
+    background-position: calc((rem(var(--button-number),
+                                   var(--num-buttons-in-row))) * -150px)
+        calc(round(down, var(--button-number) / var(--num-buttons-in-row), 1) * -300px);
 }
 
 .fight-stick .trigger-button.left.pressed {
