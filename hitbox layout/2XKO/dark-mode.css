@@ -98,9 +98,9 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
     background: url(https://imgur.com/ctjqEeT.png);
     top: var(--a-top);
     left: var(--a-left);
-    --row: calc(var(--bot-row-index-finger-button-row) + 1);
+    --row: var(--bot-row-index-finger-button-row);
     --col: var(--bot-row-index-finger-button-col);
-    background-position: calc(var(--col) * -150px) calc(var(--row) * -150px);
+    background-position: calc(var(--col) * -150px) calc(var(--row) * -300px);
 }
 
 .fight-stick .a.pressed {
