@@ -1,5 +1,66 @@
 body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
 
+:root {
+    --button-source-image: url(https://imgur.com/ctjqEeT.png);
+    
+    --a-top: 200px;
+    --b-top: calc(var(--a-top) - var(--diag-vert-clearance));
+    --x-top: calc(var(--a-top) - var(--vert-clearance));
+    --y-top: calc(var(--x-top) - var(--diag-vert-clearance));
+    --rb-top: calc(var(--y-top) - 26px);
+    --lb-top: var(--rb-top);
+    --rt-top: calc(var(--rb-top) - 183px + var(--vert-clearance));
+    --lt-top: var(--rt-top);
+
+    --a-left: 370px;
+    --b-left: calc(var(--a-left) + var(--diag-horz-clearance));
+    --x-left: var(--a-left);
+    --y-left: calc(var(--a-left) + var(--diag-horz-clearance));
+    --rb-left: calc(var(--y-left) - 733px + var(--horz-clearance));
+    --lb-left: calc(var(--rb-left) + var(--horz-clearance));
+    --rt-left: calc(var(--rb-left) + 31px);
+    --lt-left: calc(var(--rt-left) + var(--horz-clearance));
+
+    --dir-right-top: calc(var(--x-top) + 62px + 75px);
+    --dir-right-left: calc(var(--x-left) + 472px - 150px);
+    --dir-down-top: calc(var(--dir-right-top) - var(--diag-vert-clearance));
+    --dir-down-left: calc(var(--dir-right-left) - var(--diag-horz-clearance));
+    --dir-left-top: var(--dir-down-top);
+    --dir-left-left: calc(var(--dir-down-left) - var(--horz-clearance));
+    --dir-up-top: calc(var(--dir-right-top) + 230px);
+    --dir-up-left: calc(var(--dir-right-left) + 75px);
+
+    
+    --vert-clearance: 160px;
+    --diag-vert-clearance: 80px;
+    --diag-horz-clearance: 140px;
+    --horz-clearance: var(--vert-clearance);
+
+    --top-row-index-button-row: 0;
+    --top-row-index-button-col: 0;
+
+    --num-buttons-in-row: 4;
+     --shf: 4.9406564584124654e-324;
+    
+    --top-row-index-finger-button-row: 0;
+    --top-row-index-finger-button-col: 0;
+    --top-row-middle-finger-button-row: 0;
+    --top-row-middle-finger-button-col: 1;
+    --top-row-ring-finger-button-row: 0;
+    --top-row-ring-finger-button-col: 2;
+    --top-row-pinky-finger-button-row: 0;
+    --top-row-pinky-finger-button-col: 3;
+    
+    --bot-row-index-finger-button-row: 1;
+    --bot-row-index-finger-button-col: 0;
+    --bot-row-middle-finger-button-row: 1;
+    --bot-row-middle-finger-button-col: 1;
+    --bot-row-ring-finger-button-row: 1;
+    --bot-row-ring-finger-button-col: 2;
+    --bot-row-pinky-finger-button-row: 1;
+    --bot-row-pinky-finger-button-col: 3;
+}
+
 .controller.fight-stick {
     /* background: url(https://imgur.com/AEMTeDY.png) center no-repeat; */
     background: transparent;
@@ -41,61 +102,8 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
     height: 150px;
 }
 
-
-:root {
-    --a-top: 200px;
-    --b-top: calc(var(--a-top) - var(--diag-vert-clearance));
-    --x-top: calc(var(--a-top) - var(--vert-clearance));
-    --y-top: calc(var(--x-top) - var(--diag-vert-clearance));
-    --rb-top: calc(var(--y-top) - 26px);
-    --lb-top: var(--rb-top);
-    --rt-top: calc(var(--rb-top) - 183px + var(--vert-clearance));
-    --lt-top: var(--rt-top);
-    
-    --a-left: 370px;
-    --b-left: calc(var(--a-left) + var(--diag-horz-clearance));
-    --x-left: var(--a-left);
-    --y-left: calc(var(--a-left) + var(--diag-horz-clearance));
-    --rb-left: calc(var(--y-left) - 733px + var(--horz-clearance));
-    --lb-left: calc(var(--rb-left) + var(--horz-clearance));
-    --rt-left: calc(var(--rb-left) + 31px);
-    --lt-left: calc(var(--rt-left) + var(--horz-clearance));
-    
-    --dir-right-top: calc(var(--x-top) + 62px + 75px);
-    --dir-right-left: calc(var(--x-left) + 472px - 150px);
-    --dir-down-top: calc(var(--dir-right-top) - var(--diag-vert-clearance));
-    --dir-down-left: calc(var(--dir-right-left) - var(--diag-horz-clearance));
-    --dir-left-top: var(--dir-down-top);
-    --dir-left-left: calc(var(--dir-down-left) - var(--horz-clearance));
-    --dir-up-top: calc(var(--dir-right-top) + 230px);
-    --dir-up-left: calc(var(--dir-right-left) + 75px);
-    
-    --vert-clearance: 160px;
-    --diag-vert-clearance: 80px;
-    --diag-horz-clearance: 140px;
-    --horz-clearance: var(--vert-clearance);
-    
-    --top-row-index-finger-button-row: 0;
-    --top-row-index-finger-button-col: 0;
-    --top-row-middle-finger-button-row: 0;
-    --top-row-middle-finger-button-col: 1;
-    --top-row-ring-finger-button-row: 0;
-    --top-row-ring-finger-button-col: 2;
-    --top-row-pinky-finger-button-row: 0;
-    --top-row-pinky-finger-button-col: 3;
-    
-    --bot-row-index-finger-button-row: 1;
-    --bot-row-index-finger-button-col: 0;
-    --bot-row-middle-finger-button-row: 1;
-    --bot-row-middle-finger-button-col: 1;
-    --bot-row-ring-finger-button-row: 1;
-    --bot-row-ring-finger-button-col: 2;
-    --bot-row-pinky-finger-button-row: 1;
-    --bot-row-pinky-finger-button-col: 3;
-}
-
 .fight-stick .a {
-    background: url(https://imgur.com/ctjqEeT.png);
+    background: var(--button-source-image);
     top: var(--a-top);
     left: var(--a-left);
     --row: var(--bot-row-index-finger-button-row);
@@ -104,13 +112,11 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
 }
 
 .fight-stick .a.pressed {
-    --row: var(--bot-row-index-finger-button-row);
-    --col: var(--bot-row-index-finger-button-col);
-    background-position: calc(var(--col) * -150px) calc(var(--row) * -300px - 150px);
+    background-position: 0px -450px; /* Position of pressed S1 button */
 }
 
 .fight-stick .b {
-    background: url(https://imgur.com/ctjqEeT.png);
+    background: var(--button-source-image);
     top: var(--b-top);
     left: var(--b-left);
     --row: var(--bot-row-middle-finger-button-row);
@@ -120,13 +126,11 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
 
 
 .fight-stick .b.pressed {
-    --row: var(--bot-row-middle-finger-button-row);
-    --col: var(--bot-row-middle-finger-button-col);
-    background-position: calc(var(--col) * -150px) calc(var(--row) * -300px - 150px);
+    background-position: -150px -450px; /* Position of S2 button */
 }
 
 .fight-stick .x {
-    background: url(https://imgur.com/ctjqEeT.png);
+    background: var(--button-source-image);
     top: var(--x-top);
     left: var(--x-left);
     --row: var(--top-row-index-finger-button-row);
@@ -135,13 +139,11 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
 }
 
 .fight-stick .x.pressed {
-    --row: var(--top-row-index-finger-button-row);
-    --col: var(--top-row-index-finger-button-col);
-    background-position: calc(var(--col) * -150px) calc(var(--row) * -300px - 150px);
+    background-position: 0px -150px; /* Position of L button */
 }
 
 .fight-stick .y {
-    background: url(https://imgur.com/ctjqEeT.png);
+    background: var(--button-source-image);
     top: var(--y-top);
     left: var(--y-left);
     --row: var(--top-row-middle-finger-button-row);
@@ -150,9 +152,7 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
 }
 
 .fight-stick .y.pressed {
-    --row: var(--top-row-middle-finger-button-row);
-    --col: var(--top-row-middle-finger-button-col);
-    background-position: calc(var(--col) * -150px) calc(var(--row) * -300px - 150px);
+    background-position: -150px -150px; /* Position of L button */
 }
 
 .fight-stick .button.pressed {
@@ -177,9 +177,7 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
 }
 
 .fight-stick .bumper.right.pressed {
-    --row: var(--top-row-ring-finger-button-row);
-    --col: var(--top-row-ring-finger-button-col);
-    background-position: calc(var(--col) * -150px) calc(var(--row) * -300px - 150px);
+    background-position: -300px -150px; /* Position of pressed H button */
 }
 
 .fight-stick .bumper.left {
@@ -193,9 +191,7 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
 }
 
 .fight-stick .bumper.left.pressed {
-    --row: var(--top-row-pinky-finger-button-row);
-    --col: var(--top-row-pinky-finger-button-col);
-    background-position: calc(var(--col) * -150px) calc(var(--row) * -300px - 150px);
+    background-position: -450px -150px; /* Position of pressed H button */
 }
 
 .fight-stick .bumper.pressed {
@@ -204,7 +200,7 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
 }
 
 .fight-stick .bumper {
-    background: url(https://imgur.com/ctjqEeT.png);
+    background: var(--button-source-image);
 }
 
 /* Triggers */
@@ -225,9 +221,7 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
 }
 
 .fight-stick .trigger-button.right.pressed {
-    --row: var(--bot-row-ring-finger-button-row);
-    --col: var(--bot-row-ring-finger-button-col);
-    background-position: calc(var(--col) * -150px) calc(var(--row) * -300px - 150px);
+    background-position: -300px -450px; /* Position of T button */
 }
 
 .fight-stick .trigger-button.left {
@@ -241,14 +235,12 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
 }
 
 .fight-stick .trigger-button.left.pressed {
-    --row: var(--bot-row-pinky-finger-button-row);
-    --col: var(--bot-row-pinky-finger-button-col);
-    background-position: calc(var(--col) * -150px) calc(var(--row) * -300px - 150px);
+    background-position: -450px -450px; /* Position of bottom-right button */
 }
 
 
 .fight-stick .trigger-button {
-    background: url(https://imgur.com/ctjqEeT.png); 
+    background: var(--button-source-image); 
 }
 
 .fight-stick .trigger-button.pressed {
