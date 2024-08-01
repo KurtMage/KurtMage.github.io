@@ -77,16 +77,16 @@ So, for example, if you wanted to set the top-right button to `T`, you would loo
 [Street Fighter](#street-fighter)
 ## 2XKO
 
-### Dark mode black borders
-![](https://github.com/KurtMage/KurtMage.github.io/blob/main/gifs/hitbox/2XKO/Dark%20mode%20black%20border.gif)
-```
-https://gamepadviewer.com/?p=1&s=7&map=%7B%7D&editcss=https://kurtmage.github.io/hitbox%20layout/2XKO/dark-mode.css
-```
-
 ### Light mode black borders
 ![](https://github.com/KurtMage/KurtMage.github.io/blob/main/gifs/hitbox/2XKO/light%20mode.gif)
 ```
 https://gamepadviewer.com/?p=1&s=7&map=%7B%7D&editcss=https://kurtmage.github.io/hitbox%20layout/2XKO/light-mode.css
+```
+
+### Dark mode black borders
+![](https://github.com/KurtMage/KurtMage.github.io/blob/main/gifs/hitbox/2XKO/Dark%20mode%20black%20border.gif)
+```
+https://gamepadviewer.com/?p=1&s=7&map=%7B%7D&editcss=https://kurtmage.github.io/hitbox%20layout/2XKO/dark-mode.css
 ```
 
 ### Dark mode white borders
