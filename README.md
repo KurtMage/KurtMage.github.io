@@ -5,7 +5,7 @@ This is currently a work in progress. I plan on adding more layouts and ways tha
 
 Various controller layouts for gamepad viewer. Example of a 2XKO layout:
 
-![](https://github.com/KurtMage/KurtMage.github.io/blob/main/gifs/hitbox/2XKO/white%20buttons%20with%20border1.gif)
+![](https://github.com/KurtMage/KurtMage.github.io/blob/main/gifs/hitbox/2XKO/Dark%20mode%20black%20border.gif)
 
 # How to set up for OBS
 1. Choose a layout from [the layouts section](#layouts-by-game). Copy the link for the layout you want.
@@ -27,6 +27,13 @@ Note: you need to give it an input from the controller for it to show up.
 
 [Street Fighter](#street-fighter)
 ## 2XKO
+
+### Dark mode black borders
+![](https://github.com/KurtMage/KurtMage.github.io/blob/main/gifs/hitbox/2XKO/Dark%20mode%20black%20border.gif)
+```
+https://gamepadviewer.com/?p=3&s=7&map=%7B%7D&editcss=https://kurtmage.github.io/hitbox%20layout/2XKO/dark-mode.css
+```
+
 ### Layout 1
 ![](https://github.com/KurtMage/KurtMage.github.io/blob/main/gifs/hitbox/2XKO/white%20buttons%20with%20border1.gif)
 ```
