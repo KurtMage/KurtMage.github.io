@@ -78,9 +78,6 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
 
     --top-row-index-button-row: 0;
     --top-row-index-button-col: 0;
-
-    --num-buttons-in-row: 4;
-     --shf: 4.9406564584124654e-324;
     
     --top-row-index-finger-button-row: 0;
     --top-row-index-finger-button-col: 0;
