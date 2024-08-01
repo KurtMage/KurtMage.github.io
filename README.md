@@ -14,6 +14,8 @@ NOTE: Every URL below has `p=1` in it. This is what determines what player your 
 3. In the URL box, put the URL from step 1.
 4. Change the Width to 1500.
 5. Final important note: you need to give it an input from the controller for it to show up. Other than that, you're all set up!
+## Example demo:
+![](https://github.com/KurtMage/KurtMage.github.io/blob/main/gifs/customize%20controls.gif)
 
 
 # Layouts by Controller Layout
