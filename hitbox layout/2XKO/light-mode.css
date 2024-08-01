@@ -2,7 +2,7 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
 
 :root {
     --button-source-image: url(https://imgur.com/99JKpbg.png);
-    --arrow-button-source-image: url(https://imgur.com/vvO9Yeo.png);
+    --arrow-button-source-image: url(https://imgur.com/A3s6nYQ.png);
     
     --a-top: 200px;
     --b-top: calc(var(--a-top) - var(--diag-vert-clearance));
