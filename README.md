@@ -9,7 +9,7 @@ Various controller layouts for gamepad viewer. Example of a 2XKO layout:
 
 # How to set up for OBS
 1. Choose a layout from [the layouts section](#layouts-by-game). Copy the link for the layout you want.
-NOTE: Every URL below has `p=1` in it. This is what determines what player your controller is, and you can change it. For example, if the controller that you want to visualize is player 3, you would change this to `p=1`.
+NOTE: Every URL below has `p=1` in it. This is what determines what player your controller is, and you can change it. For example, if the controller that you want to visualize is player 3, you would change this to `p=3`.
 2. In OBS, click the + in sources to add a source. Select Browser as the type.
 3. In the URL box, put the URL from step 1.
 4. Change the Width to 1500.
