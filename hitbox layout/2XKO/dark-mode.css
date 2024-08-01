@@ -2,6 +2,7 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
 
 :root {
     --button-source-image: url(https://imgur.com/ctjqEeT.png);
+    --arrow-button-source-image: url(https://imgur.com/1o9gM5Y.png);
     
     --a-top: 200px;
     --b-top: calc(var(--a-top) - var(--diag-vert-clearance));
@@ -263,7 +264,7 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
 .fight-stick .face.up {
     width: 150px;
     height: 150px;
-    background: url(https://imgur.com/1o9gM5Y.png);
+    background: var(--arrow-button-source-image);
     background-position: -450px 0px;
     border-radius: 100%;
     opacity: 1;
@@ -280,7 +281,7 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
 .fight-stick .face.right {
     width: 150px;
     height: 150px;
-    background: url(https://imgur.com/1o9gM5Y.png);
+    background: var(--arrow-button-source-image);
     background-position: -300px 0px;
     border-radius: 100%;
     opacity: 1;
@@ -297,7 +298,7 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
 .fight-stick .face.down {
     width: 150px;
     height: 150px;
-    background: url(https://imgur.com/1o9gM5Y.png);
+    background: var(--arrow-button-source-image);
     background-position: -150px 0px;
     border-radius: 100%;
     opacity: 1;
@@ -314,7 +315,7 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
 .fight-stick .face.left {
     width: 150px;
     height: 150px;
-    background: url(https://imgur.com/1o9gM5Y.png);
+    background: var(--arrow-button-source-image);
     background-position: 0px 0px;
     border-radius: 100%;
     opacity: 1;
