@@ -276,7 +276,7 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
 }
 
 .fight-stick .face.up.pressed {
-    background-position: -450px -150px;
+    background-position: 0px -169px;
 }
 
 .fight-stick .face.right {
