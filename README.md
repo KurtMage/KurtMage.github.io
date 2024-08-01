@@ -3,7 +3,7 @@ This is currently a work in progress. I plan on adding more layouts and ways tha
 
 # Gamepad Viewer Layouts
 
-Various controller layouts for gamepad viewer. Example of a 2XKO layout:
+Various controller layouts for gamepad viewer. Example of some 2XKO layouts:
 
 ![](https://github.com/KurtMage/KurtMage.github.io/blob/main/gifs/hitbox/2XKO/4%20layouts.gif)
 
