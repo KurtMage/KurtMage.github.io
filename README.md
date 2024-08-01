@@ -14,6 +14,54 @@ NOTE: Every URL below has `p=1` in it. This is what determines what player your 
 3. In the URL box, put the URL from step 1.
 4. Change the Width to 1500.
 5. Final important note: you need to give it an input from the controller for it to show up. Other than that, you're all set up!
+
+# How to change your button layout for custom controls
+1. Right-click on the browser source you created in [the setup section](#how-to-set-up-for-obs).
+2. Copy-paste the following code into the `Custom CSS` dialog box below the line that says `body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }` (** Make sure you do not delete that line **):
+```
+:root {
+     /***************
+     *   0  1  2 3  *
+     * 0 L  M  H D  *
+     * 1 S1 S2 T P  *
+     ****************/
+
+    --top-row-index-finger-button-row: 0;
+    --top-row-index-finger-button-col: 0;
+
+    --top-row-middle-finger-button-row: 0;
+    --top-row-middle-finger-button-col: 1;
+
+    --top-row-ring-finger-button-row: 0;
+    --top-row-ring-finger-button-col: 2;
+
+    --top-row-pinky-finger-button-row: 0;
+    --top-row-pinky-finger-button-col: 3;
+    
+    --bot-row-index-finger-button-row: 1;
+    --bot-row-index-finger-button-col: 0;
+
+    --bot-row-middle-finger-button-row: 1;
+    --bot-row-middle-finger-button-col: 1;
+
+    --bot-row-ring-finger-button-row: 1;
+    --bot-row-ring-finger-button-col: 2;
+
+    --bot-row-pinky-finger-button-row: 1;
+    --bot-row-pinky-finger-button-col: 3;
+}
+```
+3. You can change any of the variables in order to change what button goes where. Each variable refers to the row/column of a button. The buttons are referenced by the following table:
+   
+|   | 0 | 1 | 2 | 3 |
+| - | - | - | - | - |
+| 0 | L | M | H | D |
+| 1 | S1| S2| T | P |
+
+So, for example, if you wanted to set the top-right button to `T`, you would look at the table and see that `T`'s row is 1 and column is 2. The top right button would be your pinky finger on the top row. So you would set `--top-row-pinky-finger-button-row: 1` and `--top-row-pinky-finger-button-row: 2` (replacing the `0` and `3` that these variables are currently set to, to `1` and `2`).
+
+4. Hit "Ok" in the dialog box and then input something on your controller to display your layout.
+
 ## Example demo:
 ![](https://github.com/KurtMage/KurtMage.github.io/blob/main/gifs/customize%20controls.gif)
 
