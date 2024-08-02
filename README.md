@@ -21,7 +21,7 @@ NOTE: Every URL below has `p=1` in it. This is what determines what player your 
 
 # How to change your button layout for custom controls
 1. Right-click on the browser source you created in [the setup section](#how-to-set-up-for-obs).
-2. Copy-paste the following code into the `Custom CSS` dialog box below the line that says `body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }` (** Make sure you do not delete that line **):
+2. Copy-paste the following code into the `Custom CSS` dialog box below the line that says `body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }` (**Make sure you do not delete that line**):
 ```
 :root {
      /***************
