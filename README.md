@@ -223,7 +223,6 @@ https://gamepadviewer.com/?p=1&s=7&map=%7B%7D&editcss=https://kurtmage.github.io
 
 <!----><a name="fight-stick-2xko"></a>
 
-
 ## 2XKO
 ![](https://github.com/KurtMage/KurtMage.github.io/blob/main/gifs/fight%20stick/sticks.gif)
 
