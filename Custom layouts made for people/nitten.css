@@ -70,6 +70,10 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
     --bot-row-pinky-finger-button-source-image: var(--button-source-image);
     --bot-row-pinky-finger-button-row: 1;
     --bot-row-pinky-finger-button-col: 3;
+
+    /* L3/R3 button vars */
+    --l3-button-source-image: var(--button-source-image);
+    --r3-button-source-image: var(--button-source-image);
 }
 
 .controller.fight-stick {
@@ -291,11 +295,11 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
 /* L3/R3 */
 
 .fight-stick .stick.right {
-    background: var(--button-source-image);
+    background: var(--r3-button-source-image);
     background-position: 0px 0px; /* Position of T button */
     position: absolute;
-    top: 490px;
-    left: 409px;
+    top: 28px;
+    left: 754.5px;
     width: 150px;
     height: 150px;
     display: block;
@@ -312,11 +316,11 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
 }
 
 .fight-stick .stick.left {
-    background: var(--button-source-image);
+    background: var(--l3-button-source-image);
     background-position: 0px 0px; /* Position of T button */
     position: absolute;
-    top: 28px;
-    left: 754.5px;
+    top: 29px;
+    left: 393.5px;
     width: 150px;
     height: 150px;
     display: block;
