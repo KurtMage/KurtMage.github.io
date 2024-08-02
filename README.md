@@ -69,7 +69,10 @@ So, for example, if you wanted to set the top-right button to `T`, you would loo
 # Layouts by Controller Layout
 
 [Hitbox](#hitbox-layouts-by-game)
-[Fight Stick layouts][#fight-stick-layouts-by-game]
+
+[Fight stick layouts](#fight-stick-layouts-by-game)
+
+
 [Playstation 4 controller](#playstation-4-controller-layouts-by-game)
 
 # Hitbox layouts by game
