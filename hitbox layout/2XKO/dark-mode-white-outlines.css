@@ -3,7 +3,6 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
 :root {
     --button-source-image: url(https://imgur.com/gYoOdSI.png);
     --arrow-button-source-image: url(https://imgur.com/d7pMzl6.png);
-    --large-up-arrow-button-source-image: url(https://imgur.com/SLz24mU.png);
     --start-select-button-source-image: url(https://imgur.com/JhI2qGK.png);
     
     --a-top: 200px;
@@ -91,11 +90,11 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
 }
 
 .fight-stick .back, .fight-stick .start {
-    display: none;
     width: 100px;
     height: 100px;
-    background: black;
+    background: var(--start-select-button-source-image);
     top: -30px;
+    display: block;
     border-radius: 100%;
 }
 
@@ -286,10 +285,10 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
 /* Direction buttons */
 
 .fight-stick .face.up {
-    width: 169px;
-    height: 169px;
-    background: var(--large-up-arrow-button-source-image);
-    background-position: 0px 0px;
+    width: 150px;
+    height: 150px;
+    background: var(--arrow-button-source-image);
+    background-position: -450px 0px;
     border-radius: 100%;
     opacity: 1;
     display: block;
@@ -299,7 +298,7 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
 }
 
 .fight-stick .face.up.pressed {
-    background-position: 0px -169px;
+    background-position: -450px -150px;
 }
 
 .fight-stick .face.right {
