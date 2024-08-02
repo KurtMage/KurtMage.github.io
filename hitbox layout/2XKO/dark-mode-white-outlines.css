@@ -4,6 +4,7 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
     --button-source-image: url(https://imgur.com/gYoOdSI.png);
     --arrow-button-source-image: url(https://imgur.com/d7pMzl6.png);
     --large-up-arrow-button-source-image: url(https://imgur.com/SLz24mU.png);
+    --start-select-button-source-image: url(https://imgur.com/JhI2qGK.png);
     
     --a-top: 200px;
     --b-top: calc(var(--a-top) - var(--diag-vert-clearance));
