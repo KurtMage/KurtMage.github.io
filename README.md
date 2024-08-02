@@ -128,7 +128,7 @@ Additionally, you can change which button in the file you are referencing by usi
 :root {
      /* Your variables will go below here */
 
-    --top-row-index-finger-button-source-image: https://imgur.com/B0oG3qJ.png;
+    --top-row-index-finger-button-source-image: url(https://imgur.com/B0oG3qJ.png);
     --top-row-index-finger-button-row: 1;
     --top-row-index-finger-button-col: 3;
 
