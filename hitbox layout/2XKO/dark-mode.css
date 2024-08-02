@@ -3,6 +3,7 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
 :root {
     --button-source-image: url(https://imgur.com/ctjqEeT.png);
     --arrow-button-source-image: url(https://imgur.com/1o9gM5Y.png);
+    --start-select-button-source-image: url(https://imgur.com/JhI2qGK.png);
     
     --a-top: 200px;
     --b-top: calc(var(--a-top) - var(--diag-vert-clearance));
@@ -91,7 +92,7 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
 .fight-stick .back, .fight-stick .start {
     width: 100px;
     height: 100px;
-    background: url(https://imgur.com/JhI2qGK.png);
+    background: var(--start-select-button-source-image);
     top: -30px;
     display: block;
     border-radius: 100%;
