@@ -1,5 +1,4 @@
-# NOTE:
-This is currently a work in progress. I plan on adding more layouts and ways that you can customize it to change buttons layouts.
+If you run into any issues or have any suggestions, feel free to @ me on twitter: @KurtMage. :)
 
 # Gamepad Viewer Layouts
 
