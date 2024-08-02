@@ -79,7 +79,7 @@ NOTE: Every URL below has `p=1` in it. This is what determines what player your 
      /* Your variables will go above here */
 }
 ```
-In between the comments that say "Your variables will go above/below here", add a line for each variable. Each line must be formatted like `--your-variable-name: url(https://your-url.com/1234.png);`. ** IMPORTANT NOTE: YOU NEED TO ADD ".png" at the end of your URL **. For example (feel free to test with this example), if you want to change your dash button, you will use the variable `--top-row-pinky-finger-button-source-image` and if the URL to the formatted image with the dash button you want is `https://imgur.com/B0oG3qJ`, then your `Custom CSS section` will have:
+In between the comments that say "Your variables will go above/below here", add a line for each variable. Each line must be formatted like `--your-variable-name: url(https://your-url.com/1234.png);`. **IMPORTANT NOTE: YOU NEED TO ADD ".png" at the end of your URL** . For example (feel free to test with this example), if you want to change your dash button, you will use the variable `--top-row-pinky-finger-button-source-image` and if the URL to the formatted image with the dash button you want is `https://imgur.com/B0oG3qJ`, then your `Custom CSS section` will have:
 ```
 :root {
      /* Your variables will go below here */
