@@ -167,6 +167,8 @@ A properly formatted image for start/back buttons looks like this:
 
 This file must be 200px by 200px with each circle for your button being 100px by 100px. The unpressed version of the button goes on top and the pressed version goes immediately underneath it and the Start button is on the left and the Back button is on the right.
 
+<!----><a name="#layouts-by-controller-layout"></a>
+
 # Layouts by controller layout
 
 [Hitbox](#hitbox-layouts-by-game)
