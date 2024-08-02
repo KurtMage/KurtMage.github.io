@@ -262,7 +262,6 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
     background-position: calc(var(--col) * -150px) calc(var(--row) * -300px - 150px);
 }
 
-
 .fight-stick .trigger-button {
     background: var(--button-source-image); 
 }
