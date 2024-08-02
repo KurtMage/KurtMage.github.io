@@ -84,7 +84,7 @@ In between the comments that say "Your variables will go above/below here", add 
 :root {
      /* Your variables will go below here */
 
-     --top-row-pinky-finger-button-source-image: https://imgur.com/B0oG3qJ.png;
+     --top-row-pinky-finger-button-source-image: url(https://imgur.com/B0oG3qJ.png);
 
      /* Your variables will go above here */
 }
