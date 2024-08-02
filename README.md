@@ -70,7 +70,7 @@ There are a number of variables that can be changed in order to make your own cu
 1. Right-click on the browser source you created in [the setup section](#how-to-set-up-for-obs).
 NOTE: Every URL below has `p=1` in it. This is what determines what player your controller is, and you can change it. For example, if the controller that you want to visualize is player 3, you would change this to `p=3`.
 2. Get your variables from the [button variables and how to format your files](#button-variables-and-how-to-format-your-files) section.
-3. Get the URL described in the [button variables and how to format your files](#button-variables-and-how-to-format-your-files) section.
+3. Get the URL for your image, as described in the [button variables and how to format your files](#button-variables-and-how-to-format-your-files) section.
 4. Copy-paste the following code into the `Custom CSS` dialog box below the line that says `body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }` (** Make sure you do not delete that line **):
 ```
 :root {
