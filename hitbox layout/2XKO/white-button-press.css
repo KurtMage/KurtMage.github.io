@@ -6,6 +6,13 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
     width: 1500px;
 }
 
+.fight-stick.disconnected {
+    margin:auto;
+    width:50%;
+    height:50%;
+    background: url(https://imgur.com/oDdTc1t.png) no-repeat;
+}
+
 /* start/back */
 
 .fight-stick .back {
