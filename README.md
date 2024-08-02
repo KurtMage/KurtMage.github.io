@@ -20,6 +20,9 @@ NOTE: Every URL below has `p=1` in it. This is what determines what player your 
 5. Final important note: you need to give it an input from the controller for it to show up. Other than that, you're all set up!
 
 # How to change your button layout for custom controls
+
+[<img src="https://github.com/KurtMage/KurtMage.github.io/blob/main/images/click%20here%20for%20video%20tutorial.png" width="400" />](https://youtu.be/qON59ngD63A)
+
 1. Right-click on the browser source you created in [the setup section](#how-to-set-up-for-obs).
 2. Copy-paste the following code into the `Custom CSS` dialog box below the line that says `body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }` (**Make sure you do not delete that line**):
 ```
@@ -143,7 +146,8 @@ The `1` and `3` refers to the row/column of the image file. Think of this image 
 
 A properly formatted image for arrow buttons looks like this (without the "row"/"col" part, which is to demonstrate how to reference the buttons):
 
-![](https://github.com/KurtMage/KurtMage.github.io/blob/main/images/row%20col%20buttons%20example.png)
+![](https://github.com/KurtMage/KurtMage.github.io/blob/main/images/Row%20Col%20example1.png)
+
 
 This file must be 600px by 600px with each circle for your button being 150px by 150px. The unpressed version of the button goes on top and the pressed version goes immediately underneath it.
 
