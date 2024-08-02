@@ -73,6 +73,11 @@ So, for example, if you wanted to set the top-right button to `T`, you would loo
 ![](https://github.com/KurtMage/KurtMage.github.io/blob/main/gifs/customize%20controls.gif)
 
 # How to create your own buttons or mix and match buttons from other layouts
+## Video tutorial for changing a suite of buttons
+[<img src="https://github.com/KurtMage/KurtMage.github.io/blob/main/images/click%20here%20for%20video%20tutorial.png" width="400" />](https://youtu.be/HqZfp82sRvM)
+## Video tutorial for changing individual buttons
+[<img src="https://github.com/KurtMage/KurtMage.github.io/blob/main/images/click%20here%20for%20video%20tutorial.png" width="400" />](https://youtu.be/9nJ42XmqVWk)
+
 There are a number of variables that can be changed in order to make your own custom buttons or use buttons from different layouts with each other. To change a variable, you:
 1. Right-click on the browser source you created in [the setup section](#how-to-set-up-for-obs).
 NOTE: Every URL below has `p=1` in it. This is what determines what player your controller is, and you can change it. For example, if the controller that you want to visualize is player 3, you would change this to `p=3`.
