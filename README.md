@@ -69,6 +69,7 @@ So, for example, if you wanted to set the top-right button to `T`, you would loo
 # Layouts by Controller Layout
 
 [Hitbox](#hitbox-layouts-by-game)
+[Fight Stick layouts][#fight-stick-layouts-by-game]
 [Playstation 4 controller](#playstation-4-controller-layouts-by-game)
 
 # Hitbox layouts by game
@@ -77,13 +78,13 @@ So, for example, if you wanted to set the top-right button to `T`, you would loo
 [Street Fighter](#street-fighter)
 ## 2XKO
 
-### Light mode black borders
+### Light mode
 ![](https://github.com/KurtMage/KurtMage.github.io/blob/main/gifs/hitbox/2XKO/light%20mode.gif)
 ```
 https://gamepadviewer.com/?p=1&s=7&map=%7B%7D&editcss=https://kurtmage.github.io/hitbox%20layout/2XKO/light-mode.css
 ```
 
-### Dark mode black borders
+### Dark mode
 ![](https://github.com/KurtMage/KurtMage.github.io/blob/main/gifs/hitbox/2XKO/Dark%20mode%20black%20border.gif)
 ```
 https://gamepadviewer.com/?p=1&s=7&map=%7B%7D&editcss=https://kurtmage.github.io/hitbox%20layout/2XKO/dark-mode.css
@@ -95,17 +96,12 @@ https://gamepadviewer.com/?p=1&s=7&map=%7B%7D&editcss=https://kurtmage.github.io
 https://gamepadviewer.com/?p=1&s=7&map=%7B%7D&editcss=https://kurtmage.github.io/hitbox%20layout/2XKO/dark-mode-white-outlines.css
 ```
 
-### Layout 1
+### Legacy layout 1
 ![](https://github.com/KurtMage/KurtMage.github.io/blob/main/gifs/hitbox/2XKO/white%20buttons%20with%20border1.gif)
 ```
 https://gamepadviewer.com/?p=1&s=7&map=%7B%7D&editcss=https://kurtmage.github.io/hitbox%20layout/2XKO/white-button-press-outlined-letters.css
 ```
-### Layout 2
-![](https://github.com/KurtMage/KurtMage.github.io/blob/main/gifs/hitbox/2XKO/white%20pressed%20buttons.gif)
-```
-https://gamepadviewer.com/?p=1&s=7&map=%7B%7D&editcss=https://kurtmage.github.io/hitbox%20layout/white-button-press.css
-```
-### Layout 3
+### Legacy layout 2
 ![](https://github.com/KurtMage/KurtMage.github.io/blob/main/gifs/hitbox/2XKO/dim%20buttons.gif)
 ```
 https://gamepadviewer.com/?p=1&s=7&map=%7B%7D&editcss=https://kurtmage.github.io/hitbox%20layout/2XKO/dim-buttons.css
@@ -116,6 +112,22 @@ https://gamepadviewer.com/?p=1&s=7&map=%7B%7D&editcss=https://kurtmage.github.io
 ![](https://github.com/KurtMage/KurtMage.github.io/blob/main/gifs/hitbox/Street%20Fighter/dim%20buttons.gif)
 ```
 https://gamepadviewer.com/?p=1&s=7&map=%7B%7D&editcss=https://kurtmage.github.io/hitbox%20layout/street%20fighter/dim-buttons.css
+```
+
+# Fight stick layouts by game
+[2XKO](#fight-stick-2xko)
+
+<!----><a name="fight-stick-2xko"></a>
+## 2XKO
+![](https://github.com/KurtMage/KurtMage.github.io/blob/main/gifs/fight%20stick/sticks.gif)
+
+Light mode (top layout):
+```
+https://gamepadviewer.com/?p=1&s=7&map=%7B%7D&editcss=https://kurtmage.github.io/fight%20stick/2XKO/light-mode.css
+```
+Dark mode (bottom layout):
+```
+https://gamepadviewer.com/?p=1&s=7&map=%7B%7D&editcss=https://kurtmage.github.io/fight%20stick/2XKO/dark-mode.css
 ```
 
 # Playstation 4 controller layouts by game
