@@ -6,6 +6,8 @@ Various controller layouts for gamepad viewer. Example of some 2XKO layouts:
 
 ![](https://github.com/KurtMage/KurtMage.github.io/blob/main/gifs/hitbox/2XKO/4%20layouts2.gif)
 
+<!----><a name="#how-to-set-up-for-obs"></a>
+
 # How to set up for OBS
 ## Video Tutorial:
 
