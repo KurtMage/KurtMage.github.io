@@ -8,7 +8,7 @@ Various controller layouts for gamepad viewer. Example of some 2XKO layouts:
 ![](https://github.com/KurtMage/KurtMage.github.io/blob/main/gifs/hitbox/2XKO/4%20layouts.gif)
 
 # How to set up for OBS
-1. Choose a layout from [the layouts section](#layouts-by-game). Copy the link for the layout you want.
+1. Choose a layout from [the layouts section](#layouts-by-controller-layout). Copy the link for the layout you want.
 NOTE: Every URL below has `p=1` in it. This is what determines what player your controller is, and you can change it. For example, if the controller that you want to visualize is player 3, you would change this to `p=3`.
 2. In OBS, click the + in sources to add a source. Select Browser as the type.
 3. In the URL box, put the URL from step 1.
@@ -66,7 +66,7 @@ So, for example, if you wanted to set the top-right button to `T`, you would loo
 ![](https://github.com/KurtMage/KurtMage.github.io/blob/main/gifs/customize%20controls.gif)
 
 
-# Layouts by Controller Layout
+# Layouts by controller layout
 
 [Hitbox](#hitbox-layouts-by-game)
 
