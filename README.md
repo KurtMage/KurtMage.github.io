@@ -107,7 +107,9 @@ Here are the sections for how to format files for each type of button:
 
 ### Formatting arrow buttons
 
-There are several arrow button files you can use here: https://imgur.com/a/gAoUWzU. The variable in order to change the arrows is `--arrow-button-source-image`. You can also change individual arrows with `--left-arrow-source-image`, `--down-arrow-source-image`, `--right-arrow-source-image`, and `--up-arrow-source-image`. 
+There are several arrow button files you can use here: https://imgur.com/a/gAoUWzU.
+
+The variable in order to change the arrows is `--arrow-button-source-image`. You can also change individual arrows with `--left-arrow-source-image`, `--down-arrow-source-image`, `--right-arrow-source-image`, and `--up-arrow-source-image`. 
 
 A properly formatted image for arrow buttons looks like this:
 
@@ -117,7 +119,9 @@ This file must be 600px by 300px with each circle for your button being 150px by
 
 ### Formatting buttons on the right side of the controller
 
-There are several right-side-of-the-controller button files you can use here: https://imgur.com/a/qF0SMMX. The variable in order to change the arrows is `--button-source-image`. You can also change individual buttons with `--top-row-index-finger-button-source-image`, `--top-row-middle-finger-button-source-image`, `--top-row-ring-finger-button-source-image`, `--top-row-pinky-finger-button-source-image`, `--bot-row-index-finger-button-source-image`, `--bot-row-middle-finger-button-source-image`, `--bot-row-ring-finger-button-source-image`, `--bot-row-pinky-finger-button-source-image`.
+There are several right-side-of-the-controller button files you can use here: https://imgur.com/a/qF0SMMX.
+
+The variable in order to change all the buttons is `--button-source-image`. You can also change individual buttons with `--top-row-index-finger-button-source-image`, `--top-row-middle-finger-button-source-image`, `--top-row-ring-finger-button-source-image`, `--top-row-pinky-finger-button-source-image`, `--bot-row-index-finger-button-source-image`, `--bot-row-middle-finger-button-source-image`, `--bot-row-ring-finger-button-source-image`, `--bot-row-pinky-finger-button-source-image`.
 
 Additionally, you can change which button in the file you are referencing by using the variables described in the [how to change your button layout for custom controls](#how-to-change-your-button-layout-for-custom-controls) section. For instance, if you want to put the `P` button from [this file](https://imgur.com/B0oG3qJ) into the top-row-index-finger spot, you would have:
 ```
@@ -141,7 +145,9 @@ This file must be 600px by 600px with each circle for your button being 150px by
 
 ### Formatting start and back buttons
 
-There are several start and back button files you can use here: https://imgur.com/a/FMUPGBl. The variable in order to change the arrows is `--start-select-button-source-image`. 
+There are several start and back button files you can use here: https://imgur.com/a/FMUPGBl.
+
+The variable in order to change the arrows is `--start-select-button-source-image`. 
 
 A properly formatted image for start/back buttons looks like this:
 
