@@ -1,5 +1,70 @@
 body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
 
+:root {
+    --button-source-image: url(https://imgur.com/gYoOdSI.png);
+    --arrow-button-source-image: url(https://imgur.com/d7pMzl6.png);
+    --large-up-arrow-button-source-image: url(https://imgur.com/SLz24mU.png);
+    --start-select-button-source-image: url(https://imgur.com/JhI2qGK.png);
+    --stick-source-image: url(https://imgur.com/lhYemHh.png);
+    
+    --a-top: 200px;
+    --b-top: calc(var(--a-top) - var(--diag-vert-clearance));
+    --x-top: calc(var(--a-top) - var(--vert-clearance));
+    --y-top: calc(var(--x-top) - var(--diag-vert-clearance));
+    --rb-top: calc(var(--y-top) - 26px);
+    --lb-top: var(--rb-top);
+    --rt-top: calc(var(--rb-top) - 183px + var(--vert-clearance));
+    --lt-top: var(--rt-top);
+
+    --a-left: 370px;
+    --b-left: calc(var(--a-left) + var(--diag-horz-clearance));
+    --x-left: var(--a-left);
+    --y-left: calc(var(--a-left) + var(--diag-horz-clearance));
+    --rb-left: calc(var(--y-left) - 733px + var(--horz-clearance));
+    --lb-left: calc(var(--rb-left) + var(--horz-clearance));
+    --rt-left: calc(var(--rb-left) + 31px);
+    --lt-left: calc(var(--rt-left) + var(--horz-clearance));
+
+    --dir-right-top: calc(var(--x-top) + 62px + 75px);
+    --dir-right-left: calc(var(--x-left) + 472px - 150px);
+    --dir-down-top: calc(var(--dir-right-top) - var(--diag-vert-clearance));
+    --dir-down-left: calc(var(--dir-right-left) - var(--diag-horz-clearance));
+    --dir-left-top: var(--dir-down-top);
+    --dir-left-left: calc(var(--dir-down-left) - var(--horz-clearance));
+    --dir-up-top: calc(var(--dir-right-top) + 230px);
+    --dir-up-left: calc(var(--dir-right-left) + 75px);
+
+    
+    --vert-clearance: 160px;
+    --diag-vert-clearance: 80px;
+    --diag-horz-clearance: 140px;
+    --horz-clearance: var(--vert-clearance);
+
+    --top-row-index-button-row: 0;
+    --top-row-index-button-col: 0;
+
+    --num-buttons-in-row: 4;
+     --shf: 4.9406564584124654e-324;
+    
+    --top-row-index-finger-button-row: 0;
+    --top-row-index-finger-button-col: 0;
+    --top-row-middle-finger-button-row: 0;
+    --top-row-middle-finger-button-col: 1;
+    --top-row-ring-finger-button-row: 0;
+    --top-row-ring-finger-button-col: 2;
+    --top-row-pinky-finger-button-row: 0;
+    --top-row-pinky-finger-button-col: 3;
+    
+    --bot-row-index-finger-button-row: 1;
+    --bot-row-index-finger-button-col: 0;
+    --bot-row-middle-finger-button-row: 1;
+    --bot-row-middle-finger-button-col: 1;
+    --bot-row-ring-finger-button-row: 1;
+    --bot-row-ring-finger-button-col: 2;
+    --bot-row-pinky-finger-button-row: 1;
+    --bot-row-pinky-finger-button-col: 3;
+}
+
 .controller.fight-stick {
     background: url(https://imgur.com/AEMTeDY.png) center no-repeat;
     height: 535px;
@@ -166,4 +231,39 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
     position: absolute;
     left: 600px;
     top: 150px;
+    width: 220px;
+    height: 220px;
+    background: var(--stick-source-image);
+}
+
+.fight-stick .fstick.up {
+    background-position-x: -1760px;
+}
+
+.fight-stick .fstick.down {
+    background-position-x: -880px;
+}
+
+.fight-stick .fstick.left {
+    background-position-x: -1320px;
+}
+
+.fight-stick .fstick.right {
+    background-position-x: -440px;
+}
+
+.fight-stick .fstick.up.right {
+    background-position-x: -220px;
+}
+
+.fight-stick .fstick.up.left {
+    background-position-x: -1540px;
+}
+
+.fight-stick .fstick.down.right {
+    background-position-x: -660px;
+}
+
+.fight-stick .fstick.down.left {
+    background-position-x: -1100px;
 }
