@@ -219,22 +219,19 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
 
 .fight-stick .bumper.left {
     background: var(--top-row-pinky-finger-button-source-image);
-    width: 187.5px;
-    height: 187.5px;
     position: absolute;
     top: var(--lb-top);
     left: var(--lb-left);
     float: left;
     --row: var(--top-row-pinky-finger-button-row);
     --col: var(--top-row-pinky-finger-button-col);
-    background-position: calc(var(--col) * -187.5px) calc(var(--row) * -375px);
-    background-size: 400%;
+    background-position: calc(var(--col) * -150px) calc(var(--row) * -375px);
 }
 
 .fight-stick .bumper.left.pressed {
     --row: var(--top-row-pinky-finger-button-row);
     --col: var(--top-row-pinky-finger-button-col);
-    background-position: calc(var(--col)* -187.5px) calc(var(--row)* -375px - 187.5px);
+    background-position: calc(var(--col)* -150px) calc(var(--row)* -375px - 150px);
 }
 
 .fight-stick .bumper.pressed {
@@ -274,15 +271,17 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
     left: var(--lt-left);
     --row: var(--bot-row-pinky-finger-button-row);
     --col: var(--bot-row-pinky-finger-button-col);
-    background-position: calc(var(--col) * -150px) calc(var(--row) * -300px);
-
+    background-position: calc(var(--col) * -187.5px) calc(var(--row) * -375px);
+    width: 187.5px;
+    height: 187.5px;
+    background-size: 400%;
 }
 
 .fight-stick .trigger-button.left.pressed {
     --row: var(--bot-row-pinky-finger-button-row);
     --col: var(--bot-row-pinky-finger-button-col);
     /* background-position: calc(var(--col) * -150px) calc(var(--row) * -300px - 150px); */
-    background-position: calc(var(--col) * -150px) calc(var(--row) * -300px - 150px);
+    background-position: calc(var(--col) * -187.5px) calc(var(--row) * -375px - 187.5px);
 }
 
 .fight-stick .trigger-button {
