@@ -56,7 +56,7 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
     --top-row-ring-finger-button-row: 0;
     --top-row-ring-finger-button-col: 2;
     --top-row-pinky-finger-button-source-image: var(--button-source-image);
-    --top-row-pinky-finger-button-row: 0;
+    --top-row-pinky-finger-button-row: 1;
     --top-row-pinky-finger-button-col: 3;
     --bot-row-index-finger-button-source-image: var(--button-source-image);
     --bot-row-index-finger-button-row: 1;
@@ -68,7 +68,7 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
     --bot-row-ring-finger-button-row: 1;
     --bot-row-ring-finger-button-col: 2;
     --bot-row-pinky-finger-button-source-image: var(--button-source-image);
-    --bot-row-pinky-finger-button-row: 1;
+    --bot-row-pinky-finger-button-row: 0;
     --bot-row-pinky-finger-button-col: 3;
 
     /* L3/R3 button vars */
@@ -225,13 +225,13 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
     float: left;
     --row: var(--top-row-pinky-finger-button-row);
     --col: var(--top-row-pinky-finger-button-col);
-    background-position: calc(var(--col) * -150px) calc(var(--row) * -375px);
+    background-position: calc(var(--col) * -150px) calc(var(--row) * -300px);
 }
 
 .fight-stick .bumper.left.pressed {
     --row: var(--top-row-pinky-finger-button-row);
     --col: var(--top-row-pinky-finger-button-col);
-    background-position: calc(var(--col)* -150px) calc(var(--row)* -375px - 150px);
+    background-position: calc(var(--col)* -150px) calc(var(--row)* -300px - 150px);
 }
 
 .fight-stick .bumper.pressed {
