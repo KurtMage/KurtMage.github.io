@@ -5,26 +5,26 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
     --arrow-button-source-image: url(https://imgur.com/Fyp5PaG.png);
     --start-select-button-source-image: url(https://imgur.com/pie5Ptq.png);
     
-    --a-top: 200px;
+    --a-top: 300px;
     --b-top: calc(var(--a-top) - var(--diag-vert-clearance));
     --x-top: calc(var(--a-top) - var(--vert-clearance));
     --y-top: calc(var(--x-top) - var(--diag-vert-clearance));
-    --rb-top: calc(var(--y-top) - 26px);
-    --lb-top: var(--rb-top);
-    --rt-top: calc(var(--rb-top) - 183px + var(--vert-clearance));
+    --rb-top: calc(var(--y-top));
+    --lb-top: calc(var(--rb-top));
+    --rt-top: calc(var(--rb-top) + var(--vert-clearance));
     --lt-top: var(--rt-top);
 
-    --a-left: 370px;
+    --a-left: 500px;
     --b-left: calc(var(--a-left) + var(--diag-horz-clearance));
     --x-left: var(--a-left);
     --y-left: calc(var(--a-left) + var(--diag-horz-clearance));
-    --rb-left: calc(var(--y-left) - 733px + var(--horz-clearance));
+    --rb-left: calc(var(--y-left) + var(--horz-clearance));
     --lb-left: calc(var(--rb-left) + var(--horz-clearance));
-    --rt-left: calc(var(--rb-left) + 31px);
+    --rt-left: calc(var(--rb-left));
     --lt-left: calc(var(--rt-left) + var(--horz-clearance));
 
-    --dir-right-top: calc(var(--x-top) + 62px + 75px);
-    --dir-right-left: calc(var(--x-left) + 472px - 150px);
+    --dir-right-top: calc(var(--x-top) + 75px);
+    --dir-right-left: calc(var(--x-left) - 150px);
     --dir-down-top: calc(var(--dir-right-top) - var(--diag-vert-clearance));
     --dir-down-left: calc(var(--dir-right-left) - var(--diag-horz-clearance));
     --dir-left-top: var(--dir-down-top);
@@ -32,12 +32,10 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
     --dir-up-top: calc(var(--dir-right-top) + 230px);
     --dir-up-left: calc(var(--dir-right-left) + 75px);
 
-    
-    --vert-clearance: 160px;
+	--vert-clearance: 160px;
     --diag-vert-clearance: 80px;
     --diag-horz-clearance: 140px;
     --horz-clearance: var(--vert-clearance);
-
     --top-row-index-button-row: 0;
     --top-row-index-button-col: 0;
 
@@ -103,23 +101,22 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
 /* start/back */
 
 .fight-stick .back, .fight-stick .start {
+    position: fixed;
     width: 100px;
     height: 100px;
     background: var(--start-select-button-source-image);
-    top: -30px;
+    top: 70px;
     display: block;
     border-radius: 100%;
 }
 
 .fight-stick .back {
-    position: absolute;
-    left: 636px;
+    left: 335px;
     background-position: 100px 0px;
 }
 
 .fight-stick .start {
-    position: absolute;
-    left: 740px;
+    left: 439px;
 }
 
 .fight-stick .back.pressed, .fight-stick .start.pressed {
@@ -131,6 +128,7 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
 /* Face buttons */
 
 .fight-stick .button {
+    position:fixed;
     width: 150px;
     height: 150px;
 }
@@ -204,13 +202,13 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
 /* Bumpers */
 
 .fight-stick .bumper {
+    position:fixed;
     width: 150px;
     height: 150px;
 }
 
 .fight-stick .bumper.right {
     background: var(--top-row-ring-finger-button-source-image);
-    position: absolute;
     top: var(--rb-top);
     left: var(--rb-left);
     --row: var(--top-row-ring-finger-button-row);
@@ -225,8 +223,8 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
 }
 
 .fight-stick .bumper.left {
+    position:fixed;
     background: var(--top-row-pinky-finger-button-source-image);
-    position: absolute;
     float: right;
     top: var(--lb-top);
     left: var(--lb-left);
@@ -249,13 +247,13 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
 /* Triggers */
 
 .fight-stick .trigger-button {
+    position: fixed;
     width: 150px;
     height: 150px;
 }
 
 .fight-stick .trigger-button.right {
     background: var(--bot-row-ring-finger-button-source-image);
-    position: absolute;
     top: var(--rt-top);
     left: var(--rt-left);
     float: left;
@@ -271,8 +269,8 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
 }
 
 .fight-stick .trigger-button.left {
+    position:fixed;
     background: var(--bot-row-pinky-finger-button-source-image);
-    position: absolute;
     top: var(--lt-top);
     left: var(--lt-left);
     float: left;
@@ -308,6 +306,10 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
 
 /* Direction buttons */
 
+.fight-stick .face {
+    position:fixed;
+}
+
 .fight-stick .face.up {
     width: 150px;
     height: 150px;
@@ -316,7 +318,6 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
     border-radius: 100%;
     opacity: 1;
     display: block;
-    position:absolute;
     top: var(--dir-up-top);
     left: var(--dir-up-left);
 }
@@ -333,7 +334,6 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
     border-radius: 100%;
     opacity: 1;
     display: block;
-    position: absolute;
     top: var(--dir-right-top);
     left: var(--dir-right-left);
 }
@@ -350,7 +350,6 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
     border-radius: 100%;
     opacity: 1;
     display: block;
-    position: absolute;
     top: var(--dir-down-top);
     left: var(--dir-down-left);
 }
@@ -367,7 +366,6 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
     border-radius: 100%;
     opacity: 1;
     display: block;
-    position: absolute;
     top: var(--dir-left-top);
     left: var(--dir-left-left);
 }
