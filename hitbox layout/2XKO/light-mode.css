@@ -40,10 +40,10 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
     --top-row-index-button-col: 0;
 
     /* Arrow button vars */
-    --left-arrow-source-image: var(--arrow-button-source-image);
-    --down-arrow-source-image: var(--arrow-button-source-image);
-    --right-arrow-source-image: var(--arrow-button-source-image);
-    --up-arrow-source-image: var(--arrow-button-source-image);
+    --left-arrow-source-image: url("https://raw.githubusercontent.com/KurtMage/KurtMage.github.io/main/images/2XKO/arrows/left.png");
+    --down-arrow-source-image: url("https://raw.githubusercontent.com/KurtMage/KurtMage.github.io/main/images/2XKO/arrows/down.png");
+    --right-arrow-source-image: url("https://raw.githubusercontent.com/KurtMage/KurtMage.github.io/main/images/2XKO/arrows/right.png");
+    --up-arrow-source-image: url("https://raw.githubusercontent.com/KurtMage/KurtMage.github.io/main/images/2XKO/arrows/up.png");
 
     /* Right side button vars */
     --top-row-index-finger-button-source-image: url("https://raw.githubusercontent.com/KurtMage/KurtMage.github.io/main/images/2XKO/light\ mode/L.png");
