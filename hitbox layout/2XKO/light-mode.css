@@ -3,7 +3,7 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
 :root {
     --button-source-image: url(https://imgur.com/99JKpbg.png);
     --arrow-button-source-image: url(https://imgur.com/Fyp5PaG.png);
-    --start-select-button-source-image: url(https://imgur.com/pie5Ptq.png);
+    --start-select-button-source-image: url("https://raw.githubusercontent.com/KurtMage/KurtMage.github.io/main/images/2XKO/light\ mode/start.png");
 
     --a-top: 300px;
     --b-top: calc(var(--a-top) - var(--diag-vert-clearance));
@@ -101,10 +101,12 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
 .fight-stick .back {
     left: 335px;
     background-position: 100px 0px;
+    background-size: 100px;
 }
 
 .fight-stick .start {
     left: 439px;
+    background-size: 100px;
 }
 
 .fight-stick .back.pressed, .fight-stick .start.pressed {
