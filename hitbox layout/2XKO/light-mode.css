@@ -111,7 +111,7 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
 .fight-stick .back.pressed, .fight-stick .start.pressed {
     transform: translateY(0px);
     -webkit-filter: brightness(100%) invert(0);
-    background-position-y: 150px;
+    background-position-y: 100px;
 }
 
 /* Face buttons */
