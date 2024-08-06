@@ -100,6 +100,7 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
     top: 70px;
     display: block;
     border-radius: 0%;
+    background-repeat: none;
 }
 
 .fight-stick .back {
@@ -127,6 +128,7 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
     width: 150px;
     height: 150px;
     border-radius: 0px;
+    background-repeat: none;
 }
 
 .fight-stick .a {
@@ -198,6 +200,7 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
     width: 150px;
     height: 150px;
     border-radius: 0px;
+    background-repeat: none;
 }
 
 .fight-stick .bumper.right {
@@ -305,6 +308,7 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
     height: 150px;
     background: var(--up-arrow-source-image);
     border-radius: 0%;
+    background-repeat: none;
     opacity: 1;
     display: block;
     top: var(--dir-up-top);
@@ -320,6 +324,7 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
     height: 150px;
     background: var(--right-arrow-source-image);
     border-radius: 0%;
+    background-repeat: none;
     opacity: 1;
     display: block;
     top: var(--dir-right-top);
@@ -335,6 +340,7 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
     height: 150px;
     background: var(--down-arrow-source-image);
     border-radius: 0%;
+    background-repeat: none;
     opacity: 1;
     display: block;
     top: var(--dir-down-top);
@@ -350,6 +356,7 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
     height: 150px;
     background: var(--left-arrow-source-image);
     border-radius: 0%;
+    background-repeat: none;
     opacity: 1;
     display: block;
     top: var(--dir-left-top);
