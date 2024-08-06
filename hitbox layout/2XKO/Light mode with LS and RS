@@ -284,7 +284,6 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
 
 .fight-stick .stick.right {
     background: var(--rs-button-source-image);
-    background-position: 0px 0px; /* Position of T button */
     position: fixed;
     top: 400px;
     left: 630px;
@@ -302,7 +301,6 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
 
 .fight-stick .stick.left {
     background: var(--ls-button-source-image);
-    background-position: 0px 0px; /* Position of T button */
     position: fixed;
     top: 400px;
     left: 220px;
