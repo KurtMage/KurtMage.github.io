@@ -46,34 +46,39 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
     --up-arrow-source-image: url("https://raw.githubusercontent.com/KurtMage/KurtMage.github.io/main/images/2XKO/arrows/up.png");
 
     /* Right side button vars */
-    --top-row-index-finger-button-source-image: url("https://raw.githubusercontent.com/KurtMage/KurtMage.github.io/main/images/Console\ controllers/X.png");
+    --top-row-index-finger-button-source-image: url("https://imgur.com/rnS7cgc.png");
     --top-row-index-finger-button-row: 0;
     --top-row-index-finger-button-col: 0;
-    --top-row-middle-finger-button-source-image: url("https://raw.githubusercontent.com/KurtMage/KurtMage.github.io/main/images/Console\ controllers/Y.png");
+    --top-row-middle-finger-button-source-image: url("https://imgur.com/KX5MAP0.png");
     --top-row-middle-finger-button-row: 0;
     --top-row-middle-finger-button-col: 1;
-    --top-row-ring-finger-button-source-image: url("https://raw.githubusercontent.com/KurtMage/KurtMage.github.io/main/images/2XKO/light\ mode/H.png");
+    --top-row-ring-finger-button-source-image: url("https://imgur.com/KPUJ4bG.png");
     --top-row-ring-finger-button-row: 0;
     --top-row-ring-finger-button-col: 2;
-    --top-row-pinky-finger-button-source-image: url("https://raw.githubusercontent.com/KurtMage/KurtMage.github.io/main/images/2XKO/light\ mode/D.png");
+    --top-row-pinky-finger-button-source-image: url("https://imgur.com/OCUcLGj.png");
     --top-row-pinky-finger-button-row: 0;
     --top-row-pinky-finger-button-col: 3;
-    --bot-row-index-finger-button-source-image: url("https://raw.githubusercontent.com/KurtMage/KurtMage.github.io/main/images/Console\ controllers/A.png");
+    --bot-row-index-finger-button-source-image: url("https://imgur.com/hdeC2vb.png");
     --bot-row-index-finger-button-row: 1;
     --bot-row-index-finger-button-col: 0;
-    --bot-row-middle-finger-button-source-image: url("https://raw.githubusercontent.com/KurtMage/KurtMage.github.io/main/images/Console\ controllers/B.png");
+    --bot-row-middle-finger-button-source-image: url("https://imgur.com/YcM0VWU.png");
     --bot-row-middle-finger-button-row: 1;
     --bot-row-middle-finger-button-col: 1;
-    --bot-row-ring-finger-button-source-image: url("https://raw.githubusercontent.com/KurtMage/KurtMage.github.io/main/images/2XKO/light\ mode/T.png");
+    --bot-row-ring-finger-button-source-image: url("https://imgur.com/ZtgNfxW.png");
     --bot-row-ring-finger-button-row: 1;
     --bot-row-ring-finger-button-col: 2;
-    --bot-row-pinky-finger-button-source-image: url("https://raw.githubusercontent.com/KurtMage/KurtMage.github.io/main/images/2XKO/light\ mode/P.png");
+    --bot-row-pinky-finger-button-source-image: url("https://imgur.com/bAr122G.png");
     --bot-row-pinky-finger-button-row: 1;
     --bot-row-pinky-finger-button-col: 3;
 
+    /* Start/back vars */
+    
+    --start-button-source-image: url("https://imgur.com/U5AkLfW.png");
+    --back-button-source-image: url("https://imgur.com/h4FYoR5.png");
+
     /* L3/R3 button vars */
-    --ls-button-source-image: url("https://raw.githubusercontent.com/KurtMage/KurtMage.github.io/main/images/2XKO/light\ mode/LS.png");
-    --rs-button-source-image: url("https://raw.githubusercontent.com/KurtMage/KurtMage.github.io/main/images/2XKO/light\ mode/RS.png");
+    --ls-button-source-image: url("https://imgur.com/FDYsAVH.png");
+    --rs-button-source-image: url("https://imgur.com/8Gz2V05.png");
 }
 
 .controller.fight-stick {
@@ -96,18 +101,19 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
     position: fixed;
     width: 100px;
     height: 100px;
-    background: var(--start-select-button-source-image);
     top: 70px;
     display: block;
     border-radius: 100%;
 }
 
 .fight-stick .back {
+    background: var(--back-button-source-image);
     left: 335px;
     background-size: 100px;
 }
 
 .fight-stick .start {
+    background: var(--start-button-source-image);
     left: 439px;
     background-size: 100px;
 }
