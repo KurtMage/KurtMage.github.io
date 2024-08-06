@@ -296,7 +296,7 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
 .fight-stick .stick.right.pressed {
     --row: var(--top-row-index-finger-button-row);
     --col: var(--top-row-index-finger-button-col);
-    background-position: calc(var(--col) * -150px) calc(var(--row) * -300px - 150px);
+    background-position-y: 150px;
 }
 
 .fight-stick .stick.left {
@@ -312,8 +312,7 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
 
 .fight-stick .stick.left.pressed {
     position: absolute;
-    /* top: 109px; */
-    background-position: 0px -150px; /* Position of T button */
+    background-position-y: 150px;
 }
 
 .fight-stick .quadrant {
