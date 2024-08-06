@@ -70,6 +70,10 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
     --bot-row-pinky-finger-button-source-image: url("https://raw.githubusercontent.com/KurtMage/KurtMage.github.io/main/images/2XKO/light\ mode/P.png");
     --bot-row-pinky-finger-button-row: 1;
     --bot-row-pinky-finger-button-col: 3;
+
+    /* Start/back vars */
+    --start-button-source-image: url("https://imgur.com/U5AkLfW.png");
+    --back-button-source-image: url("https://imgur.com/h4FYoR5.png");
 }
 
 .controller.fight-stick {
@@ -99,11 +103,13 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
 }
 
 .fight-stick .back {
+    background: var(--back-button-source-image);
     left: 335px;
     background-size: 100px;
 }
 
 .fight-stick .start {
+    background: var(--start-button-source-image);
     left: 439px;
     background-size: 100px;
 }
