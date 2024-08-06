@@ -398,3 +398,117 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
 .fight-stick .face.pressed {
     transform: translateY(0px);
 }
+
+body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
+
+.fight-stick .x {
+background: rgba(0, 0, 0, 0) url("https://imgur.com/rnS7cgc.png") repeat scroll 0% 0% / 150px padding-box border-box;
+}
+
+.fight-stick .y {
+background: rgba(0, 0, 0, 0) url("https://imgur.com/KX5MAP0.png") repeat scroll 0% 0% / 150px padding-box border-box;
+}
+
+.fight-stick .a {
+background: rgba(0, 0, 0, 0) url("https://imgur.com/hdeC2vb.png") repeat scroll 0% 0% / 150px padding-box border-box;
+}
+
+.fight-stick .b {
+background: rgba(0, 0, 0, 0) url("https://imgur.com/YcM0VWU.png") repeat scroll 0% 0% / 150px padding-box border-box;
+}
+
+.fight-stick .bumper.right {
+background: rgba(0, 0, 0, 0) url("https://imgur.com/KPUJ4bG.png") repeat scroll 0% 0% / 150px padding-box border-box;
+}
+
+.fight-stick .bumper.left {
+background: rgba(0, 0, 0, 0) url("https://imgur.com/OCUcLGj.png") repeat scroll 0% 0% / 150px padding-box border-box;
+}
+
+.fight-stick .trigger-button.right {
+background: rgba(0, 0, 0, 0) url("https://imgur.com/ZtgNfxW.png") repeat scroll 0% 0% / 150px padding-box border-box;
+}
+
+.fight-stick .trigger-button.left {
+background: rgba(0, 0, 0, 0) url("https://imgur.com/bAr122G.png") repeat scroll 0% 0% / 150px padding-box border-box;
+}
+
+.fight-stick .face.left {
+width: 130px;
+height: 130px;
+background-size: 130px;
+border: 8px solid rgb(0, 0, 0);
+border-radius: 100%;
+background: rgb(0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box;
+}
+
+.fight-stick .face.down {
+width: 130px;
+height: 130px;
+background-size: 130px;
+border: 8px solid rgb(0, 0, 0);
+border-radius: 100%;
+background: rgb(0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box;
+}
+
+.fight-stick .face.right {
+width: 130px;
+height: 130px;
+background-size: 130px;
+border: 8px solid rgb(0, 0, 0);
+border-radius: 100%;
+background: rgb(0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box;
+}
+
+.fight-stick .face.up {
+width: 130px;
+height: 130px;
+background-size: 130px;
+border: 8px solid rgb(0, 0, 0);
+border-radius: 100%;
+background: rgb(0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box;
+}
+
+.fight-stick .start {
+background: rgba(0, 0, 0, 0) url("https://imgur.com/U5AkLfW.png") repeat scroll 0% 0% / 100px padding-box border-box;
+}
+
+.fight-stick .back {
+background: rgba(0, 0, 0, 0) url("https://imgur.com/h4FYoR5.png") repeat scroll 0% 0% / 100px padding-box border-box;
+}
+
+.fight-stick .face.left.pressed {
+width: 130px;
+height: 130px;
+background-size: 130px;
+border: 8px solid rgb(0, 0, 0);
+border-radius: 100%;
+background: rgb(255, 255, 255) none repeat scroll 0% 0% / auto padding-box border-box;
+}
+
+.fight-stick .face.down.pressed {
+width: 130px;
+height: 130px;
+background-size: 130px;
+border: 8px solid rgb(0, 0, 0);
+border-radius: 100%;
+background: rgb(255, 255, 255) none repeat scroll 0% 0% / auto padding-box border-box;
+}
+
+.fight-stick .face.right.pressed {
+width: 130px;
+height: 130px;
+background-size: 130px;
+border: 8px solid rgb(0, 0, 0);
+border-radius: 100%;
+background: rgb(255, 255, 255) none repeat scroll 0% 0% / auto padding-box border-box;
+}
+
+.fight-stick .face.up.pressed {
+width: 130px;
+height: 130px;
+background-size: 130px;
+border: 8px solid rgb(0, 0, 0);
+border-radius: 100%;
+background: rgb(255, 255, 255) none repeat scroll 0% 0% / auto padding-box border-box;
+}
