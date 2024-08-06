@@ -104,6 +104,7 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
     top: 70px;
     display: block;
     border-radius: 0%;
+    background-repeat: none;
 }
 
 .fight-stick .back {
@@ -131,6 +132,7 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
     width: 150px;
     height: 150px;
     border-radius: 0px;
+    background-repeat: none;
 }
 
 .fight-stick .a {
@@ -202,6 +204,7 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
     width: 150px;
     height: 150px;
     border-radius: 0px;
+    background-repeat: none;
 }
 
 .fight-stick .bumper.right {
@@ -299,6 +302,7 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
     height: 150px;
     display: block;
     border-radius: 100%;
+    background-repeat: none;
 }
 
 .fight-stick .stick.right.pressed {
@@ -316,6 +320,7 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
     height: 150px;
     display: block;
     border-radius: 100%;
+    background-repeat: none;
 }
 
 .fight-stick .stick.left.pressed {
@@ -342,6 +347,7 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
     height: 150px;
     background: var(--up-arrow-source-image);
     border-radius: 0%;
+    background-repeat: none;
     opacity: 1;
     display: block;
     top: var(--dir-up-top);
@@ -357,6 +363,7 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
     height: 150px;
     background: var(--right-arrow-source-image);
     border-radius: 0%;
+    background-repeat: none;
     opacity: 1;
     display: block;
     top: var(--dir-right-top);
@@ -372,6 +379,7 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
     height: 150px;
     background: var(--down-arrow-source-image);
     border-radius: 0%;
+    background-repeat: none;
     opacity: 1;
     display: block;
     top: var(--dir-down-top);
@@ -387,6 +395,7 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
     height: 150px;
     background: var(--left-arrow-source-image);
     border-radius: 0%;
+    background-repeat: none;
     opacity: 1;
     display: block;
     top: var(--dir-left-top);
@@ -441,6 +450,7 @@ height: 130px;
 background-size: 130px;
 border: 8px solid rgb(0, 0, 0);
 border-radius: 100%;
+background-repeat: none;
 background: rgb(0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box;
 }
 
@@ -450,6 +460,7 @@ height: 130px;
 background-size: 130px;
 border: 8px solid rgb(0, 0, 0);
 border-radius: 100%;
+background-repeat: none;
 background: rgb(0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box;
 }
 
@@ -459,6 +470,7 @@ height: 130px;
 background-size: 130px;
 border: 8px solid rgb(0, 0, 0);
 border-radius: 100%;
+background-repeat: none;
 background: rgb(0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box;
 }
 
@@ -468,6 +480,7 @@ height: 130px;
 background-size: 130px;
 border: 8px solid rgb(0, 0, 0);
 border-radius: 100%;
+background-repeat: none;
 background: rgb(0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box;
 }
 
@@ -485,6 +498,7 @@ height: 130px;
 background-size: 130px;
 border: 8px solid rgb(0, 0, 0);
 border-radius: 100%;
+background-repeat: none;
 background: rgb(255, 255, 255) none repeat scroll 0% 0% / auto padding-box border-box;
 }
 
@@ -494,6 +508,7 @@ height: 130px;
 background-size: 130px;
 border: 8px solid rgb(0, 0, 0);
 border-radius: 100%;
+background-repeat: none;
 background: rgb(255, 255, 255) none repeat scroll 0% 0% / auto padding-box border-box;
 }
 
@@ -503,6 +518,7 @@ height: 130px;
 background-size: 130px;
 border: 8px solid rgb(0, 0, 0);
 border-radius: 100%;
+background-repeat: none;
 background: rgb(255, 255, 255) none repeat scroll 0% 0% / auto padding-box border-box;
 }
 
@@ -512,5 +528,6 @@ height: 130px;
 background-size: 130px;
 border: 8px solid rgb(0, 0, 0);
 border-radius: 100%;
+background-repeat: none;
 background: rgb(255, 255, 255) none repeat scroll 0% 0% / auto padding-box border-box;
 }
