@@ -1,0 +1,418 @@
+body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
+
+:root {
+    /* Arrow button image links */
+    --left-arrow-source-image: url("https://imgur.com/6mTp0FP.png");
+    --down-arrow-source-image: url("https://imgur.com/6mTp0FP.png");
+    --right-arrow-source-image: url("https://imgur.com/6mTp0FP.png");
+    --up-arrow-source-image: url("https://imgur.com/6mTp0FP.png");
+
+     /* Right side button image links */
+    --top-row-index-finger-button-source-image: url("https://imgur.com/eJeI9yb.png");
+    --top-row-middle-finger-button-source-image: url("https://imgur.com/UmTssdu.png");
+    --top-row-ring-finger-button-source-image: url("https://imgur.com/xwCaQWn.png");
+    --top-row-pinky-finger-button-source-image: url("https://imgur.com/6mTp0FP.png");
+    
+    --bot-row-index-finger-button-source-image: url("https://imgur.com/eJeI9yb.png");
+    --bot-row-middle-finger-button-source-image: url("https://imgur.com/UmTssdu.png");
+    --bot-row-ring-finger-button-source-image: url("https://imgur.com/xwCaQWn.png");
+    --bot-row-pinky-finger-button-source-image: url("https://imgur.com/6mTp0FP.png");
+
+      /* Start/back vars */
+    --start-button-source-image:  url("https://imgur.com/6mTp0FP.png");
+    --back-button-source-image:  url("https://imgur.com/6mTp0FP.png");
+
+    /* L3/R3 button vars */
+    --ls-button-source-image: url("https://imgur.com/6mTp0FP.png");
+    --rs-button-source-image: url("https://imgur.com/6mTp0FP.png");
+
+    /* Location vars */
+    --a-top: 300px;
+    --b-top: calc(var(--a-top) - var(--diag-vert-clearance));
+    --x-top: calc(var(--a-top) - var(--vert-clearance));
+    --y-top: calc(var(--x-top) - var(--diag-vert-clearance));
+    --rb-top: calc(var(--y-top));
+    --lb-top: calc(var(--rb-top));
+    --rt-top: calc(var(--rb-top) + var(--vert-clearance));
+    --lt-top: var(--rt-top);
+
+    --a-left: 500px;
+    --b-left: calc(var(--a-left) + var(--diag-horz-clearance));
+    --x-left: var(--a-left);
+    --y-left: calc(var(--a-left) + var(--diag-horz-clearance));
+    --rb-left: calc(var(--y-left) + var(--horz-clearance));
+    --lb-left: calc(var(--rb-left) + var(--horz-clearance));
+    --rt-left: calc(var(--rb-left));
+    --lt-left: calc(var(--rt-left) + var(--horz-clearance));
+
+    --dir-right-top: calc(var(--x-top) + 75px);
+    --dir-right-left: calc(var(--x-left) - 150px);
+    --dir-down-top: calc(var(--dir-right-top) - var(--diag-vert-clearance));
+    --dir-down-left: calc(var(--dir-right-left) - var(--diag-horz-clearance));
+    --dir-left-top: var(--dir-down-top);
+    --dir-left-left: calc(var(--dir-down-left) - var(--horz-clearance));
+    --dir-up-top: calc(var(--dir-right-top) + 230px);
+    --dir-up-left: calc(var(--dir-right-left) + 75px);
+
+    --vert-clearance: 160px;
+    --diag-vert-clearance: 80px;
+    --diag-horz-clearance: 140px;
+  
+    --horz-clearance: var(--vert-clearance);
+    --top-row-index-button-row: 0;
+    --top-row-index-button-col: 0;
+   
+    --top-row-index-finger-button-row: 0;
+    --top-row-index-finger-button-col: 0;
+    
+    --top-row-middle-finger-button-row: 0;
+    --top-row-middle-finger-button-col: 1;
+    
+    --top-row-ring-finger-button-row: 0;
+    --top-row-ring-finger-button-col: 2;
+    --top-row-pinky-finger-button-row: 0;
+    --top-row-pinky-finger-button-col: 3;
+    --bot-row-index-finger-button-row: 1;
+    --bot-row-index-finger-button-col: 0;
+    --bot-row-middle-finger-button-row: 1;
+    --bot-row-middle-finger-button-col: 1;
+    --bot-row-ring-finger-button-row: 1;
+    --bot-row-ring-finger-button-col: 2;
+    --bot-row-pinky-finger-button-row: 1;
+    --bot-row-pinky-finger-button-col: 3;
+
+}
+
+.controller.fight-stick {
+    /* background: url(https://imgur.com/AEMTeDY.png) center no-repeat; */
+    background: transparent;
+    height: 535px;
+    width: 1500px;
+}
+
+.fight-stick.disconnected {
+    margin:auto;
+    width:50%;
+    height:50%;
+    background: url(https://imgur.com/oDdTc1t.png) no-repeat;
+}
+
+/* start/back */
+
+.fight-stick .back, .fight-stick .start {
+    position: fixed;
+    width: 100px;
+    height: 100px;
+    top: 70px;
+    display: block;
+    border-radius: 0%;
+    background-repeat: none;
+}
+
+.fight-stick .back {
+    background: var(--back-button-source-image);
+    left: 335px;
+    background-size: 100px;
+}
+
+.fight-stick .start {
+    background: var(--start-button-source-image);
+    left: 439px;
+    background-size: 100px;
+}
+
+.fight-stick .back.pressed, .fight-stick .start.pressed {
+    transform: translateY(0px);
+    -webkit-filter: brightness(100%) invert(0);
+    background-position-y: 100px;
+}
+
+/* Face buttons */
+
+.fight-stick .button {
+    position:fixed;
+    width: 150px;
+    height: 150px;
+    background-size: 150px;
+    border-radius: 0px;
+    background-repeat: none;
+}
+
+.fight-stick .a {
+    background: var(--bot-row-index-finger-button-source-image);
+    top: var(--a-top);
+    left: var(--a-left);
+    --row: var(--bot-row-index-finger-button-row);
+    --col: var(--bot-row-index-finger-button-col);
+}
+
+.fight-stick .a.pressed {
+    --row: var(--bot-row-index-finger-button-row);
+    --col: var(--bot-row-index-finger-button-col);
+    background-position-y: 150px;
+}
+
+.fight-stick .b {
+    background: var(--bot-row-middle-finger-button-source-image);
+    top: var(--b-top);
+    left: var(--b-left);
+    --row: var(--bot-row-middle-finger-button-row);
+    --col: var(--bot-row-middle-finger-button-col);
+}
+
+
+.fight-stick .b.pressed {
+    --row: var(--bot-row-middle-finger-button-row);
+    --col: var(--bot-row-middle-finger-button-col);
+    background-position-y: 150px;
+}
+
+.fight-stick .x {
+    background: var(--top-row-index-finger-button-source-image);
+    top: var(--x-top);
+    left: var(--x-left);
+    --row: var(--top-row-index-finger-button-row);
+    --col: var(--top-row-index-finger-button-col);
+}
+
+.fight-stick .x.pressed {
+    --row: var(--top-row-index-finger-button-row);
+    --col: var(--top-row-index-finger-button-col);
+    background-position-y: 150px;
+}
+
+.fight-stick .y {
+    background: var(--top-row-middle-finger-button-source-image);
+    top: var(--y-top);
+    left: var(--y-left);
+    --row: var(--top-row-middle-finger-button-row);
+    --col: var(--top-row-middle-finger-button-col);
+}
+
+.fight-stick .y.pressed {
+    --row: var(--top-row-middle-finger-button-row);
+    --col: var(--top-row-middle-finger-button-col);
+    background-position-y: 150px;
+}
+
+.fight-stick .button.pressed {
+    transform: translateY(0px);
+    -webkit-filter: invert(0);
+}
+
+/* Bumpers */
+
+.fight-stick .bumper {
+    position:fixed;
+    width: 150px;
+    height: 150px;
+    background-size: 150px;
+    border-radius: 0px;
+    background-repeat: none;
+}
+
+.fight-stick .bumper.right {
+    background: var(--top-row-ring-finger-button-source-image);
+    top: var(--rb-top);
+    left: var(--rb-left);
+    --row: var(--top-row-ring-finger-button-row);
+    --col: var(--top-row-ring-finger-button-col);
+}
+
+.fight-stick .bumper.right.pressed {
+    --row: var(--top-row-ring-finger-button-row);
+    --col: var(--top-row-ring-finger-button-col);
+    background-position-y: 150px;
+}
+
+.fight-stick .bumper.left {
+    position:fixed;
+    background: var(--top-row-pinky-finger-button-source-image);
+    float: right;
+    top: var(--lb-top);
+    left: var(--lb-left);
+    --row: var(--top-row-pinky-finger-button-row);
+    --col: var(--top-row-pinky-finger-button-col);
+}
+
+.fight-stick .bumper.left.pressed {
+    --row: var(--top-row-pinky-finger-button-row);
+    --col: var(--top-row-pinky-finger-button-col);
+    background-position-y: 150px;
+}
+
+.fight-stick .bumper.pressed {
+    transform: translateY(0px);
+    -webkit-filter: invert(0);
+}
+
+/* Triggers */
+
+.fight-stick .trigger-button {
+    position: fixed;
+    width: 150px;
+    height: 150px;
+    background-size: 150px;
+}
+
+.fight-stick .trigger-button.right {
+    background: var(--bot-row-ring-finger-button-source-image);
+    top: var(--rt-top);
+    left: var(--rt-left);
+    float: left;
+    --row: var(--bot-row-ring-finger-button-row);
+    --col: var(--bot-row-ring-finger-button-col);
+}
+
+.fight-stick .trigger-button.right.pressed {
+    --row: var(--bot-row-ring-finger-button-row);
+    --col: var(--bot-row-ring-finger-button-col);
+    background-position-y: 150px;
+}
+
+.fight-stick .trigger-button.left {
+    position:fixed;
+    background: var(--bot-row-pinky-finger-button-source-image);
+    top: var(--lt-top);
+    left: var(--lt-left);
+    float: left;
+    --row: var(--bot-row-pinky-finger-button-row);
+    --col: var(--bot-row-pinky-finger-button-col);
+}
+
+.fight-stick .trigger-button.left.pressed {
+    --row: var(--bot-row-pinky-finger-button-row);
+    --col: var(--bot-row-pinky-finger-button-col);
+    background-position-y: 150px;
+}
+
+.fight-stick .trigger-button.pressed {
+    transform: translateY(0px);
+    -webkit-filter: invert(0);
+    background-position-y: 150px;
+}
+
+/* L3/R3 */
+
+.fight-stick .stick.right {
+    background: var(--rs-button-source-image);
+    position: fixed;
+    top: 400px;
+    left: 630px;
+    width: 150px;
+    height: 150px;
+    background-size: 150px;
+    display: block;
+    border-radius: 100%;
+    background-repeat: none;
+}
+
+.fight-stick .stick.right.pressed {
+    --row: var(--top-row-index-finger-button-row);
+    --col: var(--top-row-index-finger-button-col);
+    background-position-y: 150px;
+}
+
+.fight-stick .stick.left {
+    background: var(--ls-button-source-image);
+    position: fixed;
+    top: 400px;
+    left: 220px;
+    width: 150px;
+    height: 150px;
+    background-size: 150px;
+    display: block;
+    border-radius: 100%;
+    background-repeat: none;
+}
+
+.fight-stick .stick.left.pressed {
+    position: absolute;
+    background-position-y: 150px;
+}
+
+.fight-stick .quadrant {
+    display: none;
+}
+
+.fight-stick .fstick {
+    display: none;
+}
+
+/* Direction buttons */
+
+.fight-stick .face {
+    position:fixed;
+}
+
+.fight-stick .face.up {
+    width: 150px;
+    height: 150px;
+    background-size: 150px;
+    background: var(--up-arrow-source-image);
+    border-radius: 0%;
+    background-repeat: none;
+    opacity: 1;
+    display: block;
+    top: var(--dir-up-top);
+    left: var(--dir-up-left);
+}
+
+.fight-stick .face.up.pressed {
+    background-position-y: 150px;
+}
+
+.fight-stick .face.right {
+    width: 150px;
+    height: 150px;
+    background-size: 150px;
+    background: var(--right-arrow-source-image);
+    border-radius: 0%;
+    background-repeat: none;
+    opacity: 1;
+    display: block;
+    top: var(--dir-right-top);
+    left: var(--dir-right-left);
+}
+
+.fight-stick .face.right.pressed {
+    background-position-y: 150px;
+}
+
+.fight-stick .face.down {
+    width: 150px;
+    height: 150px;
+    background-size: 150px;
+    background: var(--down-arrow-source-image);
+    border-radius: 0%;
+    background-repeat: none;
+    opacity: 1;
+    display: block;
+    top: var(--dir-down-top);
+    left: var(--dir-down-left);
+}
+
+.fight-stick .face.down.pressed {
+    background-position-y: 150px;
+}
+
+.fight-stick .face.left {
+    width: 150px;
+    height: 150px;
+    background-size: 150px;
+    background: var(--left-arrow-source-image);
+    border-radius: 0%;
+    background-repeat: none;
+    opacity: 1;
+    display: block;
+    top: var(--dir-left-top);
+    left: var(--dir-left-left);
+}
+
+.fight-stick .face.left.pressed {
+    background-position-y: 150px;
+}
+
+.fight-stick .face.pressed {
+    transform: translateY(0px);
+}
