@@ -115,7 +115,7 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
     background-color: transparent;
     border-radius: 0px;
     left: 335px;
-    background-size: 100px;
+    background-size: cover;
 }
 
 .fight-stick .start {
@@ -124,7 +124,7 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
     background-color: transparent;
     border-radius: 0px;
     left: 439px;
-    background-size: 100px;
+    background-size: cover;
 }
 
 .fight-stick .back.pressed, .fight-stick .start.pressed {
@@ -139,7 +139,7 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
     position:fixed;
     width: 150px;
     height: 150px;
-    background-size: 150px;
+    background-size: cover;
     border-radius: 0px;
     background-repeat: repeat;
 }
@@ -224,7 +224,7 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
     position:fixed;
     width: 150px;
     height: 150px;
-    background-size: 150px;
+    background-size: cover;
     border-radius: 0px;
     background-repeat: repeat;
 }
@@ -276,7 +276,7 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
     position: fixed;
     width: 150px;
     height: 150px;
-    background-size: 150px;
+    background-size: cover;
 }
 
 .fight-stick .trigger-button.right {
@@ -334,7 +334,7 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
     left: 630px;
     width: 150px;
     height: 150px;
-    background-size: 150px;
+    background-size: cover;
     display: block;
 }
 
@@ -354,7 +354,7 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
     left: 220px;
     width: 150px;
     height: 150px;
-    background-size: 150px;
+    background-size: cover;
     display: block;
     background-repeat: repeat;
 }
@@ -381,7 +381,7 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
 .fight-stick .face.up {
     width: 150px;
     height: 150px;
-    background-size: 150px;
+    background-size: cover;
     background-image: var(--up-arrow-source-image);
     background-repeat: repeat;
     border-radius: 0%;
@@ -398,7 +398,7 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
 .fight-stick .face.right {
     width: 150px;
     height: 150px;
-    background-size: 150px;
+    background-size: cover;
     background-image: var(--right-arrow-source-image);
     background-repeat: repeat;
     border-radius: 0%;
@@ -415,7 +415,7 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
 .fight-stick .face.down {
     width: 150px;
     height: 150px;
-    background-size: 150px;
+    background-size: cover;
     background-image: var(--down-arrow-source-image);
     background-repeat: repeat;
     border-radius: 0%;
@@ -432,7 +432,7 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
 .fight-stick .face.left {
     width: 150px;
     height: 150px;
-    background-size: 150px;
+    background-size: cover;
     background-image: var(--left-arrow-source-image);
     background-repeat: repeat;
     border-radius: 0%;
