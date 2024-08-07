@@ -11,8 +11,9 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
     --top-row-index-finger-button-source-image: url("https://imgur.com/xwCaQWn.png");
     --top-row-middle-finger-button-source-image: url("https://imgur.com/xwCaQWn.png");
     --top-row-ring-finger-button-source-image: url("https://imgur.com/xwCaQWn.png");
-    --bot-row-index-finger-button-source-image: url("https://imgur.com/xwCaQWn.png");
     --top-row-pinky-finger-button-source-image: url("https://imgur.com/xwCaQWn.png");
+    
+    --bot-row-index-finger-button-source-image: url("https://imgur.com/xwCaQWn.png");
     --bot-row-middle-finger-button-source-image: url("https://imgur.com/xwCaQWn.png");
     --bot-row-ring-finger-button-source-image: url("https://imgur.com/xwCaQWn.png");
     --bot-row-pinky-finger-button-source-image: url("https://imgur.com/xwCaQWn.png");
