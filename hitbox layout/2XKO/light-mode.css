@@ -72,8 +72,8 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
     --bot-row-pinky-finger-button-col: 3;
 
     /* Start/back vars */
-    --start-button-source-image: var(--start-select-button-source-image);
-    --back-button-source-image: var(--start-select-button-source-image);
+    --start-button-source-image:  url("https://raw.githubusercontent.com/KurtMage/KurtMage.github.io/main/images/2XKO/light\ mode/start.png");
+    --back-button-source-image:  url("https://raw.githubusercontent.com/KurtMage/KurtMage.github.io/main/images/2XKO/light\ mode/start.png");
 }
 
 .controller.fight-stick {
