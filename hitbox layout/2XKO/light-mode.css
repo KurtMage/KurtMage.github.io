@@ -74,6 +74,10 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
     /* Start/back vars */
     --start-button-source-image:  url("https://raw.githubusercontent.com/KurtMage/KurtMage.github.io/main/images/2XKO/light\ mode/start.png");
     --back-button-source-image:  url("https://raw.githubusercontent.com/KurtMage/KurtMage.github.io/main/images/2XKO/light\ mode/start.png");
+
+    /* L3/R3 button vars */
+    --ls-button-source-image: url("https://raw.githubusercontent.com/KurtMage/KurtMage.github.io/main/images/2XKO/light\ mode/start.png");
+    --rs-button-source-image: url("https://raw.githubusercontent.com/KurtMage/KurtMage.github.io/main/images/2XKO/light\ mode/start.png");
 }
 
 .controller.fight-stick {
@@ -288,6 +292,41 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
 }
 
 /* L3/R3 */
+
+.fight-stick .stick.right {
+    background: var(--rs-button-source-image);
+    position: fixed;
+    top: 400px;
+    left: 630px;
+    width: 150px;
+    height: 150px;
+    display: block;
+    border-radius: 100%;
+    background-repeat: none;
+}
+
+.fight-stick .stick.right.pressed {
+    --row: var(--top-row-index-finger-button-row);
+    --col: var(--top-row-index-finger-button-col);
+    background-position-y: 150px;
+}
+
+.fight-stick .stick.left {
+    background: var(--ls-button-source-image);
+    position: fixed;
+    top: 400px;
+    left: 220px;
+    width: 150px;
+    height: 150px;
+    display: block;
+    border-radius: 100%;
+    background-repeat: none;
+}
+
+.fight-stick .stick.left.pressed {
+    position: absolute;
+    background-position-y: 150px;
+}
 
 .fight-stick .quadrant {
     display: none;
