@@ -103,12 +103,12 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
     top: 70px;
     display: block;
     border-radius: 0%;
-    background-repeat: none;
+    background-repeat: repeat;
 }
 
 .fight-stick .back {
     background-image: var(--back-button-source-image);
-    background-repeat: none;
+    background-repeat: repeat;
     background-color: transparent;
     border-radius: 0px;
     left: 335px;
@@ -117,7 +117,7 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
 
 .fight-stick .start {
     background-image: var(--start-button-source-image);
-    background-repeat: none;
+    background-repeat: repeat;
     background-color: transparent;
     border-radius: 0px;
     left: 439px;
@@ -138,12 +138,12 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
     height: 150px;
     background-size: 150px;
     border-radius: 0px;
-    background-repeat: none;
+    background-repeat: repeat;
 }
 
 .fight-stick .a {
     background-image: var(--bot-row-index-finger-button-source-image);
-    background-repeat: none;
+    background-repeat: repeat;
     background-color: transparent;
     border-radius: 0px;
     top: var(--a-top);
@@ -160,7 +160,7 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
 
 .fight-stick .b {
     background-image: var(--bot-row-middle-finger-button-source-image);
-    background-repeat: none;
+    background-repeat: repeat;
     background-color: transparent;
     border-radius: 0px;
     top: var(--b-top);
@@ -178,7 +178,7 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
 
 .fight-stick .x {
     background-image: var(--top-row-index-finger-button-source-image);
-    background-repeat: none;
+    background-repeat: repeat;
     background-color: transparent;
     border-radius: 0px;
     top: var(--x-top);
@@ -195,7 +195,7 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
 
 .fight-stick .y {
     background-image: var(--top-row-middle-finger-button-source-image);
-    background-repeat: none;
+    background-repeat: repeat;
     background-color: transparent;
     border-radius: 0px;
     top: var(--y-top);
@@ -223,12 +223,12 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
     height: 150px;
     background-size: 150px;
     border-radius: 0px;
-    background-repeat: none;
+    background-repeat: repeat;
 }
 
 .fight-stick .bumper.right {
     background-image: var(--top-row-ring-finger-button-source-image);
-    background-repeat: none;
+    background-repeat: repeat;
     background-color: transparent;
     border-radius: 0px;
     top: var(--rb-top);
@@ -246,7 +246,7 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
 .fight-stick .bumper.left {
     position:fixed;
     background-image: var(--top-row-pinky-finger-button-source-image);
-    background-repeat: none;
+    background-repeat: repeat;
     background-color: transparent;
     border-radius: 0px;
     float: right;
@@ -278,7 +278,7 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
 
 .fight-stick .trigger-button.right {
     background-image: var(--bot-row-ring-finger-button-source-image);
-    background-repeat: none;
+    background-repeat: repeat;
     background-color: transparent;
     border-radius: 0px;
     top: var(--rt-top);
@@ -297,7 +297,7 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
 .fight-stick .trigger-button.left {
     position:fixed;
     background-image: var(--bot-row-pinky-finger-button-source-image);
-    background-repeat: none;
+    background-repeat: repeat;
     background-color: transparent;
     border-radius: 0px;
     top: var(--lt-top);
@@ -323,7 +323,7 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
 
 .fight-stick .stick.right {
     background-image: var(--rs-button-source-image);
-    background-repeat: none;
+    background-repeat: repeat;
     background-color: transparent;
     border-radius: 0px;
     position: fixed;
@@ -333,7 +333,6 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
     height: 150px;
     background-size: 150px;
     display: block;
-    background-repeat: none;
 }
 
 .fight-stick .stick.right.pressed {
@@ -344,7 +343,7 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
 
 .fight-stick .stick.left {
     background-image: var(--ls-button-source-image);
-    background-repeat: none;
+    background-repeat: repeat;
     background-color: transparent;
     border-radius: 0px;
     position: fixed;
@@ -354,7 +353,7 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
     height: 150px;
     background-size: 150px;
     display: block;
-    background-repeat: none;
+    background-repeat: repeat;
 }
 
 .fight-stick .stick.left.pressed {
@@ -381,9 +380,8 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
     height: 150px;
     background-size: 150px;
     background-image: var(--up-arrow-source-image);
-    background-repeat: none;
+    background-repeat: repeat;
     border-radius: 0%;
-    background-repeat: none;
     opacity: 1;
     display: block;
     top: var(--dir-up-top);
@@ -399,9 +397,8 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
     height: 150px;
     background-size: 150px;
     background-image: var(--right-arrow-source-image);
-    background-repeat: none;
+    background-repeat: repeat;
     border-radius: 0%;
-    background-repeat: none;
     opacity: 1;
     display: block;
     top: var(--dir-right-top);
@@ -417,9 +414,8 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
     height: 150px;
     background-size: 150px;
     background-image: var(--down-arrow-source-image);
-    background-repeat: none;
+    background-repeat: repeat;
     border-radius: 0%;
-    background-repeat: none;
     opacity: 1;
     display: block;
     top: var(--dir-down-top);
@@ -435,9 +431,8 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
     height: 150px;
     background-size: 150px;
     background-image: var(--left-arrow-source-image);
-    background-repeat: none;
+    background-repeat: repeat;
     border-radius: 0%;
-    background-repeat: none;
     opacity: 1;
     display: block;
     top: var(--dir-left-top);
