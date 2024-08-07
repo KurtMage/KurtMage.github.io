@@ -110,13 +110,13 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
 }
 
 .fight-stick .back {
-    background: var(--back-button-source-image);
+    background-image: var(--back-button-source-image);
     left: 335px;
     background-size: 100px;
 }
 
 .fight-stick .start {
-    background: var(--start-button-source-image);
+    background-image: var(--start-button-source-image);
     left: 439px;
     background-size: 100px;
 }
@@ -139,7 +139,7 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
 }
 
 .fight-stick .a {
-    background: var(--bot-row-index-finger-button-source-image);
+    background-image: var(--bot-row-index-finger-button-source-image);
     top: var(--a-top);
     left: var(--a-left);
     --row: var(--bot-row-index-finger-button-row);
@@ -153,7 +153,7 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
 }
 
 .fight-stick .b {
-    background: var(--bot-row-middle-finger-button-source-image);
+    background-image: var(--bot-row-middle-finger-button-source-image);
     top: var(--b-top);
     left: var(--b-left);
     --row: var(--bot-row-middle-finger-button-row);
@@ -168,7 +168,7 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
 }
 
 .fight-stick .x {
-    background: var(--top-row-index-finger-button-source-image);
+    background-image: var(--top-row-index-finger-button-source-image);
     top: var(--x-top);
     left: var(--x-left);
     --row: var(--top-row-index-finger-button-row);
@@ -182,7 +182,7 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
 }
 
 .fight-stick .y {
-    background: var(--top-row-middle-finger-button-source-image);
+    background-image: var(--top-row-middle-finger-button-source-image);
     top: var(--y-top);
     left: var(--y-left);
     --row: var(--top-row-middle-finger-button-row);
@@ -212,7 +212,7 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
 }
 
 .fight-stick .bumper.right {
-    background: var(--top-row-ring-finger-button-source-image);
+    background-image: var(--top-row-ring-finger-button-source-image);
     top: var(--rb-top);
     left: var(--rb-left);
     --row: var(--top-row-ring-finger-button-row);
@@ -227,7 +227,7 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
 
 .fight-stick .bumper.left {
     position:fixed;
-    background: var(--top-row-pinky-finger-button-source-image);
+    background-image: var(--top-row-pinky-finger-button-source-image);
     float: right;
     top: var(--lb-top);
     left: var(--lb-left);
@@ -256,7 +256,7 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
 }
 
 .fight-stick .trigger-button.right {
-    background: var(--bot-row-ring-finger-button-source-image);
+    background-image: var(--bot-row-ring-finger-button-source-image);
     top: var(--rt-top);
     left: var(--rt-left);
     float: left;
@@ -272,7 +272,7 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
 
 .fight-stick .trigger-button.left {
     position:fixed;
-    background: var(--bot-row-pinky-finger-button-source-image);
+    background-image: var(--bot-row-pinky-finger-button-source-image);
     top: var(--lt-top);
     left: var(--lt-left);
     float: left;
@@ -295,7 +295,7 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
 /* L3/R3 */
 
 .fight-stick .stick.right {
-    background: var(--rs-button-source-image);
+    background-image: var(--rs-button-source-image);
     position: fixed;
     top: 400px;
     left: 630px;
@@ -314,7 +314,7 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
 }
 
 .fight-stick .stick.left {
-    background: var(--ls-button-source-image);
+    background-image: var(--ls-button-source-image);
     position: fixed;
     top: 400px;
     left: 220px;
@@ -349,7 +349,7 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
     width: 150px;
     height: 150px;
     background-size: 150px;
-    background: var(--up-arrow-source-image);
+    background-image: var(--up-arrow-source-image);
     border-radius: 0%;
     background-repeat: none;
     opacity: 1;
@@ -366,7 +366,7 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
     width: 150px;
     height: 150px;
     background-size: 150px;
-    background: var(--right-arrow-source-image);
+    background-image: var(--right-arrow-source-image);
     border-radius: 0%;
     background-repeat: none;
     opacity: 1;
@@ -383,7 +383,7 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
     width: 150px;
     height: 150px;
     background-size: 150px;
-    background: var(--down-arrow-source-image);
+    background-image: var(--down-arrow-source-image);
     border-radius: 0%;
     background-repeat: none;
     opacity: 1;
@@ -400,7 +400,7 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
     width: 150px;
     height: 150px;
     background-size: 150px;
-    background: var(--left-arrow-source-image);
+    background-image: var(--left-arrow-source-image);
     border-radius: 0%;
     background-repeat: none;
     opacity: 1;
