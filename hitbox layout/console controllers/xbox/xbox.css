@@ -373,7 +373,7 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
 }
 
 .fight-stick .fstick {
-    display: none;
+    visibility: hidden;
 }
 
 /* Direction buttons */
