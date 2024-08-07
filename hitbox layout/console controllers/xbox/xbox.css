@@ -1,10 +1,35 @@
 body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
 
 :root {
-    --button-source-image: url(https://imgur.com/99JKpbg.png);
-    --arrow-button-source-image: url(https://imgur.com/Fyp5PaG.png);
-    --start-select-button-source-image: url("https://raw.githubusercontent.com/KurtMage/KurtMage.github.io/main/images/2XKO/light\ mode/start.png");
+    /* Arrow button image links */
+    --left-arrow-source-image: url("https://imgur.com/krEVQ0L.png");
+    --down-arrow-source-image: url("https://imgur.com/v1zCdFS.png");
+    --right-arrow-source-image: url("https://imgur.com/fqY6vke.png");
+    --up-arrow-source-image: url("https://imgur.com/bSo4Fso.png");
 
+    /* Right side button image links */
+    --top-row-index-finger-button-source-image: url("https://imgur.com/rnS7cgc.png");
+    --top-row-middle-finger-button-source-image: url("https://imgur.com/KX5MAP0.png");
+    --top-row-ring-finger-button-source-image: url("https://imgur.com/KPUJ4bG.png");
+    --top-row-pinky-finger-button-source-image: url("https://imgur.com/OCUcLGj.png");
+    
+    --bot-row-index-finger-button-source-image: url("https://imgur.com/hdeC2vb.png");
+    --bot-row-middle-finger-button-source-image: url("https://imgur.com/YcM0VWU.png");
+    --bot-row-ring-finger-button-source-image: url("https://imgur.com/ZtgNfxW.png");
+    --bot-row-pinky-finger-button-source-image: url("https://imgur.com/bAr122G.png");
+    
+    /* Start/back vars */
+    --start-button-source-image: url("https://imgur.com/U5AkLfW.png");
+    --back-button-source-image: url("https://imgur.com/h4FYoR5.png");
+
+    /* L3/R3 button vars */
+    --ls-button-source-image: url("https://imgur.com/DBqy9sX.png");
+    --rs-button-source-image: url("https://imgur.com/9vShnHT.png");
+
+    /* Stick vars */
+    --fstick-source-image: url(https://imgur.com/Cdxibvo.png);
+    
+    /* Location vars */    
     --a-top: 300px;
     --b-top: calc(var(--a-top) - var(--diag-vert-clearance));
     --x-top: calc(var(--a-top) - var(--vert-clearance));
@@ -39,45 +64,27 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
     --top-row-index-button-row: 0;
     --top-row-index-button-col: 0;
 
-    /* Arrow button vars */
-    --left-arrow-source-image: url("https://imgur.com/krEVQ0L.png");
-    --down-arrow-source-image: url("https://imgur.com/v1zCdFS.png");
-    --right-arrow-source-image: url("https://imgur.com/fqY6vke.png");
-    --up-arrow-source-image: url("https://imgur.com/bSo4Fso.png");
+
 
     /* Right side button vars */
-    --top-row-index-finger-button-source-image: url("https://imgur.com/rnS7cgc.png");
+
     --top-row-index-finger-button-row: 0;
     --top-row-index-finger-button-col: 0;
-    --top-row-middle-finger-button-source-image: url("https://imgur.com/KX5MAP0.png");
     --top-row-middle-finger-button-row: 0;
     --top-row-middle-finger-button-col: 1;
-    --top-row-ring-finger-button-source-image: url("https://imgur.com/KPUJ4bG.png");
     --top-row-ring-finger-button-row: 0;
     --top-row-ring-finger-button-col: 2;
-    --top-row-pinky-finger-button-source-image: url("https://imgur.com/OCUcLGj.png");
     --top-row-pinky-finger-button-row: 0;
     --top-row-pinky-finger-button-col: 3;
-    --bot-row-index-finger-button-source-image: url("https://imgur.com/hdeC2vb.png");
     --bot-row-index-finger-button-row: 1;
     --bot-row-index-finger-button-col: 0;
-    --bot-row-middle-finger-button-source-image: url("https://imgur.com/YcM0VWU.png");
     --bot-row-middle-finger-button-row: 1;
     --bot-row-middle-finger-button-col: 1;
-    --bot-row-ring-finger-button-source-image: url("https://imgur.com/ZtgNfxW.png");
     --bot-row-ring-finger-button-row: 1;
     --bot-row-ring-finger-button-col: 2;
-    --bot-row-pinky-finger-button-source-image: url("https://imgur.com/bAr122G.png");
     --bot-row-pinky-finger-button-row: 1;
     --bot-row-pinky-finger-button-col: 3;
 
-    /* Start/back vars */
-    --start-button-source-image: url("https://imgur.com/U5AkLfW.png");
-    --back-button-source-image: url("https://imgur.com/h4FYoR5.png");
-
-    /* L3/R3 button vars */
-    --ls-button-source-image: url("https://imgur.com/DBqy9sX.png");
-    --rs-button-source-image: url("https://imgur.com/9vShnHT.png");
 }
 
 .controller.fight-stick {
