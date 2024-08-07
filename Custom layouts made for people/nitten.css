@@ -72,8 +72,8 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
     --bot-row-pinky-finger-button-col: 3;
 
     /* L3/R3 button vars */
-    --ls-button-source-image: var(--button-source-image);
-    --rs-button-source-image: var(--button-source-image);
+    --ls-button-source-image: url(https://imgur.com/DBqy9sX.png);
+    --rs-button-source-image: url(https://imgur.com/9vShnHT.png);
 }
 
 .controller.fight-stick {
