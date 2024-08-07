@@ -76,8 +76,8 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
     --back-button-source-image: url("https://imgur.com/h4FYoR5.png");
 
     /* L3/R3 button vars */
-    --ls-button-source-image: url("https://imgur.com/FDYsAVH.png");
-    --rs-button-source-image: url("https://imgur.com/8Gz2V05.png");
+    --ls-button-source-image: url("https://imgur.com/DBqy9sX.png");
+    --rs-button-source-image: url("https://imgur.com/9vShnHT.png");
 }
 
 .controller.fight-stick {
