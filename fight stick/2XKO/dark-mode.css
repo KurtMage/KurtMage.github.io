@@ -315,33 +315,33 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
 }
 
 .fight-stick .fstick.up {
-    background-position-x: -1760px;
+    background-position-x: 100%;
 }
 
 .fight-stick .fstick.down {
-    background-position-x: -880px;
+    background-position-x: calc(4 * 100% / 8);
 }
 
 .fight-stick .fstick.left {
-    background-position-x: -1320px;
+    background-position-x: calc(6 * 100% / 8);
 }
 
 .fight-stick .fstick.right {
-    background-position-x: -440px;
+    background-position-x: calc(2 * 100% / 8);
 }
 
 .fight-stick .fstick.up.right {
-    background-position-x: -220px;
+    background-position-x: calc(100% / 8);
 }
 
 .fight-stick .fstick.up.left {
-    background-position-x: -1540px;
+    background-position-x: calc(7 * 100% / 8);
 }
 
 .fight-stick .fstick.down.right {
-    background-position-x: -660px;
+    background-position-x: calc(3 * 100% / 8);
 }
 
 .fight-stick .fstick.down.left {
-    background-position-x: -1100px;
+    background-position-x: calc(5 * 100% / 8);
 }
