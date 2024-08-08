@@ -10,5 +10,3 @@ Various controller layouts for gamepad viewer. Example of some 2XKO layouts:
 
 Just follow this link to go to the web tool. It has instructions and can be used to customize your layout however you want!
 https://kurtmage.github.io/Controller-overlay-css-generator/
-
-```
