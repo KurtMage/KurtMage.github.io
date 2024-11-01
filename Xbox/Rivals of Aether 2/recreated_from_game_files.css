@@ -83,6 +83,10 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
 
 }
 
+.controller {
+    left: 100%;
+}
+
 .controller.fight-stick {
     /* background: url(https://imgur.com/AEMTeDY.png) center no-repeat; */
     background: transparent;
