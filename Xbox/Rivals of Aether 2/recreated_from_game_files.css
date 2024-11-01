@@ -94,15 +94,6 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
     width: 1500px;
 }
 
-.fight-stick.disconnected {
-    margin:auto;
-    width:100%;
-    height:50%;
-    background: url(https://imgur.com/oDdTc1t.png) no-repeat;
-    z-index: 2;
-    left:60%;
-}
-
 /* start/back */
 
 .fight-stick .back, .fight-stick .start {
@@ -724,4 +715,13 @@ background-size: auto;
 background-position: left top;
 background-repeat: no-repeat;
 z-index: -2;
+}
+
+.fight-stick.disconnected {
+    margin:auto;
+    width:100%;
+    height:50%;
+    background: url(https://imgur.com/oDdTc1t.png) no-repeat;
+    z-index: 2;
+    left:60%;
 }
