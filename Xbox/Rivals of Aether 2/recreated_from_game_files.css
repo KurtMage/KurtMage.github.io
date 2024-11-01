@@ -1,11 +1,10 @@
 body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
 
 :root {
-    --button-source-image: url(https://imgur.com/99JKpbg.png);
+    --button-source-image: url(https://imgur.com/I0F2FN2.png);
     --arrow-button-source-image: url(https://imgur.com/Fyp5PaG.png);
     --start-select-button-source-image: url(https://imgur.com/pie5Ptq.png);
-    --stick-source-image: url(https://imgur.com/Cdxibvo.png);
-    
+
     --a-top: 200px;
     --b-top: calc(var(--a-top) - var(--diag-vert-clearance));
     --x-top: calc(var(--a-top) - var(--vert-clearance));
@@ -99,7 +98,6 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
     width:50%;
     height:50%;
     background: url(https://imgur.com/oDdTc1t.png) no-repeat;
-    z-index: 2;
 }
 
 /* start/back */
@@ -304,47 +302,82 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
     display: none;
 }
 
-/* Stick */
-
 .fight-stick .fstick {
+    display: none;
+}
+
+/* Direction buttons */
+
+.fight-stick .face.up {
+    width: 150px;
+    height: 150px;
+    background: var(--up-arrow-source-image);
+    background-position: -450px 0px;
+    border-radius: 100%;
+    opacity: 1;
+    display: block;
+    position:absolute;
+    top: var(--dir-up-top);
+    left: var(--dir-up-left);
+}
+
+.fight-stick .face.up.pressed {
+    background-position: -450px -150px;
+}
+
+.fight-stick .face.right {
+    width: 150px;
+    height: 150px;
+    background: var(--right-arrow-source-image);
+    background-position: -300px 0px;
+    border-radius: 100%;
+    opacity: 1;
+    display: block;
     position: absolute;
-    left: 600px;
-    top: 150px;
-    width: 220px;
-    height: 220px;
-    background: var(--stick-source-image);
+    top: var(--dir-right-top);
+    left: var(--dir-right-left);
 }
 
-.fight-stick .fstick.up {
-    background-position-x: 100%;
+.fight-stick .face.right.pressed {
+    background-position: -300px -150px;
 }
 
-.fight-stick .fstick.down {
-    background-position-x: calc(4 * 100% / 8);
+.fight-stick .face.down {
+    width: 150px;
+    height: 150px;
+    background: var(--down-arrow-source-image);
+    background-position: -150px 0px;
+    border-radius: 100%;
+    opacity: 1;
+    display: block;
+    position: absolute;
+    top: var(--dir-down-top);
+    left: var(--dir-down-left);
 }
 
-.fight-stick .fstick.left {
-    background-position-x: calc(6 * 100% / 8);
+.fight-stick .face.down.pressed {
+    background-position: -150px -150px;
 }
 
-.fight-stick .fstick.right {
-    background-position-x: calc(2 * 100% / 8);
+.fight-stick .face.left {
+    width: 150px;
+    height: 150px;
+    background: var(--left-arrow-source-image);
+    background-position: 0px 0px;
+    border-radius: 100%;
+    opacity: 1;
+    display: block;
+    position: absolute;
+    top: var(--dir-left-top);
+    left: var(--dir-left-left);
 }
 
-.fight-stick .fstick.up.right {
-    background-position-x: calc(100% / 8);
+.fight-stick .face.left.pressed {
+    background-position: 0px -150px;
 }
 
-.fight-stick .fstick.up.left {
-    background-position-x: calc(7 * 100% / 8);
-}
-
-.fight-stick .fstick.down.right {
-    background-position-x: calc(3 * 100% / 8);
-}
-
-.fight-stick .fstick.down.left {
-    background-position-x: calc(5 * 100% / 8);
+.fight-stick .face.pressed {
+    transform: translateY(0px);
 }
 
 
