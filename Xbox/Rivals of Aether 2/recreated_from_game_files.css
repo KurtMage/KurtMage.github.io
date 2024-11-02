@@ -61,6 +61,10 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
     --dir-up-top: var(--dir-right-top);
     --dir-up-left: var(--dir-right-left);
 
+    /* Hidden flags */
+    --hidden-flag-start: true;
+    --hidden-flag-back: true;
+
     --vert-clearance: 160px;
     --diag-vert-clearance: 80px;
     --diag-horz-clearance: 140px;
