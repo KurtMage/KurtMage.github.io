@@ -2,21 +2,21 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
 
 :root {
     /* Arrow button image links */
-    --left-arrow-source-image: url("https://raw.githubusercontent.com/KurtMage/KurtMage.github.io/main/images/2XKO/arrows/left.png");
-    --down-arrow-source-image: url("https://raw.githubusercontent.com/KurtMage/KurtMage.github.io/main/images/RivalsOfAether/Xbox/menus_buttons_xbox_LSB_allGrey.png");
-    --right-arrow-source-image: url("https://raw.githubusercontent.com/KurtMage/KurtMage.github.io/main/images/2XKO/arrows/right.png");
-    --up-arrow-source-image: url("https://raw.githubusercontent.com/KurtMage/KurtMage.github.io/main/images/RivalsOfAether/Xbox/menus_buttons_xbox_LSB_allGrey.png");
+    --left-arrow-source-image: url("https://raw.githubusercontent.com/KurtMage/KurtMage.github.io/main/images/RivalsOfAether/Xbox/menus_buttons_xbox_LSB_allGrey.png");
+    --down-arrow-source-image: var(--left-arrow-source-image);
+    --right-arrow-source-image: var(--left-arrow-source-image);
+    --up-arrow-source-image: var(--left-arrow-source-image);
 
      /* Right side button image links */
-    --top-row-index-finger-button-source-image: url("https://raw.githubusercontent.com/KurtMage/KurtMage.github.io/main/images/2XKO/light\ mode/L.png");
-    --top-row-middle-finger-button-source-image: url("https://raw.githubusercontent.com/KurtMage/KurtMage.github.io/main/images/2XKO/light\ mode/M.png");
-    --top-row-ring-finger-button-source-image: url("https://raw.githubusercontent.com/KurtMage/KurtMage.github.io/main/images/2XKO/light\ mode/H.png");
-    --top-row-pinky-finger-button-source-image: url("https://raw.githubusercontent.com/KurtMage/KurtMage.github.io/main/images/2XKO/light%20mode/D%20button%20orange.png");
+    --top-row-index-finger-button-source-image: url("https://raw.githubusercontent.com/KurtMage/KurtMage.github.io/main/images/RivalsOfAether/Xbox/menus_buttons_xbox_X.png");
+    --top-row-middle-finger-button-source-image: url("https://raw.githubusercontent.com/KurtMage/KurtMage.github.io/main/images/RivalsOfAether/Xbox/menus_buttons_xbox_Y.png");
+    --top-row-ring-finger-button-source-image: url("https://raw.githubusercontent.com/KurtMage/KurtMage.github.io/main/images/RivalsOfAether/Xbox/menus_buttons_xbox_RB.png");
+    --top-row-pinky-finger-button-source-image: url("https://raw.githubusercontent.com/KurtMage/KurtMage.github.io/main/images/RivalsOfAether/Xbox/menus_buttons_xbox_LB.png");
     
-    --bot-row-index-finger-button-source-image: url("https://raw.githubusercontent.com/KurtMage/KurtMage.github.io/main/images/2XKO/light\ mode/S1.png");
-    --bot-row-middle-finger-button-source-image: url("https://raw.githubusercontent.com/KurtMage/KurtMage.github.io/main/images/2XKO/light\ mode/S2.png");
-    --bot-row-ring-finger-button-source-image: url("https://raw.githubusercontent.com/KurtMage/KurtMage.github.io/main/images/2XKO/light\ mode/T.png");
-    --bot-row-pinky-finger-button-source-image: url("https://raw.githubusercontent.com/KurtMage/KurtMage.github.io/main/images/2XKO/light\ mode/P.png");
+    --bot-row-index-finger-button-source-image: url("https://raw.githubusercontent.com/KurtMage/KurtMage.github.io/main/images/RivalsOfAether/Xbox/menus_buttons_xbox_A.png");
+    --bot-row-middle-finger-button-source-image: url("https://raw.githubusercontent.com/KurtMage/KurtMage.github.io/main/images/RivalsOfAether/Xbox/menus_buttons_xbox_B.png");
+    --bot-row-ring-finger-button-source-image: url("https://raw.githubusercontent.com/KurtMage/KurtMage.github.io/main/images/RivalsOfAether/Xbox/menus_buttons_xbox_RT.png");
+    --bot-row-pinky-finger-button-source-image: url("https://raw.githubusercontent.com/KurtMage/KurtMage.github.io/main/images/RivalsOfAether/Xbox/menus_buttons_xbox_LT.png");
 
     /* Start/back vars */
     --start-button-source-image: url("https://raw.githubusercontent.com/KurtMage/KurtMage.github.io/main/images/2XKO/light\ mode/start.png");
@@ -26,33 +26,34 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
     --ls-button-source-image: url("https://raw.githubusercontent.com/KurtMage/KurtMage.github.io/main/images/2XKO/light\ mode/start.png");
     --rs-button-source-image: url("https://raw.githubusercontent.com/KurtMage/KurtMage.github.io/main/images/2XKO/light\ mode/start.png");
 
+
     /* Location vars */
-    --a-top: 300px;
-    --b-top: calc(var(--a-top) - var(--diag-vert-clearance));
-    --x-top: calc(var(--a-top) - var(--vert-clearance));
-    --y-top: calc(var(--x-top) - var(--diag-vert-clearance));
-    --rb-top: calc(var(--y-top));
-    --lb-top: calc(var(--rb-top));
-    --rt-top: calc(var(--rb-top) + var(--vert-clearance));
-    --lt-top: var(--rt-top);
+    --a-top: 315px;
+    --b-top: 235px;
+    --x-top: 235px;
+    --y-top: 155px;
+    --rb-top: 55px;
+    --lb-top: 55px;
+    --rt-top: 25px;
+    --lt-top: 25px;
 
-    --a-left: 500px;
-    --b-left: calc(var(--a-left) + var(--diag-horz-clearance));
-    --x-left: var(--a-left);
-    --y-left: calc(var(--a-left) + var(--diag-horz-clearance));
-    --rb-left: calc(var(--y-left) + var(--horz-clearance));
-    --lb-left: calc(var(--rb-left) + var(--horz-clearance));
-    --rt-left: calc(var(--rb-left));
-    --lt-left: calc(var(--rt-left) + var(--horz-clearance));
+    --a-left: 415px;
+    --b-left: 500px;
+    --x-left: 335px;
+    --y-left: 415px;
+    --rb-left: 360px;
+    --lb-left: 165px;
+    --rt-left: 500px;
+    --lt-left: 25px;
 
-    --dir-right-top: calc(var(--x-top) + 75px);
-    --dir-right-left: calc(var(--x-left) - 150px);
-    --dir-down-top: calc(var(--dir-right-top) - var(--diag-vert-clearance));
-    --dir-down-left: calc(var(--dir-right-left) - var(--diag-horz-clearance));
-    --dir-left-top: var(--dir-down-top);
-    --dir-left-left: calc(var(--dir-down-left) - var(--horz-clearance));
-    --dir-up-top: calc(var(--dir-right-top) + 230px);
-    --dir-up-left: calc(var(--dir-right-left) + 75px);
+    --dir-right-top: 170px;
+    --dir-right-left: 65px;
+    --dir-down-top: 280px;
+    --dir-down-left: 190px;
+    --dir-left-top: var(--dir-right-top);
+    --dir-left-left: var(--dir-right-left);
+    --dir-up-top: var(--dir-right-top);
+    --dir-up-left: var(--dir-right-left);
 
     --vert-clearance: 160px;
     --diag-vert-clearance: 80px;
@@ -420,6 +421,7 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
     display: block;
     top: var(--dir-up-top);
     left: var(--dir-up-left);
+    z-index: -2;
 }
 
 .fight-stick .face.up.pressed {
@@ -437,6 +439,7 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
     display: block;
     top: var(--dir-right-top);
     left: var(--dir-right-left);
+    z-index: -2;
 }
 
 .fight-stick .face.right.pressed {
@@ -454,6 +457,7 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
     display: block;
     top: var(--dir-down-top);
     left: var(--dir-down-left);
+    z-index: -2;
 }
 
 .fight-stick .face.down.pressed {
@@ -471,6 +475,7 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
     display: block;
     top: var(--dir-left-top);
     left: var(--dir-left-left);
+    z-index: -2;
 }
 
 .fight-stick .face.left.pressed {
@@ -486,109 +491,6 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
 /*******************************************************************************/
 
 body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
-
-.fight-stick .x {
-top: 235px;
-left: 335px;
-background: rgba(0, 0, 0, 0) url("https://raw.githubusercontent.com/KurtMage/KurtMage.github.io/main/images/RivalsOfAether/Xbox/menus_buttons_xbox_X.png") repeat scroll 0% 0% / cover padding-box border-box;
-width: 150px;
-height: 150px;
-background-image: url("https://raw.githubusercontent.com/KurtMage/KurtMage.github.io/main/images/RivalsOfAether/Xbox/menus_buttons_xbox_X.png");
-background-repeat: repeat;
-}
-
-.fight-stick .y {
-top: 155px;
-left: 415px;
-background: rgba(0, 0, 0, 0) url("https://raw.githubusercontent.com/KurtMage/KurtMage.github.io/main/images/RivalsOfAether/Xbox/menus_buttons_xbox_Y.png") repeat scroll 0% 0% / cover padding-box border-box;
-width: 150px;
-height: 150px;
-background-image: url("https://raw.githubusercontent.com/KurtMage/KurtMage.github.io/main/images/RivalsOfAether/Xbox/menus_buttons_xbox_Y.png");
-background-repeat: repeat;
-}
-
-.fight-stick .a {
-top: 315px;
-left: 415px;
-background: rgba(0, 0, 0, 0) url("https://raw.githubusercontent.com/KurtMage/KurtMage.github.io/main/images/RivalsOfAether/Xbox/menus_buttons_xbox_A.png") repeat scroll 0% 0% / cover padding-box border-box;
-width: 150px;
-height: 150px;
-background-image: url("https://raw.githubusercontent.com/KurtMage/KurtMage.github.io/main/images/RivalsOfAether/Xbox/menus_buttons_xbox_A.png");
-background-repeat: repeat;
-}
-
-.fight-stick .b {
-top: 235px;
-left: 500px;
-background: rgba(0, 0, 0, 0) url("https://raw.githubusercontent.com/KurtMage/KurtMage.github.io/main/images/RivalsOfAether/Xbox/menus_buttons_xbox_B.png") repeat scroll 0% 0% / cover padding-box border-box;
-width: 150px;
-height: 150px;
-background-image: url("https://raw.githubusercontent.com/KurtMage/KurtMage.github.io/main/images/RivalsOfAether/Xbox/menus_buttons_xbox_B.png");
-background-repeat: repeat;
-}
-
-.fight-stick .bumper.right {
-top: 55px;
-left: 360px;
-background: rgba(0, 0, 0, 0) url("https://raw.githubusercontent.com/KurtMage/KurtMage.github.io/main/images/RivalsOfAether/Xbox/menus_buttons_xbox_RB.png") repeat scroll 0% 0% / cover padding-box border-box;
-width: 150px;
-height: 150px;
-background-image: url("https://raw.githubusercontent.com/KurtMage/KurtMage.github.io/main/images/RivalsOfAether/Xbox/menus_buttons_xbox_RB.png");
-background-repeat: repeat;
-}
-
-.fight-stick .bumper.left {
-top: 55px;
-left: 165px;
-background: rgba(0, 0, 0, 0) url("https://raw.githubusercontent.com/KurtMage/KurtMage.github.io/main/images/RivalsOfAether/Xbox/menus_buttons_xbox_LB.png") repeat scroll 0% 0% / cover padding-box border-box;
-width: 150px;
-height: 150px;
-background-image: url("https://raw.githubusercontent.com/KurtMage/KurtMage.github.io/main/images/RivalsOfAether/Xbox/menus_buttons_xbox_LB.png");
-background-repeat: repeat;
-}
-
-.fight-stick .trigger-button.right {
-top: 25px;
-left: 500px;
-background: rgba(0, 0, 0, 0) url("https://raw.githubusercontent.com/KurtMage/KurtMage.github.io/main/images/RivalsOfAether/Xbox/menus_buttons_xbox_RT.png") repeat scroll 0% 0% / cover padding-box border-box;
-width: 150px;
-height: 150px;
-background-image: url("https://raw.githubusercontent.com/KurtMage/KurtMage.github.io/main/images/RivalsOfAether/Xbox/menus_buttons_xbox_RT.png");
-background-repeat: repeat;
-}
-
-.fight-stick .trigger-button.left {
-top: 25px;
-left: 25px;
-background: rgba(0, 0, 0, 0) url("https://raw.githubusercontent.com/KurtMage/KurtMage.github.io/main/images/RivalsOfAether/Xbox/menus_buttons_xbox_LT.png") repeat scroll 0% 0% / cover padding-box border-box;
-width: 150px;
-height: 150px;
-background-image: url("https://raw.githubusercontent.com/KurtMage/KurtMage.github.io/main/images/RivalsOfAether/Xbox/menus_buttons_xbox_LT.png");
-background-repeat: repeat;
-}
-
-.fight-stick .face.left {
-visibility: hidden;
-width: 150px;
-height: 150px;
-background-repeat: repeat;
-}
-
-.fight-stick .face.down {
-top: 280px;
-left: 190px;
-width: 150px;
-height: 150px;
-background-repeat: repeat;
-    z-index: -2;
-}
-
-.fight-stick .face.right {
-visibility: hidden;
-width: 150px;
-height: 150px;
-background-repeat: repeat;
-}
 
 .fight-stick .face.up {
 width: 150px;
