@@ -3,9 +3,9 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
 :root {
     /* Arrow button image links */
     --left-arrow-source-image: url("https://raw.githubusercontent.com/KurtMage/KurtMage.github.io/main/images/2XKO/arrows/left.png");
-    --down-arrow-source-image: url("https://raw.githubusercontent.com/KurtMage/KurtMage.github.io/main/images/2XKO/arrows/down.png");
+    --down-arrow-source-image: url("https://raw.githubusercontent.com/KurtMage/KurtMage.github.io/main/images/RivalsOfAether/Xbox/menus_buttons_xbox_LSB_allGrey.png");
     --right-arrow-source-image: url("https://raw.githubusercontent.com/KurtMage/KurtMage.github.io/main/images/2XKO/arrows/right.png");
-    --up-arrow-source-image: url("https://raw.githubusercontent.com/KurtMage/KurtMage.github.io/main/images/2XKO/arrows/up.png");
+    --up-arrow-source-image: url("https://raw.githubusercontent.com/KurtMage/KurtMage.github.io/main/images/RivalsOfAether/Xbox/menus_buttons_xbox_LSB_allGrey.png");
 
      /* Right side button image links */
     --top-row-index-finger-button-source-image: url("https://raw.githubusercontent.com/KurtMage/KurtMage.github.io/main/images/2XKO/light\ mode/L.png");
@@ -481,7 +481,9 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
     transform: translateY(0px);
 }
 
-
+/*******************************************************************************/
+/* GENERATED WITH https://kurtmage.github.io/Controller-overlay-css-generator/ */
+/*******************************************************************************/
 
 body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
 
@@ -573,10 +575,12 @@ background-repeat: repeat;
 }
 
 .fight-stick .face.down {
-visibility: hidden;
+top: 280px;
+left: 190px;
 width: 150px;
 height: 150px;
 background-repeat: repeat;
+    z-index: -2;
 }
 
 .fight-stick .face.right {
@@ -587,10 +591,12 @@ background-repeat: repeat;
 }
 
 .fight-stick .face.up {
-visibility: hidden;
 width: 150px;
 height: 150px;
 background-repeat: repeat;
+top: 170px;
+left: 65px;
+    z-index: -2;
 }
 
 .fight-stick .start {
@@ -707,14 +713,6 @@ background-repeat: repeat;
 
 .fight-stick .fstick {
 background-repeat: repeat;
-}
-
-.controller.fight-stick {
-background-image: url("https://raw.githubusercontent.com/KurtMage/KurtMage.github.io/main/images/RivalsOfAether/Xbox/background sticks.png");
-background-size: auto;
-background-position: left top;
-background-repeat: no-repeat;
-z-index: -2;
 }
 
 .fight-stick.disconnected {
