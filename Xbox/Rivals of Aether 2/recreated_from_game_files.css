@@ -19,8 +19,8 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
     --bot-row-pinky-finger-button-source-image: url("https://raw.githubusercontent.com/KurtMage/KurtMage.github.io/main/images/RivalsOfAether/Xbox/menus_buttons_xbox_LT.png");
 
     /* Start/back vars */
-    --start-button-source-image: url("https://raw.githubusercontent.com/KurtMage/KurtMage.github.io/main/images/2XKO/light\ mode/start.png");
-    --back-button-source-image: url("https://raw.githubusercontent.com/KurtMage/KurtMage.github.io/main/images/2XKO/light\ mode/start.png");
+    --start-button-source-image: "";
+    --back-button-source-image: "";
 
     /* L3/R3 button vars */
     --ls-button-source-image: url("https://raw.githubusercontent.com/KurtMage/KurtMage.github.io/main/images/RivalsOfAether/Xbox/menus_buttons_xbox_LSB_white.png");
