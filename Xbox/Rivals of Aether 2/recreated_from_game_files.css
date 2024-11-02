@@ -61,9 +61,9 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
     --dir-up-top: var(--dir-right-top);
     --dir-up-left: var(--dir-right-left);
 
-    /* Hidden flags */
-    --hidden-flag-start: true;
-    --hidden-flag-back: true;
+    /* Visibility flags flags */
+    --visibility-start: hidden;
+    --visibility-back: hidden;
 
     --vert-clearance: 160px;
     --diag-vert-clearance: 80px;
@@ -124,6 +124,7 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
     border-radius: 0px;
     left: 335px;
     background-size: cover;
+    visibility: var(--visibility-back);
 }
 
 .fight-stick .start {
@@ -133,6 +134,7 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
     border-radius: 0px;
     left: 439px;
     background-size: cover;
+    visibility: var(--visibility-start);
 }
 
 .fight-stick .back.pressed, .fight-stick .start.pressed {
