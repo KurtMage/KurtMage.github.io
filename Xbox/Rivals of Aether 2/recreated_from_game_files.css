@@ -3,9 +3,9 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
 :root {
     /* Arrow button image links */
     --left-arrow-source-image: url("https://raw.githubusercontent.com/KurtMage/KurtMage.github.io/main/images/RivalsOfAether/Xbox/menus_buttons_xbox_LSB_allGrey.png");
-    --down-arrow-source-image: var(--left-arrow-source-image);
-    --right-arrow-source-image: var(--left-arrow-source-image);
-    --up-arrow-source-image: var(--left-arrow-source-image);
+    --down-arrow-source-image: url("https://raw.githubusercontent.com/KurtMage/KurtMage.github.io/main/images/RivalsOfAether/Xbox/menus_buttons_xbox_LSB_allGrey.png");
+    --right-arrow-source-image: url("https://raw.githubusercontent.com/KurtMage/KurtMage.github.io/main/images/RivalsOfAether/Xbox/menus_buttons_xbox_LSB_allGrey.png");
+    --up-arrow-source-image: url("https://raw.githubusercontent.com/KurtMage/KurtMage.github.io/main/images/RivalsOfAether/Xbox/menus_buttons_xbox_LSB_allGrey.png");
 
      /* Right side button image links */
     --top-row-index-finger-button-source-image: url("https://raw.githubusercontent.com/KurtMage/KurtMage.github.io/main/images/RivalsOfAether/Xbox/menus_buttons_xbox_X.png");
