@@ -26,7 +26,7 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
     --rs-button-source-image: url("https://raw.githubusercontent.com/KurtMage/KurtMage.github.io/main/images/2XKO/2025/Blank.png");
 
     /* Location vars */
-    --a-top: 300px;
+    --a-top: 375px;
     --b-top: calc(var(--a-top) - var(--diag-vert-clearance));
     --x-top: calc(var(--a-top) - var(--vert-clearance));
     --y-top: calc(var(--x-top) - var(--diag-vert-clearance));
