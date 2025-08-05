@@ -38,7 +38,7 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
     --back-top: calc(var(--x-top));
     --ls-top: calc(var(--a-top) + 100px);
     --rs-top: calc(var(--a-top) + 100px);
-    --a-left: 500px;
+    --a-left: 575px;
     --b-left: calc(var(--a-left) + var(--diag-horz-clearance));
     --x-left: var(--a-left);
     --y-left: calc(var(--a-left) + var(--diag-horz-clearance));
