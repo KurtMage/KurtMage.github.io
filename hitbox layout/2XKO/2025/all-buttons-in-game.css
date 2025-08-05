@@ -26,6 +26,10 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
     --rs-button-source-image: url("https://raw.githubusercontent.com/KurtMage/KurtMage.github.io/main/images/2XKO/2025/Blank.png");
 
     /* Location vars */
+    --vert-clearance: 160px;
+    --diag-vert-clearance: 80px;
+    --diag-horz-clearance: 140px;
+    --horz-clearance: var(--vert-clearance);
     --a-top: 375px;
     --b-top: calc(var(--a-top) - var(--diag-vert-clearance));
     --x-top: calc(var(--a-top) - var(--vert-clearance));
@@ -58,10 +62,7 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
     --dir-left-left: calc(var(--dir-down-left) - var(--horz-clearance));
     --dir-up-top: calc(var(--dir-right-top) + 230px);
     --dir-up-left: calc(var(--dir-right-left) + 75px);
-    --vert-clearance: 160px;
-    --diag-vert-clearance: 80px;
-    --diag-horz-clearance: 140px;
-    --horz-clearance: var(--vert-clearance);
+
     --top-row-index-button-row: 0;
     --top-row-index-button-col: 0;
     --top-row-index-finger-button-row: 0;
