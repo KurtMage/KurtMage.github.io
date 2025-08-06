@@ -1,3 +1,5 @@
+@import url("../arcade-buttons.css");
+
 :root {
     /* Arrow button image links */
     --left-arrow-source-image: url(https://raw.githubusercontent.com/KurtMage/KurtMage.github.io/main/images/arcade%20buttons/3ddarkerGrey.png);
@@ -65,5 +67,3 @@
     --diag-horz-clearance: 140px;
     --horz-clearance: var(--vert-clearance);
 }
-
-@import url(https://raw.githubusercontent.com/KurtMage/KurtMage.github.io/refs/heads/main/hitbox%20layout/2XKO/arcade-buttons.css);
