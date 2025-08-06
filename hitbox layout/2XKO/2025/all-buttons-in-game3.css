@@ -83,7 +83,7 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
 
 /* Properties for all buttons */
 
-.fight-stick .back, .fight-stick .start, .fight-stick .a, .fight-stick .b, .fight-stick .x, .fight-stick .y, , .fight-stick .bumper.right, .fight-stick .bumper.left, .fight-stick .trigger-button.right, .fight-stick .trigger-button.left, .fight-stick .stick.right, .fight-stick .stick.left, .fight-stick .face.up, .fight-stick .face.right, .fight-stick .face.down, .fight-stick .face.left {
+.fight-stick .back, .fight-stick .start, .fight-stick .a, .fight-stick .b, .fight-stick .x, .fight-stick .y, .fight-stick .bumper.right, .fight-stick .bumper.left, .fight-stick .trigger-button.right, .fight-stick .trigger-button.left, .fight-stick .stick.right, .fight-stick .stick.left, .fight-stick .face.up, .fight-stick .face.right, .fight-stick .face.down, .fight-stick .face.left {
     background-size: cover;
     background-repeat: repeat;
     background-color: transparent;
@@ -92,7 +92,7 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
     translate: -50% -50%;
 }
 
-.fight-stick .back.pressed, .fight-stick .start.pressed, .fight-stick .a.pressed, .fight-stick .b.pressed, .fight-stick .x.pressed, .fight-stick .y.pressed, , .fight-stick .bumper.right.pressed, .fight-stick .bumper.left.pressed, .fight-stick .trigger-button.right.pressed, .fight-stick .trigger-button.left.pressed, .fight-stick .stick.right.pressed, .fight-stick .stick.left.pressed, .fight-stick .face.up.pressed, .fight-stick .face.right.pressed, .fight-stick .face.down.pressed, .fight-stick .face.left.pressed {
+.fight-stick .back.pressed, .fight-stick .start.pressed, .fight-stick .a.pressed, .fight-stick .b.pressed, .fight-stick .x.pressed, .fight-stick .y.pressed, .fight-stick .bumper.right.pressed, .fight-stick .bumper.left.pressed, .fight-stick .trigger-button.right.pressed, .fight-stick .trigger-button.left.pressed, .fight-stick .stick.right.pressed, .fight-stick .stick.left.pressed, .fight-stick .face.up.pressed, .fight-stick .face.right.pressed, .fight-stick .face.down.pressed, .fight-stick .face.left.pressed {
     -webkit-filter: brightness(100%) invert(0);
     background-position-y: 100%;
 }
