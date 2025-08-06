@@ -47,8 +47,8 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
     --lb-left: calc(var(--rb-left) + var(--horz-clearance));
     --rt-left: calc(var(--rb-left));
     --lt-left: calc(var(--rt-left) + var(--horz-clearance));
-    --start-left: calc(var(--x-left) - 193px);
-    --back-left: calc(var(--start-left) + 104px);
+    --start-left: calc(var(--x-left) - 91px);
+    --back-left: calc(var(--start-left) - 104px);
     --ls-left: calc(var(--a-left) - 280px);
     --rs-left: calc(calc(var(--a-left) + 130px));
     
