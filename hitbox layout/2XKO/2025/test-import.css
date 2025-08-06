@@ -1,30 +1,29 @@
-@import url("../arcade-buttons.css");
+@import url("../../../arcade-buttons.css");
 
 :root {
     /* Arrow button image links */
-    --left-arrow-source-image: url(https://raw.githubusercontent.com/KurtMage/KurtMage.github.io/main/images/2XKO/2025/Arrow Left.png);
-    --down-arrow-source-image: url(https://raw.githubusercontent.com/KurtMage/KurtMage.github.io/main/images/arcade%20buttons/3ddarkerGrey.png);
-    --right-arrow-source-image: url(https://raw.githubusercontent.com/KurtMage/KurtMage.github.io/main/images/arcade%20buttons/3ddarkerGrey.png);
-    --up-arrow-source-image: url(https://raw.githubusercontent.com/KurtMage/KurtMage.github.io/main/images/arcade%20buttons/3ddarkerGrey.png);
+    --left-arrow-source-image: url("https://raw.githubusercontent.com/KurtMage/KurtMage.github.io/main/images/2XKO/2025/Arrow Left.png");
+    --down-arrow-source-image: url("https://raw.githubusercontent.com/KurtMage/KurtMage.github.io/main/images/2XKO/2025/Arrow Down.png");
+    --right-arrow-source-image: url("https://raw.githubusercontent.com/KurtMage/KurtMage.github.io/main/images/2XKO/2025/Arrow Right.png");
+    --up-arrow-source-image: url("https://raw.githubusercontent.com/KurtMage/KurtMage.github.io/main/images/2XKO/2025/Arrow Up.png");
 
      /* Right side button image links */
-    --top-row-index-finger-button-source-image: url(https://raw.githubusercontent.com/KurtMage/KurtMage.github.io/main/images/2XKO/2025/L.png);
-    --top-row-middle-finger-button-source-image: url(https://raw.githubusercontent.com/KurtMage/KurtMage.github.io/main/images/arcade%20buttons/3d2xkoM.png);
-    --top-row-ring-finger-button-source-image: url(https://raw.githubusercontent.com/KurtMage/KurtMage.github.io/main/images/arcade%20buttons/3d2xkoH.png);
-    --top-row-pinky-finger-button-source-image: url(https://raw.githubusercontent.com/KurtMage/KurtMage.github.io/main/images/arcade%20buttons/3ddarkerGrey.png);
-    
-    --bot-row-index-finger-button-source-image: url(https://raw.githubusercontent.com/KurtMage/KurtMage.github.io/main/images/arcade%20buttons/3d2xkoS1.png);
-    --bot-row-middle-finger-button-source-image: url(https://raw.githubusercontent.com/KurtMage/KurtMage.github.io/main/images/arcade%20buttons/3d2xkoS2.png);
-    --bot-row-ring-finger-button-source-image: url(https://raw.githubusercontent.com/KurtMage/KurtMage.github.io/main/images/arcade%20buttons/3d2xkoT.png);
-    --bot-row-pinky-finger-button-source-image: url(https://raw.githubusercontent.com/KurtMage/KurtMage.github.io/main/images/arcade%20buttons/3ddarkerGrey.png);
+    --top-row-index-finger-button-source-image: url("https://raw.githubusercontent.com/KurtMage/KurtMage.github.io/main/images/2XKO/2025/L.png");
+    --top-row-middle-finger-button-source-image: url("https://raw.githubusercontent.com/KurtMage/KurtMage.github.io/main/images/2XKO/2025/M.png");
+    --top-row-ring-finger-button-source-image: url("https://raw.githubusercontent.com/KurtMage/KurtMage.github.io/main/images/2XKO/2025/H.png");
+    --top-row-pinky-finger-button-source-image: url("https://raw.githubusercontent.com/KurtMage/KurtMage.github.io/main/images/2XKO/2025/D.png");
+    --bot-row-index-finger-button-source-image: url("https://raw.githubusercontent.com/KurtMage/KurtMage.github.io/main/images/2XKO/2025/S1.png");
+    --bot-row-middle-finger-button-source-image: url("https://raw.githubusercontent.com/KurtMage/KurtMage.github.io/main/images/2XKO/2025/S2.png");
+    --bot-row-ring-finger-button-source-image: url("https://raw.githubusercontent.com/KurtMage/KurtMage.github.io/main/images/2XKO/2025/T.png");
+    --bot-row-pinky-finger-button-source-image: url("https://raw.githubusercontent.com/KurtMage/KurtMage.github.io/main/images/2XKO/2025/P white borderd.png");
 
     /* Start/back vars */
-    --start-button-source-image: url(https://raw.githubusercontent.com/KurtMage/KurtMage.github.io/main/images/arcade%20buttons/3ddarkerGrey.png);
-    --back-button-source-image: url(https://raw.githubusercontent.com/KurtMage/KurtMage.github.io/main/images/arcade%20buttons/3ddarkerGrey.png);
+    --start-button-source-image: url("https://raw.githubusercontent.com/KurtMage/KurtMage.github.io/main/images/2XKO/2025/Blank.png");
+    --back-button-source-image: url("https://raw.githubusercontent.com/KurtMage/KurtMage.github.io/main/images/2XKO/2025/Blank.png");
 
     /* L3/R3 button vars */
-    --ls-button-source-image: url(https://raw.githubusercontent.com/KurtMage/KurtMage.github.io/main/images/arcade%20buttons/3ddarkerGrey.png);
-    --rs-button-source-image: url(https://raw.githubusercontent.com/KurtMage/KurtMage.github.io/main/images/arcade%20buttons/3ddarkerGrey.png);
+    --ls-button-source-image: url("https://raw.githubusercontent.com/KurtMage/KurtMage.github.io/main/images/2XKO/2025/Blank.png");
+    --rs-button-source-image: url("https://raw.githubusercontent.com/KurtMage/KurtMage.github.io/main/images/2XKO/2025/Blank.png");
 
     /* Location vars */
     --a-top: 375px;
