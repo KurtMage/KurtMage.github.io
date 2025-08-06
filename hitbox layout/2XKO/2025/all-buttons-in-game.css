@@ -35,7 +35,7 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
     --rt-top: calc(var(--rb-top) + var(--vert-clearance));
     --lt-top: var(--rt-top);
     --start-top: calc(var(--x-top) - 95px);
-    --back-top: calc(var(--x-top));
+    --back-top: calc(var(--start-top));
     --ls-top: calc(var(--a-top) + 100px);
     --rs-top: calc(var(--a-top) + 100px);
     
@@ -106,7 +106,6 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
     position: fixed;
     width: 100px;
     height: 100px;
-    top: var(--start-top);
     display: block;
     border-radius: 0%;
     background-repeat: repeat;
@@ -118,6 +117,7 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
     background-repeat: repeat;
     background-color: transparent;
     border-radius: 0px;
+    top: var(--back-top);
     left: var(--back-left);
     background-size: cover;
 }
@@ -127,7 +127,8 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
     background-repeat: repeat;
     background-color: transparent;
     border-radius: 0px;
-    left: var(--start-left);
+    top: var(--start-top);
+    left: var(--start-left);    
     background-size: cover;
 }
 
@@ -165,13 +166,9 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
     border-radius: 0px;
     top: var(--a-top);
     left: var(--a-left);
-    --row: var(--bot-row-index-finger-button-row);
-    --col: var(--bot-row-index-finger-button-col);
 }
 
 .fight-stick .a.pressed {
-    --row: var(--bot-row-index-finger-button-row);
-    --col: var(--bot-row-index-finger-button-col);
     background-position-y: 100%;
 }
 
@@ -182,14 +179,10 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
     border-radius: 0px;
     top: var(--b-top);
     left: var(--b-left);
-    --row: var(--bot-row-middle-finger-button-row);
-    --col: var(--bot-row-middle-finger-button-col);
 }
 
 
 .fight-stick .b.pressed {
-    --row: var(--bot-row-middle-finger-button-row);
-    --col: var(--bot-row-middle-finger-button-col);
     background-position-y: 100%;
 }
 
@@ -200,13 +193,9 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
     border-radius: 0px;
     top: var(--x-top);
     left: var(--x-left);
-    --row: var(--top-row-index-finger-button-row);
-    --col: var(--top-row-index-finger-button-col);
 }
 
 .fight-stick .x.pressed {
-    --row: var(--top-row-index-finger-button-row);
-    --col: var(--top-row-index-finger-button-col);
     background-position-y: 100%;
 }
 
@@ -217,13 +206,9 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
     border-radius: 0px;
     top: var(--y-top);
     left: var(--y-left);
-    --row: var(--top-row-middle-finger-button-row);
-    --col: var(--top-row-middle-finger-button-col);
 }
 
 .fight-stick .y.pressed {
-    --row: var(--top-row-middle-finger-button-row);
-    --col: var(--top-row-middle-finger-button-col);
     background-position-y: 100%;
 }
 
@@ -253,13 +238,9 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
     border-radius: 0px;
     top: var(--rb-top);
     left: var(--rb-left);
-    --row: var(--top-row-ring-finger-button-row);
-    --col: var(--top-row-ring-finger-button-col);
 }
 
 .fight-stick .bumper.right.pressed {
-    --row: var(--top-row-ring-finger-button-row);
-    --col: var(--top-row-ring-finger-button-col);
     background-position-y: 100%;
 }
 
