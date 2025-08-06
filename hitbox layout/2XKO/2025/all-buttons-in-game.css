@@ -42,6 +42,7 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
     --back-top: calc(var(--x-top));
     --ls-top: calc(var(--a-top) + 100px);
     --rs-top: calc(var(--a-top) + 100px);
+    
     --a-left: 575px;
     --b-left: calc(var(--a-left) + var(--diag-horz-clearance));
     --x-left: var(--a-left);
@@ -54,6 +55,7 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
     --back-left: calc(var(--start-left) + 104px);
     --ls-left: calc(var(--a-left) - 280px);
     --rs-left: calc(calc(var(--a-left) + 130px));
+    
     --dir-right-top: calc(var(--x-top) + 75px);
     --dir-right-left: calc(var(--x-left) - 150px);
     --dir-down-top: calc(var(--dir-right-top) - var(--diag-vert-clearance));
@@ -62,6 +64,10 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
     --dir-left-left: calc(var(--dir-down-left) - var(--horz-clearance));
     --dir-up-top: calc(var(--dir-right-top) + 230px);
     --dir-up-left: calc(var(--dir-right-left) + 75px);
+
+    --vert-clearance: 160px;
+    --diag-vert-clearance: 80px;
+    --diag-horz-clearance: 140px;
 
     --top-row-index-button-row: 0;
     --top-row-index-button-col: 0;
