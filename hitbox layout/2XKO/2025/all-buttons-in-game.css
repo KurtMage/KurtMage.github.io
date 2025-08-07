@@ -1,4 +1,4 @@
-body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
+@import url("https://kurtmage.github.io/hitbox%20layout/base-hitbox-layout-grey-buttons3.css");
 
 :root {
     /* Arrow button image links */
@@ -12,6 +12,7 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
     --top-row-middle-finger-button-source-image: url("https://raw.githubusercontent.com/KurtMage/KurtMage.github.io/main/images/2XKO/2025/M.png");
     --top-row-ring-finger-button-source-image: url("https://raw.githubusercontent.com/KurtMage/KurtMage.github.io/main/images/2XKO/2025/H.png");
     --top-row-pinky-finger-button-source-image: url("https://raw.githubusercontent.com/KurtMage/KurtMage.github.io/main/images/2XKO/2025/D.png");
+  
     --bot-row-index-finger-button-source-image: url("https://raw.githubusercontent.com/KurtMage/KurtMage.github.io/main/images/2XKO/2025/S1.png");
     --bot-row-middle-finger-button-source-image: url("https://raw.githubusercontent.com/KurtMage/KurtMage.github.io/main/images/2XKO/2025/S2.png");
     --bot-row-ring-finger-button-source-image: url("https://raw.githubusercontent.com/KurtMage/KurtMage.github.io/main/images/2XKO/2025/T.png");
@@ -24,6 +25,9 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
     /* L3/R3 button vars */
     --ls-button-source-image: url("https://raw.githubusercontent.com/KurtMage/KurtMage.github.io/main/images/2XKO/2025/Blank.png");
     --rs-button-source-image: url("https://raw.githubusercontent.com/KurtMage/KurtMage.github.io/main/images/2XKO/2025/Blank.png");
+
+    /* Stick vars */
+    --fstick-source-image: url(https://imgur.com/Cdxibvo.png);
 
     /* Location vars */
     --a-top: 375px;
@@ -93,6 +97,11 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
 }
 
 .fight-stick .back.pressed, .fight-stick .start.pressed, .fight-stick .a.pressed, .fight-stick .b.pressed, .fight-stick .x.pressed, .fight-stick .y.pressed, .fight-stick .bumper.right.pressed, .fight-stick .bumper.left.pressed, .fight-stick .trigger-button.right.pressed, .fight-stick .trigger-button.left.pressed, .fight-stick .stick.right.pressed, .fight-stick .stick.left.pressed, .fight-stick .face.up.pressed, .fight-stick .face.right.pressed, .fight-stick .face.down.pressed, .fight-stick .face.left.pressed {
+    background-size: cover;
+    background-repeat: repeat;
+    background-color: transparent;
+    border-radius: 0%;
+    translate: -50% -50%;  
     -webkit-filter: brightness(100%) invert(0);
     background-position-y: 100%;
 }
@@ -118,8 +127,6 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
 }
 
 .fight-stick .back.pressed, .fight-stick .start.pressed {
-    width:130px;
-    height:130px;
 }
 
 /* Face buttons */
@@ -131,8 +138,6 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
 }
 
 .fight-stick .a.pressed, .fight-stick .b.pressed, .fight-stick .x.pressed, .fight-stick .y.pressed {
-    width: 200px;
-    height: 200px;
 }
 
 .fight-stick .a {
@@ -181,8 +186,6 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
 }
 
 .fight-stick .bumper.right.pressed, .fight-stick .bumper.left.pressed {
-    width: 200px;
-    height: 200px;
 }
 
 .fight-stick .bumper.right {
@@ -212,8 +215,6 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
 }
 
 .fight-stick .trigger-button.right.pressed, .fight-stick .trigger-button.left.pressed {
-    width: 200px;
-    height: 200px;
 }
 
 .fight-stick .trigger-button.right {
@@ -243,8 +244,6 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
 }
 
 .fight-stick .stick.right.pressed, .fight-stick .stick.left.pressed {
-    width: 200px;
-    height: 200px;
 }
 
 .fight-stick .stick.right {
@@ -353,6 +352,4 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
 }
 
 .fight-stick .face.up.pressed, .fight-stick .face.right.pressed, .fight-stick .face.down.pressed, .fight-stick .face.left.pressed {
-    width: 200px;
-    height: 200px;
 }
