@@ -100,7 +100,6 @@
     background-size: cover;
     background-repeat: repeat;
     background-color: transparent;
-    display: block;
     border-radius: 0%;
     translate: -50% -50%;  
     -webkit-filter: brightness(100%) invert(0);
