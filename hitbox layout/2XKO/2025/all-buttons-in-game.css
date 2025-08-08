@@ -92,6 +92,7 @@
     display: block;
     border-radius: 0%;
     translate: -50% -50%;
+    box-sizing: border-box;
 }
 
 .fight-stick .back.pressed, .fight-stick .start.pressed, .fight-stick .a.pressed, .fight-stick .b.pressed, .fight-stick .x.pressed, .fight-stick .y.pressed, .fight-stick .bumper.right.pressed, .fight-stick .bumper.left.pressed, .fight-stick .trigger-button.right.pressed, .fight-stick .trigger-button.left.pressed, .fight-stick .stick.right.pressed, .fight-stick .stick.left.pressed, .fight-stick .face.up.pressed, .fight-stick .face.right.pressed, .fight-stick .face.down.pressed, .fight-stick .face.left.pressed {
@@ -102,6 +103,7 @@
     translate: -50% -50%;  
     -webkit-filter: brightness(100%) invert(0);
     background-position-y: 100%;
+    box-sizing: border-box;
 }
 
 /* start/back */
