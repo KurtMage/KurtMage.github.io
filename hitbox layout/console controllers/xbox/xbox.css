@@ -1,5 +1,3 @@
-@import url("../../base-hitbox-layout-grey-buttons.css");
-
 :root {
     /* Arrow button image links */
     --left-arrow-source-image: url(https://raw.githubusercontent.com/KurtMage/KurtMage.github.io/main/images/Console%20controllers/xbox/xbox%20left.png);
@@ -87,23 +85,167 @@
 
 /* Properties for all buttons */
 
-.fight-stick .back, .fight-stick .start, .fight-stick .a, .fight-stick .b, .fight-stick .x, .fight-stick .y, .fight-stick .bumper.right, .fight-stick .bumper.left, .fight-stick .trigger-button.right, .fight-stick .trigger-button.left, .fight-stick .stick.right, .fight-stick .stick.left, .fight-stick .face.up, .fight-stick .face.right, .fight-stick .face.down, .fight-stick .face.left {
-    background-size: cover;
-    background-repeat: repeat;
-    background-color: transparent;
-    display: block;
-    border-radius: 0%;
-    translate: -50% -50%;
+.fight-stick .back,
+.fight-stick .start,
+.fight-stick .a,
+.fight-stick .b,
+.fight-stick .x,
+.fight-stick .y,
+.fight-stick .bumper.right,
+.fight-stick .bumper.left,
+.fight-stick .trigger-button.right,
+.fight-stick .trigger-button.left,
+.fight-stick .stick.right,
+.fight-stick .stick.left,
+.fight-stick .face.up,
+.fight-stick .face.right,
+.fight-stick .face.down,
+.fight-stick .face.left {
+  background-size: cover;
+  background-repeat: repeat;
+  background-color: transparent;
+  display: block;
+  border-radius: 0%;
+  translate: -50% -50%;
+  box-sizing: border-box;
 }
 
-.fight-stick .back.pressed, .fight-stick .start.pressed, .fight-stick .a.pressed, .fight-stick .b.pressed, .fight-stick .x.pressed, .fight-stick .y.pressed, .fight-stick .bumper.right.pressed, .fight-stick .bumper.left.pressed, .fight-stick .trigger-button.right.pressed, .fight-stick .trigger-button.left.pressed, .fight-stick .stick.right.pressed, .fight-stick .stick.left.pressed, .fight-stick .face.up.pressed, .fight-stick .face.right.pressed, .fight-stick .face.down.pressed, .fight-stick .face.left.pressed {
-    background-size: cover;
-    background-repeat: repeat;
-    background-color: transparent;
-    border-radius: 0%;
-    translate: -50% -50%;  
-    -webkit-filter: brightness(100%) invert(0);
-    background-position-y: 100%;
+.fight-stick .back.pressed,
+.fight-stick .start.pressed,
+.fight-stick .a.pressed,
+.fight-stick .b.pressed,
+.fight-stick .x.pressed,
+.fight-stick .y.pressed,
+.fight-stick .bumper.right.pressed,
+.fight-stick .bumper.left.pressed,
+.fight-stick .trigger-button.right.pressed,
+.fight-stick .trigger-button.left.pressed,
+.fight-stick .stick.right.pressed,
+.fight-stick .stick.left.pressed,
+.fight-stick .face.up.pressed,
+.fight-stick .face.right.pressed,
+.fight-stick .face.down.pressed,
+.fight-stick .face.left.pressed {
+  background-size: cover;
+  background-repeat: repeat;
+  background-color: transparent;
+  border-radius: 0%;
+  translate: -50% -50%;
+  -webkit-filter: brightness(100%) invert(0);
+  background-position-y: 100%;
+  box-sizing: border-box;
+}
+
+
+
+.fight-stick .back::before,
+.fight-stick .start::before,
+.fight-stick .a::before,
+.fight-stick .b::before,
+.fight-stick .x::before,
+.fight-stick .y::before,
+.fight-stick .bumper.right::before,
+.fight-stick .bumper.left::before,
+.fight-stick .trigger-button.right::before,
+.fight-stick .trigger-button.left::before,
+.fight-stick .stick.right::before,
+.fight-stick .stick.left::before,
+.fight-stick .face.up::before,
+.fight-stick .face.right::before,
+.fight-stick .face.down::before,
+.fight-stick .face.left::before,
+.fight-stick .back.pressed::before,
+.fight-stick .start.pressed::before,
+.fight-stick .a.pressed::before,
+.fight-stick .b.pressed::before,
+.fight-stick .x.pressed::before,
+.fight-stick .y.pressed::before,
+.fight-stick .bumper.right.pressed::before,
+.fight-stick .bumper.left.pressed::before,
+.fight-stick .trigger-button.right.pressed::before,
+.fight-stick .trigger-button.left.pressed::before,
+.fight-stick .stick.right.pressed::before,
+.fight-stick .stick.left.pressed::before,
+.fight-stick .face.up.pressed::before,
+.fight-stick .face.right.pressed::before,
+.fight-stick .face.down.pressed::before,
+.fight-stick .face.left.pressed::before,
+.fight-stick .back::after,
+.fight-stick .start::after,
+.fight-stick .a::after,
+.fight-stick .b::after,
+.fight-stick .x::after,
+.fight-stick .y::after,
+.fight-stick .bumper.right::after,
+.fight-stick .bumper.left::after,
+.fight-stick .trigger-button.right::after,
+.fight-stick .trigger-button.left::after,
+.fight-stick .stick.right::after,
+.fight-stick .stick.left::after,
+.fight-stick .face.up::after,
+.fight-stick .face.right::after,
+.fight-stick .face.down::after,
+.fight-stick .face.left::after,
+.fight-stick .back.pressed::after,
+.fight-stick .start.pressed::after,
+.fight-stick .a.pressed::after,
+.fight-stick .b.pressed::after,
+.fight-stick .x.pressed::after,
+.fight-stick .y.pressed::after,
+.fight-stick .bumper.right.pressed::after,
+.fight-stick .bumper.left.pressed::after,
+.fight-stick .trigger-button.right.pressed::after,
+.fight-stick .trigger-button.left.pressed::after,
+.fight-stick .stick.right.pressed::after,
+.fight-stick .stick.left.pressed::after,
+.fight-stick .face.up.pressed::after,
+.fight-stick .face.right.pressed::after,
+.fight-stick .face.down.pressed::after,
+.fight-stick .face.left.pressed::after {
+  color: var(--text-color);
+  font-size: var(--text-font-size);
+  content: var(--text-content);
+  font-family: var(--text-font-family);
+  translate: -50% -50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
+.fight-stick .back::before,
+.fight-stick .start::before,
+.fight-stick .a::before,
+.fight-stick .b::before,
+.fight-stick .x::before,
+.fight-stick .y::before,
+.fight-stick .bumper.right::before,
+.fight-stick .bumper.left::before,
+.fight-stick .trigger-button.right::before,
+.fight-stick .trigger-button.left::before,
+.fight-stick .stick.right::before,
+.fight-stick .stick.left::before,
+.fight-stick .face.up::before,
+.fight-stick .face.right::before,
+.fight-stick .face.down::before,
+.fight-stick .face.left::before,
+.fight-stick .back.pressed::before,
+.fight-stick .start.pressed::before,
+.fight-stick .a.pressed::before,
+.fight-stick .b.pressed::before,
+.fight-stick .x.pressed::before,
+.fight-stick .y.pressed::before,
+.fight-stick .bumper.right.pressed::before,
+.fight-stick .bumper.left.pressed::before,
+.fight-stick .trigger-button.right.pressed::before,
+.fight-stick .trigger-button.left.pressed::before,
+.fight-stick .stick.right.pressed::before,
+.fight-stick .stick.left.pressed::before,
+.fight-stick .face.up.pressed::before,
+.fight-stick .face.right.pressed::before,
+.fight-stick .face.down.pressed::before,
+.fight-stick .face.left.pressed::before {
+  -webkit-text-stroke-color: var(--text-stroke-color);
+  -webkit-text-stroke-width: var(--text-stroke-width);
 }
 
 /* start/back */
