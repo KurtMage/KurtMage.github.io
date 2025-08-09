@@ -1,0 +1,497 @@
+:root {
+    /* Arrow button image links */
+    --left-arrow-source-image: url("https://raw.githubusercontent.com/KurtMage/KurtMage.github.io/main/images/2XKO/2025/Arrow Left.png");
+    --down-arrow-source-image: url("https://raw.githubusercontent.com/KurtMage/KurtMage.github.io/main/images/2XKO/2025/Arrow Down.png");
+    --right-arrow-source-image: url("https://raw.githubusercontent.com/KurtMage/KurtMage.github.io/main/images/2XKO/2025/Arrow Right.png");
+    --up-arrow-source-image: url("https://raw.githubusercontent.com/KurtMage/KurtMage.github.io/main/images/2XKO/2025/Arrow Up.png");
+
+     /* Right side button image links */
+    --top-row-index-finger-button-source-image: url("https://raw.githubusercontent.com/KurtMage/KurtMage.github.io/main/images/2XKO/2025/L.png");
+    --top-row-middle-finger-button-source-image: url("https://raw.githubusercontent.com/KurtMage/KurtMage.github.io/main/images/2XKO/2025/M.png");
+    --top-row-ring-finger-button-source-image: url("https://raw.githubusercontent.com/KurtMage/KurtMage.github.io/main/images/2XKO/2025/H.png");
+    --top-row-pinky-finger-button-source-image: url("https://raw.githubusercontent.com/KurtMage/KurtMage.github.io/main/images/2XKO/2025/D.png");
+  
+    --bot-row-index-finger-button-source-image: url("https://raw.githubusercontent.com/KurtMage/KurtMage.github.io/main/images/2XKO/2025/S1.png");
+    --bot-row-middle-finger-button-source-image: url("https://raw.githubusercontent.com/KurtMage/KurtMage.github.io/main/images/2XKO/2025/S2.png");
+    --bot-row-ring-finger-button-source-image: url("https://raw.githubusercontent.com/KurtMage/KurtMage.github.io/main/images/2XKO/2025/T.png");
+    --bot-row-pinky-finger-button-source-image: url("https://raw.githubusercontent.com/KurtMage/KurtMage.github.io/main/images/2XKO/2025/P white borderd.png");
+
+    /* Start/back vars */
+    --start-button-source-image: url("https://raw.githubusercontent.com/KurtMage/KurtMage.github.io/main/images/2XKO/2025/Blank.png");
+    --back-button-source-image: url("https://raw.githubusercontent.com/KurtMage/KurtMage.github.io/main/images/2XKO/2025/Blank.png");
+
+    /* L3/R3 button vars */
+    --ls-button-source-image: url("https://raw.githubusercontent.com/KurtMage/KurtMage.github.io/main/images/2XKO/2025/Blank.png");
+    --rs-button-source-image: url("https://raw.githubusercontent.com/KurtMage/KurtMage.github.io/main/images/2XKO/2025/Blank.png");
+
+    /* Stick vars */
+    --fstick-source-image: url(https://imgur.com/Cdxibvo.png);
+
+    /* Location vars */
+    --a-top: 375px;
+    --b-top: calc(var(--a-top) - var(--diag-vert-clearance));
+    --x-top: calc(var(--a-top) - var(--vert-clearance));
+    --y-top: calc(var(--x-top) - var(--diag-vert-clearance));
+    --rb-top: calc(var(--y-top));
+    --lb-top: calc(var(--rb-top));
+    --rt-top: calc(var(--rb-top) + var(--vert-clearance));
+    --lt-top: var(--rt-top);
+    --start-top: calc(var(--x-top) - 95px);
+    --back-top: calc(var(--start-top));
+    --ls-top: calc(var(--a-top) + 100px);
+    --rs-top: calc(var(--a-top) + 100px);
+    
+    --a-left: 575px;
+    --b-left: calc(var(--a-left) + var(--diag-horz-clearance));
+    --x-left: var(--a-left);
+    --y-left: calc(var(--a-left) + var(--diag-horz-clearance));
+    --rb-left: calc(var(--y-left) + var(--horz-clearance));
+    --lb-left: calc(var(--rb-left) + var(--horz-clearance));
+    --rt-left: calc(var(--rb-left));
+    --lt-left: calc(var(--rt-left) + var(--horz-clearance));
+    --start-left: calc(var(--x-left) - 91px);
+    --back-left: calc(var(--start-left) - 104px);
+    --ls-left: calc(var(--a-left) - 280px);
+    --rs-left: calc(calc(var(--a-left) + 130px));
+    
+    --dir-right-top: calc(var(--x-top) + 75px);
+    --dir-right-left: calc(var(--x-left) - 150px);
+    --dir-down-top: calc(var(--dir-right-top) - var(--diag-vert-clearance));
+    --dir-down-left: calc(var(--dir-right-left) - var(--diag-horz-clearance));
+    --dir-left-top: var(--dir-down-top);
+    --dir-left-left: calc(var(--dir-down-left) - var(--horz-clearance));
+    --dir-up-top: calc(var(--dir-right-top) + 230px);
+    --dir-up-left: calc(var(--dir-right-left) + 75px);
+
+    --vert-clearance: 160px;
+    --diag-vert-clearance: 80px;
+    --diag-horz-clearance: 140px;
+    --horz-clearance: var(--vert-clearance);
+}
+
+.controller.fight-stick {
+    /* background: url(https://imgur.com/AEMTeDY.png) center no-repeat; */
+    background: transparent;
+    height: 535px;
+    width: 1500px;
+}
+
+.fight-stick.disconnected {
+    margin:auto;
+    width:50%;
+    height:50%;
+    background: url(https://imgur.com/oDdTc1t.png) no-repeat;
+}
+
+/* Properties for all buttons */
+
+.fight-stick .back,
+.fight-stick .start,
+.fight-stick .a,
+.fight-stick .b,
+.fight-stick .x,
+.fight-stick .y,
+.fight-stick .bumper.right,
+.fight-stick .bumper.left,
+.fight-stick .trigger-button.right,
+.fight-stick .trigger-button.left,
+.fight-stick .stick.right,
+.fight-stick .stick.left,
+.fight-stick .face.up,
+.fight-stick .face.right,
+.fight-stick .face.down,
+.fight-stick .face.left {
+  background-size: cover;
+  background-repeat: repeat;
+  background-color: transparent;
+  display: block;
+  border-radius: 0%;
+  translate: -50% -50%;
+  box-sizing: border-box;
+}
+
+.fight-stick .back.pressed,
+.fight-stick .start.pressed,
+.fight-stick .a.pressed,
+.fight-stick .b.pressed,
+.fight-stick .x.pressed,
+.fight-stick .y.pressed,
+.fight-stick .bumper.right.pressed,
+.fight-stick .bumper.left.pressed,
+.fight-stick .trigger-button.right.pressed,
+.fight-stick .trigger-button.left.pressed,
+.fight-stick .stick.right.pressed,
+.fight-stick .stick.left.pressed,
+.fight-stick .face.up.pressed,
+.fight-stick .face.right.pressed,
+.fight-stick .face.down.pressed,
+.fight-stick .face.left.pressed {
+  background-size: cover;
+  background-repeat: repeat;
+  background-color: transparent;
+  border-radius: 0%;
+  translate: -50% -50%;
+  -webkit-filter: brightness(100%) invert(0);
+  background-position-y: 100%;
+  box-sizing: border-box;
+}
+
+
+
+.fight-stick .back::before,
+.fight-stick .start::before,
+.fight-stick .a::before,
+.fight-stick .b::before,
+.fight-stick .x::before,
+.fight-stick .y::before,
+.fight-stick .bumper.right::before,
+.fight-stick .bumper.left::before,
+.fight-stick .trigger-button.right::before,
+.fight-stick .trigger-button.left::before,
+.fight-stick .stick.right::before,
+.fight-stick .stick.left::before,
+.fight-stick .face.up::before,
+.fight-stick .face.right::before,
+.fight-stick .face.down::before,
+.fight-stick .face.left::before,
+.fight-stick .back.pressed::before,
+.fight-stick .start.pressed::before,
+.fight-stick .a.pressed::before,
+.fight-stick .b.pressed::before,
+.fight-stick .x.pressed::before,
+.fight-stick .y.pressed::before,
+.fight-stick .bumper.right.pressed::before,
+.fight-stick .bumper.left.pressed::before,
+.fight-stick .trigger-button.right.pressed::before,
+.fight-stick .trigger-button.left.pressed::before,
+.fight-stick .stick.right.pressed::before,
+.fight-stick .stick.left.pressed::before,
+.fight-stick .face.up.pressed::before,
+.fight-stick .face.right.pressed::before,
+.fight-stick .face.down.pressed::before,
+.fight-stick .face.left.pressed::before,
+.fight-stick .back::after,
+.fight-stick .start::after,
+.fight-stick .a::after,
+.fight-stick .b::after,
+.fight-stick .x::after,
+.fight-stick .y::after,
+.fight-stick .bumper.right::after,
+.fight-stick .bumper.left::after,
+.fight-stick .trigger-button.right::after,
+.fight-stick .trigger-button.left::after,
+.fight-stick .stick.right::after,
+.fight-stick .stick.left::after,
+.fight-stick .face.up::after,
+.fight-stick .face.right::after,
+.fight-stick .face.down::after,
+.fight-stick .face.left::after,
+.fight-stick .back.pressed::after,
+.fight-stick .start.pressed::after,
+.fight-stick .a.pressed::after,
+.fight-stick .b.pressed::after,
+.fight-stick .x.pressed::after,
+.fight-stick .y.pressed::after,
+.fight-stick .bumper.right.pressed::after,
+.fight-stick .bumper.left.pressed::after,
+.fight-stick .trigger-button.right.pressed::after,
+.fight-stick .trigger-button.left.pressed::after,
+.fight-stick .stick.right.pressed::after,
+.fight-stick .stick.left.pressed::after,
+.fight-stick .face.up.pressed::after,
+.fight-stick .face.right.pressed::after,
+.fight-stick .face.down.pressed::after,
+.fight-stick .face.left.pressed::after {
+  color: var(--text-color);
+  font-size: var(--text-font-size);
+  content: var(--text-content);
+  font-family: var(--text-font-family);
+  translate: -50% -50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
+.fight-stick .back::before,
+.fight-stick .start::before,
+.fight-stick .a::before,
+.fight-stick .b::before,
+.fight-stick .x::before,
+.fight-stick .y::before,
+.fight-stick .bumper.right::before,
+.fight-stick .bumper.left::before,
+.fight-stick .trigger-button.right::before,
+.fight-stick .trigger-button.left::before,
+.fight-stick .stick.right::before,
+.fight-stick .stick.left::before,
+.fight-stick .face.up::before,
+.fight-stick .face.right::before,
+.fight-stick .face.down::before,
+.fight-stick .face.left::before,
+.fight-stick .back.pressed::before,
+.fight-stick .start.pressed::before,
+.fight-stick .a.pressed::before,
+.fight-stick .b.pressed::before,
+.fight-stick .x.pressed::before,
+.fight-stick .y.pressed::before,
+.fight-stick .bumper.right.pressed::before,
+.fight-stick .bumper.left.pressed::before,
+.fight-stick .trigger-button.right.pressed::before,
+.fight-stick .trigger-button.left.pressed::before,
+.fight-stick .stick.right.pressed::before,
+.fight-stick .stick.left.pressed::before,
+.fight-stick .face.up.pressed::before,
+.fight-stick .face.right.pressed::before,
+.fight-stick .face.down.pressed::before,
+.fight-stick .face.left.pressed::before {
+  -webkit-text-stroke-color: var(--text-stroke-color);
+  -webkit-text-stroke-width: var(--text-stroke-width);
+}
+
+/* start/back */
+
+.fight-stick .back, .fight-stick .start {
+    position: fixed;
+    width: 100px;
+    height: 100px;
+}
+
+.fight-stick .back {
+    background-image: var(--back-button-source-image);
+    top: var(--back-top);
+    left: var(--back-left);
+}
+
+.fight-stick .start {
+    background-image: var(--start-button-source-image);
+    top: var(--start-top);
+    left: var(--start-left);    
+}
+
+.fight-stick .back.pressed, .fight-stick .start.pressed {
+}
+
+/* Face buttons */
+
+.fight-stick .a, .fight-stick .b, .fight-stick .x, .fight-stick .y {
+    position:fixed;
+    width: 150px;
+    height: 150px;
+}
+
+.fight-stick .a.pressed, .fight-stick .b.pressed, .fight-stick .x.pressed, .fight-stick .y.pressed {
+}
+
+.fight-stick .a {
+    background-image: var(--bot-row-index-finger-button-source-image);
+    top: var(--a-top);
+    left: var(--a-left);
+}
+
+.fight-stick .a.pressed {
+}
+
+.fight-stick .b {
+    background-image: var(--bot-row-middle-finger-button-source-image);
+    top: var(--b-top);
+    left: var(--b-left);
+}
+
+
+.fight-stick .b.pressed {
+}
+
+.fight-stick .x {
+    background-image: var(--top-row-index-finger-button-source-image);
+    top: var(--x-top);
+    left: var(--x-left);
+}
+
+.fight-stick .x.pressed {
+}
+
+.fight-stick .y {
+    background-image: var(--top-row-middle-finger-button-source-image);
+    top: var(--y-top);
+    left: var(--y-left);
+}
+
+.fight-stick .y.pressed {
+}
+
+/* Bumpers */
+
+.fight-stick .bumper.right, .fight-stick .bumper.left {
+    position:fixed;
+    width: 150px;
+    height: 150px;
+}
+
+.fight-stick .bumper.right.pressed, .fight-stick .bumper.left.pressed {
+}
+
+.fight-stick .bumper.right {
+    background-image: var(--top-row-ring-finger-button-source-image);
+    top: var(--rb-top);
+    left: var(--rb-left);
+}
+
+.fight-stick .bumper.right.pressed {
+}
+
+.fight-stick .bumper.left {
+    background-image: var(--top-row-pinky-finger-button-source-image);
+    top: var(--lb-top);
+    left: var(--lb-left);
+}
+
+.fight-stick .bumper.left.pressed {
+}
+
+/* Triggers */
+
+.fight-stick .trigger-button.right, .fight-stick .trigger-button.left {
+    position: fixed;
+    width: 150px;
+    height: 150px;
+}
+
+.fight-stick .trigger-button.right.pressed, .fight-stick .trigger-button.left.pressed {
+}
+
+.fight-stick .trigger-button.right {
+    background-image: var(--bot-row-ring-finger-button-source-image);
+    top: var(--rt-top);
+    left: var(--rt-left);
+}
+
+.fight-stick .trigger-button.right.pressed {
+}
+
+.fight-stick .trigger-button.left {
+    background-image: var(--bot-row-pinky-finger-button-source-image);
+    top: var(--lt-top);
+    left: var(--lt-left);
+}
+
+.fight-stick .trigger-button.left.pressed {
+}
+
+/* L3/R3 */
+
+.fight-stick .stick.right, .fight-stick .stick.left {
+    position: fixed;
+    width: 150px;
+    height: 150px;
+}
+
+.fight-stick .stick.right.pressed, .fight-stick .stick.left.pressed {
+}
+
+.fight-stick .stick.right {
+    background-image: var(--rs-button-source-image);
+    top: var(--rs-top);
+    left: var(--rs-left);
+}
+
+.fight-stick .stick.right.pressed {
+}
+
+.fight-stick .stick.left {
+    background-image: var(--ls-button-source-image);
+    top: var(--ls-top);
+    left: var(--ls-left);
+}
+
+.fight-stick .stick.left.pressed {
+}
+
+.fight-stick .quadrant {
+    display: none;
+}
+
+/* Stick */
+
+.fight-stick .fstick {
+    visibility: hidden;
+}
+
+.fight-stick .fstick.up {
+    background-position-x: 100%;
+}
+
+.fight-stick .fstick.down {
+    background-position-x: calc(4 * 100% / 8);
+}
+
+.fight-stick .fstick.left {
+    background-position-x: calc(6 * 100% / 8);
+}
+
+.fight-stick .fstick.right {
+    background-position-x: calc(2 * 100% / 8);
+}
+
+.fight-stick .fstick.up.right {
+    background-position-x: calc(100% / 8);
+}
+
+.fight-stick .fstick.up.left {
+    background-position-x: calc(7 * 100% / 8);
+}
+
+.fight-stick .fstick.down.right {
+    background-position-x: calc(3 * 100% / 8);
+}
+
+.fight-stick .fstick.down.left {
+    background-position-x: calc(5 * 100% / 8);
+}
+
+/* Direction buttons */
+
+.fight-stick .face.up, .fight-stick .face.right, .fight-stick .face.down, .fight-stick .face.left {
+    position:fixed;
+    width: 150px;
+    height: 150px;
+    opacity: 1;
+}
+
+.fight-stick .face.up {
+    background-image: var(--up-arrow-source-image);
+    top: var(--dir-up-top);
+    left: var(--dir-up-left);
+}
+
+.fight-stick .face.up.pressed {
+}
+
+.fight-stick .face.right {
+    background-image: var(--right-arrow-source-image);
+    top: var(--dir-right-top);
+    left: var(--dir-right-left);
+}
+
+.fight-stick .face.right.pressed {
+}
+
+.fight-stick .face.down {
+    background-image: var(--down-arrow-source-image);
+    top: var(--dir-down-top);
+    left: var(--dir-down-left);
+}
+
+.fight-stick .face.down.pressed {
+}
+
+.fight-stick .face.left {
+    background-image: var(--left-arrow-source-image);
+    top: var(--dir-left-top);
+    left: var(--dir-left-left);
+}
+
+.fight-stick .face.left.pressed {
+}
+
+.fight-stick .face.up.pressed, .fight-stick .face.right.pressed, .fight-stick .face.down.pressed, .fight-stick .face.left.pressed {
+}
