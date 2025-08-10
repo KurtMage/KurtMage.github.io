@@ -502,17 +502,17 @@
 body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
 
 .fight-stick .x {
-background: rgb(213, 173, 255) none no-repeat scroll 50% 50% / 175px padding-box border-box;
-border: 10px solid rgb(0, 0, 0);
+background: rgb(127, 109, 161) none no-repeat scroll 50% 50% / 117px padding-box border-box;
+border: 10px solid rgb(213, 173, 255);
 border-radius: 100%;
 background-position-y: 50%;
 background-image: none;
-background-size: 175px;
+background-size: 117px;
 background-repeat: no-repeat;
 background-image: 50% 50%;
 border-radius: 100%;
-border-color: rgb(0, 0, 0);
---text-color: #000000FF;
+border-color: rgb(213, 173, 255);
+--text-color: #0000004D;
 --text-font-size: 62px;
 --text-stroke-color: #000000;
 --text-stroke-width: 0px;
@@ -521,17 +521,17 @@ border-color: rgb(0, 0, 0);
 }
 
 .fight-stick .y {
-background: rgb(192, 122, 255) none no-repeat scroll 50% 50% / 175px padding-box border-box;
-border: 10px solid rgb(0, 0, 0);
+background: rgb(114, 86, 168) none no-repeat scroll 50% 50% / 117px padding-box border-box;
+border: 10px solid rgb(192, 122, 255);
 border-radius: 100%;
 background-position-y: 50%;
 background-image: none;
-background-size: 175px;
+background-size: 117px;
 background-repeat: no-repeat;
 background-image: 50% 50%;
 border-radius: 100%;
-border-color: rgb(0, 0, 0);
---text-color: #000000FF;
+border-color: rgb(192, 122, 255);
+--text-color: #0000004D;
 --text-font-size: 62px;
 --text-stroke-color: #000000;
 --text-stroke-width: 0px;
@@ -540,17 +540,17 @@ border-color: rgb(0, 0, 0);
 }
 
 .fight-stick .a {
-background: rgb(70, 199, 243) none no-repeat scroll 50% 50% / 175px padding-box border-box;
-border: 10px solid rgb(0, 0, 0);
+background: rgb(72, 139, 171) none no-repeat scroll 50% 50% / 117px padding-box border-box;
+border: 10px solid rgb(70, 199, 243);
 border-radius: 100%;
 background-position-y: 50%;
 background-image: none;
-background-size: 175px;
+background-size: 117px;
 background-repeat: no-repeat;
 background-image: 50% 50%;
 border-radius: 100%;
-border-color: rgb(0, 0, 0);
---text-color: #000000FF;
+border-color: rgb(70, 199, 243);
+--text-color: #0000004D;
 --text-font-size: 62px;
 --text-stroke-color: #000000;
 --text-stroke-width: 0px;
@@ -559,17 +559,17 @@ border-color: rgb(0, 0, 0);
 }
 
 .fight-stick .b {
-background: rgb(255, 79, 80) none no-repeat scroll 50% 50% / 175px padding-box border-box;
-border: 10px solid rgb(0, 0, 0);
+background: rgb(150, 70, 77) none no-repeat scroll 50% 50% / 117px padding-box border-box;
+border: 10px solid rgb(255, 79, 80);
 border-radius: 100%;
 background-position-y: 50%;
 background-image: none;
-background-size: 175px;
+background-size: 117px;
 background-repeat: no-repeat;
 background-image: 50% 50%;
 border-radius: 100%;
-border-color: rgb(0, 0, 0);
---text-color: #000000FF;
+border-color: rgb(255, 79, 80);
+--text-color: #0000004D;
 --text-font-size: 62px;
 --text-stroke-color: #000000;
 --text-stroke-width: 0px;
@@ -578,17 +578,17 @@ border-color: rgb(0, 0, 0);
 }
 
 .fight-stick .bumper.right {
-background: rgb(152, 48, 252) none no-repeat scroll 50% 50% / 175px padding-box border-box;
-border: 10px solid rgb(0, 0, 0);
+background: rgb(83, 46, 137) none no-repeat scroll 50% 50% / 117px padding-box border-box;
+border: 10px solid rgb(152, 48, 252);
 border-radius: 100%;
 background-position-y: 50%;
 background-image: none;
-background-size: 175px;
+background-size: 117px;
 background-repeat: no-repeat;
 background-image: 50% 50%;
 border-radius: 100%;
-border-color: rgb(0, 0, 0);
---text-color: #000000FF;
+border-color: rgb(152, 48, 252);
+--text-color: #0000004D;
 --text-font-size: 62px;
 --text-stroke-color: #000000;
 --text-stroke-width: 0px;
@@ -597,17 +597,17 @@ border-color: rgb(0, 0, 0);
 }
 
 .fight-stick .bumper.left {
-background: rgb(235, 148, 1) none no-repeat scroll 50% 50% / 175px padding-box border-box;
-border: 10px solid rgb(0, 0, 0);
+background: rgb(148, 88, 26) none no-repeat scroll 50% 50% / 117px padding-box border-box;
+border: 10px solid rgb(235, 148, 1);
 border-radius: 100%;
 background-position-y: 50%;
 background-image: none;
-background-size: 175px;
+background-size: 117px;
 background-repeat: no-repeat;
 background-image: 50% 50%;
 border-radius: 100%;
-border-color: rgb(0, 0, 0);
---text-color: #000000FF;
+border-color: rgb(235, 148, 1);
+--text-color: #0000004D;
 --text-font-size: 62px;
 --text-stroke-color: #000000;
 --text-stroke-width: 0px;
@@ -616,17 +616,17 @@ border-color: rgb(0, 0, 0);
 }
 
 .fight-stick .trigger-button.right {
-background: rgb(225, 244, 100) none no-repeat scroll 50% 50% / 175px padding-box border-box;
-border: 10px solid rgb(0, 0, 0);
+background: rgb(128, 154, 92) none no-repeat scroll 50% 50% / 117px padding-box border-box;
+border: 10px solid rgb(225, 244, 100);
 border-radius: 100%;
 background-position-y: 50%;
 background-image: none;
-background-size: 175px;
+background-size: 117px;
 background-repeat: no-repeat;
 background-image: 50% 50%;
 border-radius: 100%;
-border-color: rgb(0, 0, 0);
---text-color: #000000FF;
+border-color: rgb(225, 244, 100);
+--text-color: #0000004D;
 --text-font-size: 62px;
 --text-stroke-color: #000000;
 --text-stroke-width: 0px;
@@ -635,17 +635,17 @@ border-color: rgb(0, 0, 0);
 }
 
 .fight-stick .trigger-button.left {
-background: rgb(38, 117, 245) none no-repeat scroll 50% 50% / 175px padding-box border-box;
-border: 10px solid rgb(0, 0, 0);
+background: rgb(45, 84, 164) none no-repeat scroll 50% 50% / 117px padding-box border-box;
+border: 10px solid rgb(38, 117, 245);
 border-radius: 100%;
 background-position-y: 50%;
 background-image: none;
-background-size: 175px;
+background-size: 117px;
 background-repeat: no-repeat;
 background-image: 50% 50%;
 border-radius: 100%;
-border-color: rgb(0, 0, 0);
---text-color: #000000FF;
+border-color: rgb(38, 117, 245);
+--text-color: #0000004D;
 --text-font-size: 62px;
 --text-stroke-color: #000000;
 --text-stroke-width: 0px;
@@ -654,11 +654,11 @@ border-color: rgb(0, 0, 0);
 }
 
 .fight-stick .face.left {
-background: rgb(51, 51, 51) url("https://raw.githubusercontent.com/KurtMage/KurtMage.github.io/main/images/2XKO/2025/Arrow%20Icons/White%20Basic/Arrow%20Left.png") no-repeat scroll 50% 50% / 175px padding-box border-box;
+background: rgb(51, 51, 51) url("https://raw.githubusercontent.com/KurtMage/KurtMage.github.io/main/images/2XKO/2025/Arrow%20Icons/Grey%20999999/Arrow%20Left.png") no-repeat scroll 50% 50% / 175px padding-box border-box;
 border: 10px solid rgb(0, 0, 0);
 border-radius: 100%;
 background-position-y: 50%;
-background-image: url("https://raw.githubusercontent.com/KurtMage/KurtMage.github.io/main/images/2XKO/2025/Arrow%20Icons/White%20Basic/Arrow%20Left.png");
+background-image: url("https://raw.githubusercontent.com/KurtMage/KurtMage.github.io/main/images/2XKO/2025/Arrow%20Icons/Grey%20999999/Arrow%20Left.png");
 background-size: 175px;
 background-repeat: no-repeat;
 background-image: 50% 50%;
@@ -673,11 +673,11 @@ border-color: rgb(0, 0, 0);
 }
 
 .fight-stick .face.down {
-background: rgb(51, 51, 51) url("https://raw.githubusercontent.com/KurtMage/KurtMage.github.io/main/images/2XKO/2025/Arrow%20Icons/White%20Basic/Arrow%20Down.png") no-repeat scroll 50% 50% / 175px padding-box border-box;
+background: rgb(51, 51, 51) url("https://raw.githubusercontent.com/KurtMage/KurtMage.github.io/main/images/2XKO/2025/Arrow%20Icons/Grey%20999999/Arrow%20Down.png") no-repeat scroll 50% 50% / 175px padding-box border-box;
 border: 10px solid rgb(0, 0, 0);
 border-radius: 100%;
 background-position-y: 50%;
-background-image: url("https://raw.githubusercontent.com/KurtMage/KurtMage.github.io/main/images/2XKO/2025/Arrow%20Icons/White%20Basic/Arrow%20Down.png");
+background-image: url("https://raw.githubusercontent.com/KurtMage/KurtMage.github.io/main/images/2XKO/2025/Arrow%20Icons/Grey%20999999/Arrow%20Down.png");
 background-size: 175px;
 background-repeat: no-repeat;
 background-image: 50% 50%;
@@ -692,11 +692,11 @@ border-color: rgb(0, 0, 0);
 }
 
 .fight-stick .face.right {
-background: rgb(51, 51, 51) url("https://raw.githubusercontent.com/KurtMage/KurtMage.github.io/main/images/2XKO/2025/Arrow%20Icons/White%20Basic/Arrow%20Right.png") no-repeat scroll 50% 50% / 175px padding-box border-box;
+background: rgb(51, 51, 51) url("https://raw.githubusercontent.com/KurtMage/KurtMage.github.io/main/images/2XKO/2025/Arrow%20Icons/Grey%20999999/Arrow%20Right.png") no-repeat scroll 50% 50% / 175px padding-box border-box;
 border: 10px solid rgb(0, 0, 0);
 border-radius: 100%;
 background-position-y: 50%;
-background-image: url("https://raw.githubusercontent.com/KurtMage/KurtMage.github.io/main/images/2XKO/2025/Arrow%20Icons/White%20Basic/Arrow%20Right.png");
+background-image: url("https://raw.githubusercontent.com/KurtMage/KurtMage.github.io/main/images/2XKO/2025/Arrow%20Icons/Grey%20999999/Arrow%20Right.png");
 background-size: 175px;
 background-repeat: no-repeat;
 background-image: 50% 50%;
@@ -711,11 +711,11 @@ border-color: rgb(0, 0, 0);
 }
 
 .fight-stick .face.up {
-background: rgb(51, 51, 51) url("https://raw.githubusercontent.com/KurtMage/KurtMage.github.io/main/images/2XKO/2025/Arrow%20Icons/White%20Basic/Arrow%20Up.png") no-repeat scroll 50% 50% / 175px padding-box border-box;
+background: rgb(51, 51, 51) url("https://raw.githubusercontent.com/KurtMage/KurtMage.github.io/main/images/2XKO/2025/Arrow%20Icons/Grey%20999999/Arrow%20Up.png") no-repeat scroll 50% 50% / 175px padding-box border-box;
 border: 10px solid rgb(0, 0, 0);
 border-radius: 100%;
 background-position-y: 50%;
-background-image: url("https://raw.githubusercontent.com/KurtMage/KurtMage.github.io/main/images/2XKO/2025/Arrow%20Icons/White%20Basic/Arrow%20Up.png");
+background-image: url("https://raw.githubusercontent.com/KurtMage/KurtMage.github.io/main/images/2XKO/2025/Arrow%20Icons/Grey%20999999/Arrow%20Up.png");
 background-size: 175px;
 background-repeat: no-repeat;
 background-image: 50% 50%;
@@ -787,35 +787,35 @@ border-color: rgb(0, 0, 0);
 }
 
 .fight-stick .stick.right {
-background: rgb(51, 51, 51) none no-repeat scroll 50% 50% / 175px padding-box border-box;
-border: 10px solid rgb(0, 0, 0);
+background: rgb(154, 126, 42) none no-repeat scroll 50% 50% / 117px padding-box border-box;
+border: 10px solid rgb(253, 214, 83);
 border-radius: 100%;
 background-position-y: 50%;
 background-image: none;
-background-size: 175px;
+background-size: 117px;
 background-repeat: no-repeat;
 background-image: 50% 50%;
 border-radius: 100%;
-border-color: rgb(0, 0, 0);
---text-color: #ffffff;
+border-color: rgb(253, 214, 83);
+--text-color: #0000004D;
 --text-font-size: 62px;
 --text-stroke-color: #000000;
---text-stroke-width: 4px;
---text-content: "";
+--text-stroke-width: 0px;
+--text-content: "TH";
 --text-font-family: "Helvetica Neue LT Pro";
 }
 
 .fight-stick .x.pressed {
-background: rgb(255, 255, 255) none no-repeat scroll 50% 50% / 175px padding-box border-box;
-border: 10px solid rgb(0, 0, 0);
+background: rgb(213, 173, 255) none no-repeat scroll 50% 50% / 117px padding-box border-box;
+border: 10px solid rgb(213, 173, 255);
 border-radius: 100%;
 background-position-y: 50%;
 background-image: none;
-background-size: 175px;
+background-size: 117px;
 background-repeat: no-repeat;
 background-image: 50% 50%;
 border-radius: 100%;
-border-color: rgb(0, 0, 0);
+border-color: rgb(213, 173, 255);
 --text-color: #000000FF;
 --text-font-size: 62px;
 --text-stroke-color: #000000;
@@ -825,16 +825,16 @@ border-color: rgb(0, 0, 0);
 }
 
 .fight-stick .y.pressed {
-background: rgb(255, 255, 255) none no-repeat scroll 50% 50% / 175px padding-box border-box;
-border: 10px solid rgb(0, 0, 0);
+background: rgb(192, 122, 255) none no-repeat scroll 50% 50% / 117px padding-box border-box;
+border: 10px solid rgb(192, 122, 255);
 border-radius: 100%;
 background-position-y: 50%;
 background-image: none;
-background-size: 175px;
+background-size: 117px;
 background-repeat: no-repeat;
 background-image: 50% 50%;
 border-radius: 100%;
-border-color: rgb(0, 0, 0);
+border-color: rgb(192, 122, 255);
 --text-color: #000000FF;
 --text-font-size: 62px;
 --text-stroke-color: #000000;
@@ -844,16 +844,16 @@ border-color: rgb(0, 0, 0);
 }
 
 .fight-stick .a.pressed {
-background: rgb(255, 255, 255) none no-repeat scroll 50% 50% / 175px padding-box border-box;
-border: 10px solid rgb(0, 0, 0);
+background: rgb(70, 199, 243) none no-repeat scroll 50% 50% / 117px padding-box border-box;
+border: 10px solid rgb(70, 199, 243);
 border-radius: 100%;
 background-position-y: 50%;
 background-image: none;
-background-size: 175px;
+background-size: 117px;
 background-repeat: no-repeat;
 background-image: 50% 50%;
 border-radius: 100%;
-border-color: rgb(0, 0, 0);
+border-color: rgb(70, 199, 243);
 --text-color: #000000FF;
 --text-font-size: 62px;
 --text-stroke-color: #000000;
@@ -863,16 +863,16 @@ border-color: rgb(0, 0, 0);
 }
 
 .fight-stick .b.pressed {
-background: rgb(255, 255, 255) none no-repeat scroll 50% 50% / 175px padding-box border-box;
-border: 10px solid rgb(0, 0, 0);
+background: rgb(255, 79, 80) none no-repeat scroll 50% 50% / 117px padding-box border-box;
+border: 10px solid rgb(255, 79, 80);
 border-radius: 100%;
 background-position-y: 50%;
 background-image: none;
-background-size: 175px;
+background-size: 117px;
 background-repeat: no-repeat;
 background-image: 50% 50%;
 border-radius: 100%;
-border-color: rgb(0, 0, 0);
+border-color: rgb(255, 79, 80);
 --text-color: #000000FF;
 --text-font-size: 62px;
 --text-stroke-color: #000000;
@@ -882,16 +882,16 @@ border-color: rgb(0, 0, 0);
 }
 
 .fight-stick .bumper.right.pressed {
-background: rgb(255, 255, 255) none no-repeat scroll 50% 50% / 175px padding-box border-box;
-border: 10px solid rgb(0, 0, 0);
+background: rgb(152, 48, 252) none no-repeat scroll 50% 50% / 117px padding-box border-box;
+border: 10px solid rgb(152, 48, 252);
 border-radius: 100%;
 background-position-y: 50%;
 background-image: none;
-background-size: 175px;
+background-size: 117px;
 background-repeat: no-repeat;
 background-image: 50% 50%;
 border-radius: 100%;
-border-color: rgb(0, 0, 0);
+border-color: rgb(152, 48, 252);
 --text-color: #000000FF;
 --text-font-size: 62px;
 --text-stroke-color: #000000;
@@ -901,16 +901,16 @@ border-color: rgb(0, 0, 0);
 }
 
 .fight-stick .bumper.left.pressed {
-background: rgb(255, 255, 255) none no-repeat scroll 50% 50% / 175px padding-box border-box;
-border: 10px solid rgb(0, 0, 0);
+background: rgb(235, 148, 1) none no-repeat scroll 50% 50% / 117px padding-box border-box;
+border: 10px solid rgb(235, 148, 1);
 border-radius: 100%;
 background-position-y: 50%;
 background-image: none;
-background-size: 175px;
+background-size: 117px;
 background-repeat: no-repeat;
 background-image: 50% 50%;
 border-radius: 100%;
-border-color: rgb(0, 0, 0);
+border-color: rgb(235, 148, 1);
 --text-color: #000000FF;
 --text-font-size: 62px;
 --text-stroke-color: #000000;
@@ -920,16 +920,16 @@ border-color: rgb(0, 0, 0);
 }
 
 .fight-stick .trigger-button.right.pressed {
-background: rgb(255, 255, 255) none no-repeat scroll 50% 50% / 175px padding-box border-box;
-border: 10px solid rgb(0, 0, 0);
+background: rgb(225, 244, 100) none no-repeat scroll 50% 50% / 117px padding-box border-box;
+border: 10px solid rgb(225, 244, 100);
 border-radius: 100%;
 background-position-y: 50%;
 background-image: none;
-background-size: 175px;
+background-size: 117px;
 background-repeat: no-repeat;
 background-image: 50% 50%;
 border-radius: 100%;
-border-color: rgb(0, 0, 0);
+border-color: rgb(225, 244, 100);
 --text-color: #000000FF;
 --text-font-size: 62px;
 --text-stroke-color: #000000;
@@ -939,16 +939,16 @@ border-color: rgb(0, 0, 0);
 }
 
 .fight-stick .trigger-button.left.pressed {
-background: rgb(255, 255, 255) none no-repeat scroll 50% 50% / 175px padding-box border-box;
-border: 10px solid rgb(0, 0, 0);
+background: rgb(38, 117, 245) none no-repeat scroll 50% 50% / 117px padding-box border-box;
+border: 10px solid rgb(38, 117, 245);
 border-radius: 100%;
 background-position-y: 50%;
 background-image: none;
-background-size: 175px;
+background-size: 117px;
 background-repeat: no-repeat;
 background-image: 50% 50%;
 border-radius: 100%;
-border-color: rgb(0, 0, 0);
+border-color: rgb(38, 117, 245);
 --text-color: #000000FF;
 --text-font-size: 62px;
 --text-stroke-color: #000000;
@@ -1091,21 +1091,21 @@ border-color: rgb(0, 0, 0);
 }
 
 .fight-stick .stick.right.pressed {
-background: rgb(255, 255, 255) none no-repeat scroll 50% 50% / 175px padding-box border-box;
-border: 10px solid rgb(0, 0, 0);
+background: rgb(253, 214, 83) none no-repeat scroll 50% 50% / 117px padding-box border-box;
+border: 10px solid rgb(253, 214, 83);
 border-radius: 100%;
 background-position-y: 50%;
 background-image: none;
-background-size: 175px;
+background-size: 117px;
 background-repeat: no-repeat;
 background-image: 50% 50%;
 border-radius: 100%;
-border-color: rgb(0, 0, 0);
---text-color: #ffffff;
+border-color: rgb(253, 214, 83);
+--text-color: #000000FF;
 --text-font-size: 62px;
 --text-stroke-color: #000000;
---text-stroke-width: 4px;
---text-content: "";
+--text-stroke-width: 0px;
+--text-content: "TH";
 --text-font-family: "Helvetica Neue LT Pro";
 }
 
