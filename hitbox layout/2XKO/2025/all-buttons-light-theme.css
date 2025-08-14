@@ -508,7 +508,7 @@ background: rgb(213, 173, 255) none no-repeat scroll 50% 50% / 175px padding-box
 visibility: visible;
 width: 150px;
 height: 150px;
-border: 10px solid rgb(0, 0, 0);
+border: 9.09091px solid rgb(0, 0, 0);
 border-radius: 100%;
 background-position-y: 50%;
 background-image: none;
@@ -520,7 +520,7 @@ border-color: rgb(0, 0, 0);
 --text-color: #000000FF;
 --text-font-size: 62px;
 --text-stroke-color: #000000;
---text-stroke-width: 0px;
+--text-stroke-width: 2px;
 --text-content: "L";
 --text-font-family: "Helvetica Neue LT Pro";
 }
@@ -532,7 +532,7 @@ background: rgb(192, 122, 255) none no-repeat scroll 50% 50% / 175px padding-box
 visibility: visible;
 width: 150px;
 height: 150px;
-border: 10px solid rgb(0, 0, 0);
+border: 9.09091px solid rgb(0, 0, 0);
 border-radius: 100%;
 background-position-y: 50%;
 background-image: none;
@@ -544,7 +544,7 @@ border-color: rgb(0, 0, 0);
 --text-color: #000000FF;
 --text-font-size: 62px;
 --text-stroke-color: #000000;
---text-stroke-width: 0px;
+--text-stroke-width: 2px;
 --text-content: "M";
 --text-font-family: "Helvetica Neue LT Pro";
 }
@@ -556,7 +556,7 @@ background: rgb(70, 199, 243) none no-repeat scroll 50% 50% / 175px padding-box 
 visibility: visible;
 width: 150px;
 height: 150px;
-border: 10px solid rgb(0, 0, 0);
+border: 9.09091px solid rgb(0, 0, 0);
 border-radius: 100%;
 background-position-y: 50%;
 background-image: none;
@@ -568,7 +568,7 @@ border-color: rgb(0, 0, 0);
 --text-color: #000000FF;
 --text-font-size: 62px;
 --text-stroke-color: #000000;
---text-stroke-width: 0px;
+--text-stroke-width: 2px;
 --text-content: "S1";
 --text-font-family: "Helvetica Neue LT Pro";
 }
@@ -580,7 +580,7 @@ background: rgb(255, 79, 80) none no-repeat scroll 50% 50% / 175px padding-box b
 visibility: visible;
 width: 150px;
 height: 150px;
-border: 10px solid rgb(0, 0, 0);
+border: 9.09091px solid rgb(0, 0, 0);
 border-radius: 100%;
 background-position-y: 50%;
 background-image: none;
@@ -592,7 +592,7 @@ border-color: rgb(0, 0, 0);
 --text-color: #000000FF;
 --text-font-size: 62px;
 --text-stroke-color: #000000;
---text-stroke-width: 0px;
+--text-stroke-width: 2px;
 --text-content: "S2";
 --text-font-family: "Helvetica Neue LT Pro";
 }
@@ -604,7 +604,7 @@ background: rgb(152, 48, 252) none no-repeat scroll 50% 50% / 175px padding-box 
 visibility: visible;
 width: 150px;
 height: 150px;
-border: 10px solid rgb(0, 0, 0);
+border: 9.09091px solid rgb(0, 0, 0);
 border-radius: 100%;
 background-position-y: 50%;
 background-image: none;
@@ -616,7 +616,7 @@ border-color: rgb(0, 0, 0);
 --text-color: #000000FF;
 --text-font-size: 62px;
 --text-stroke-color: #000000;
---text-stroke-width: 0px;
+--text-stroke-width: 2px;
 --text-content: "H";
 --text-font-family: "Helvetica Neue LT Pro";
 }
@@ -628,7 +628,7 @@ background: rgb(235, 148, 1) none no-repeat scroll 50% 50% / 175px padding-box b
 visibility: visible;
 width: 150px;
 height: 150px;
-border: 10px solid rgb(0, 0, 0);
+border: 9.09091px solid rgb(0, 0, 0);
 border-radius: 100%;
 background-position-y: 50%;
 background-image: none;
@@ -640,7 +640,7 @@ border-color: rgb(0, 0, 0);
 --text-color: #000000FF;
 --text-font-size: 62px;
 --text-stroke-color: #000000;
---text-stroke-width: 0px;
+--text-stroke-width: 2px;
 --text-content: "D";
 --text-font-family: "Helvetica Neue LT Pro";
 }
@@ -652,7 +652,7 @@ background: rgb(225, 244, 100) none no-repeat scroll 50% 50% / 175px padding-box
 visibility: visible;
 width: 150px;
 height: 150px;
-border: 10px solid rgb(0, 0, 0);
+border: 9.09091px solid rgb(0, 0, 0);
 border-radius: 100%;
 background-position-y: 50%;
 background-image: none;
@@ -664,7 +664,7 @@ border-color: rgb(0, 0, 0);
 --text-color: #000000FF;
 --text-font-size: 62px;
 --text-stroke-color: #000000;
---text-stroke-width: 0px;
+--text-stroke-width: 2px;
 --text-content: "T";
 --text-font-family: "Helvetica Neue LT Pro";
 }
@@ -676,7 +676,7 @@ background: rgb(38, 117, 245) none no-repeat scroll 50% 50% / 175px padding-box 
 visibility: visible;
 width: 150px;
 height: 150px;
-border: 10px solid rgb(0, 0, 0);
+border: 9.09091px solid rgb(0, 0, 0);
 border-radius: 100%;
 background-position-y: 50%;
 background-image: none;
@@ -688,7 +688,7 @@ border-color: rgb(0, 0, 0);
 --text-color: #000000FF;
 --text-font-size: 62px;
 --text-stroke-color: #000000;
---text-stroke-width: 0px;
+--text-stroke-width: 2px;
 --text-content: "P";
 --text-font-family: "Helvetica Neue LT Pro";
 }
@@ -700,7 +700,7 @@ background: rgb(51, 51, 51) url("https://raw.githubusercontent.com/KurtMage/Kurt
 visibility: visible;
 width: 150px;
 height: 150px;
-border: 10px solid rgb(0, 0, 0);
+border: 9.09091px solid rgb(0, 0, 0);
 border-radius: 100%;
 background-position-y: 50%;
 background-image: url("https://raw.githubusercontent.com/KurtMage/KurtMage.github.io/main/images/2XKO/2025/Arrow%20Icons/White%20Basic/Arrow%20Left.png");
@@ -724,7 +724,7 @@ background: rgb(51, 51, 51) url("https://raw.githubusercontent.com/KurtMage/Kurt
 visibility: visible;
 width: 150px;
 height: 150px;
-border: 10px solid rgb(0, 0, 0);
+border: 9.09091px solid rgb(0, 0, 0);
 border-radius: 100%;
 background-position-y: 50%;
 background-image: url("https://raw.githubusercontent.com/KurtMage/KurtMage.github.io/main/images/2XKO/2025/Arrow%20Icons/White%20Basic/Arrow%20Down.png");
@@ -748,7 +748,7 @@ background: rgb(51, 51, 51) url("https://raw.githubusercontent.com/KurtMage/Kurt
 visibility: visible;
 width: 150px;
 height: 150px;
-border: 10px solid rgb(0, 0, 0);
+border: 9.09091px solid rgb(0, 0, 0);
 border-radius: 100%;
 background-position-y: 50%;
 background-image: url("https://raw.githubusercontent.com/KurtMage/KurtMage.github.io/main/images/2XKO/2025/Arrow%20Icons/White%20Basic/Arrow%20Right.png");
@@ -772,7 +772,7 @@ background: rgb(51, 51, 51) url("https://raw.githubusercontent.com/KurtMage/Kurt
 visibility: visible;
 width: 150px;
 height: 150px;
-border: 10px solid rgb(0, 0, 0);
+border: 9.09091px solid rgb(0, 0, 0);
 border-radius: 100%;
 background-position-y: 50%;
 background-image: url("https://raw.githubusercontent.com/KurtMage/KurtMage.github.io/main/images/2XKO/2025/Arrow%20Icons/White%20Basic/Arrow%20Up.png");
@@ -796,7 +796,7 @@ background: rgb(51, 51, 51) none no-repeat scroll 50% 50% / 175px padding-box bo
 visibility: visible;
 width: 100px;
 height: 100px;
-border: 7px solid rgb(0, 0, 0);
+border: 5.68182px solid rgb(0, 0, 0);
 border-radius: 100%;
 background-position-y: 50%;
 background-image: none;
@@ -820,7 +820,7 @@ background: rgb(51, 51, 51) none no-repeat scroll 50% 50% / 175px padding-box bo
 visibility: visible;
 width: 100px;
 height: 100px;
-border: 7px solid rgb(0, 0, 0);
+border: 5.68182px solid rgb(0, 0, 0);
 border-radius: 100%;
 background-position-y: 50%;
 background-image: none;
@@ -844,7 +844,7 @@ background: rgb(51, 51, 51) none no-repeat scroll 50% 50% / 175px padding-box bo
 visibility: visible;
 width: 150px;
 height: 150px;
-border: 10px solid rgb(0, 0, 0);
+border: 9.09091px solid rgb(0, 0, 0);
 border-radius: 100%;
 background-position-y: 50%;
 background-image: none;
@@ -868,7 +868,7 @@ background: rgb(253, 214, 83) none no-repeat scroll 50% 50% / 175px padding-box 
 visibility: visible;
 width: 150px;
 height: 150px;
-border: 10px solid rgb(0, 0, 0);
+border: 9.09091px solid rgb(0, 0, 0);
 border-radius: 100%;
 background-position-y: 50%;
 background-image: none;
@@ -880,7 +880,7 @@ border-color: rgb(0, 0, 0);
 --text-color: #000000FF;
 --text-font-size: 62px;
 --text-stroke-color: #000000;
---text-stroke-width: 0px;
+--text-stroke-width: 2px;
 --text-content: "TH";
 --text-font-family: "Helvetica Neue LT Pro";
 }
@@ -892,7 +892,7 @@ background: rgb(255, 255, 255) none no-repeat scroll 50% 50% / 175px padding-box
 visibility: visible;
 width: 150px;
 height: 150px;
-border: 10px solid rgb(0, 0, 0);
+border: 9.09091px solid rgb(0, 0, 0);
 border-radius: 100%;
 background-position-y: 50%;
 background-image: none;
@@ -901,10 +901,10 @@ background-repeat: no-repeat;
 background-image: 50% 50%;
 border-radius: 100%;
 border-color: rgb(0, 0, 0);
---text-color: #000000FF;
+--text-color: #d5adffFF;
 --text-font-size: 62px;
 --text-stroke-color: #000000;
---text-stroke-width: 0px;
+--text-stroke-width: 2px;
 --text-content: "L";
 --text-font-family: "Helvetica Neue LT Pro";
 }
@@ -916,7 +916,7 @@ background: rgb(255, 255, 255) none no-repeat scroll 50% 50% / 175px padding-box
 visibility: visible;
 width: 150px;
 height: 150px;
-border: 10px solid rgb(0, 0, 0);
+border: 9.09091px solid rgb(0, 0, 0);
 border-radius: 100%;
 background-position-y: 50%;
 background-image: none;
@@ -925,10 +925,10 @@ background-repeat: no-repeat;
 background-image: 50% 50%;
 border-radius: 100%;
 border-color: rgb(0, 0, 0);
---text-color: #000000FF;
+--text-color: #c07affFF;
 --text-font-size: 62px;
 --text-stroke-color: #000000;
---text-stroke-width: 0px;
+--text-stroke-width: 2px;
 --text-content: "M";
 --text-font-family: "Helvetica Neue LT Pro";
 }
@@ -940,7 +940,7 @@ background: rgb(255, 255, 255) none no-repeat scroll 50% 50% / 175px padding-box
 visibility: visible;
 width: 150px;
 height: 150px;
-border: 10px solid rgb(0, 0, 0);
+border: 9.09091px solid rgb(0, 0, 0);
 border-radius: 100%;
 background-position-y: 50%;
 background-image: none;
@@ -949,10 +949,10 @@ background-repeat: no-repeat;
 background-image: 50% 50%;
 border-radius: 100%;
 border-color: rgb(0, 0, 0);
---text-color: #000000FF;
+--text-color: #46c7f3FF;
 --text-font-size: 62px;
 --text-stroke-color: #000000;
---text-stroke-width: 0px;
+--text-stroke-width: 2px;
 --text-content: "S1";
 --text-font-family: "Helvetica Neue LT Pro";
 }
@@ -964,7 +964,7 @@ background: rgb(255, 255, 255) none no-repeat scroll 50% 50% / 175px padding-box
 visibility: visible;
 width: 150px;
 height: 150px;
-border: 10px solid rgb(0, 0, 0);
+border: 9.09091px solid rgb(0, 0, 0);
 border-radius: 100%;
 background-position-y: 50%;
 background-image: none;
@@ -973,10 +973,10 @@ background-repeat: no-repeat;
 background-image: 50% 50%;
 border-radius: 100%;
 border-color: rgb(0, 0, 0);
---text-color: #000000FF;
+--text-color: #ff4f50FF;
 --text-font-size: 62px;
 --text-stroke-color: #000000;
---text-stroke-width: 0px;
+--text-stroke-width: 2px;
 --text-content: "S2";
 --text-font-family: "Helvetica Neue LT Pro";
 }
@@ -988,7 +988,7 @@ background: rgb(255, 255, 255) none no-repeat scroll 50% 50% / 175px padding-box
 visibility: visible;
 width: 150px;
 height: 150px;
-border: 10px solid rgb(0, 0, 0);
+border: 9.09091px solid rgb(0, 0, 0);
 border-radius: 100%;
 background-position-y: 50%;
 background-image: none;
@@ -997,10 +997,10 @@ background-repeat: no-repeat;
 background-image: 50% 50%;
 border-radius: 100%;
 border-color: rgb(0, 0, 0);
---text-color: #000000FF;
+--text-color: #9830fcFF;
 --text-font-size: 62px;
 --text-stroke-color: #000000;
---text-stroke-width: 0px;
+--text-stroke-width: 2px;
 --text-content: "H";
 --text-font-family: "Helvetica Neue LT Pro";
 }
@@ -1012,7 +1012,7 @@ background: rgb(255, 255, 255) none no-repeat scroll 50% 50% / 175px padding-box
 visibility: visible;
 width: 150px;
 height: 150px;
-border: 10px solid rgb(0, 0, 0);
+border: 9.09091px solid rgb(0, 0, 0);
 border-radius: 100%;
 background-position-y: 50%;
 background-image: none;
@@ -1021,10 +1021,10 @@ background-repeat: no-repeat;
 background-image: 50% 50%;
 border-radius: 100%;
 border-color: rgb(0, 0, 0);
---text-color: #000000FF;
+--text-color: #eb9401FF;
 --text-font-size: 62px;
 --text-stroke-color: #000000;
---text-stroke-width: 0px;
+--text-stroke-width: 2px;
 --text-content: "D";
 --text-font-family: "Helvetica Neue LT Pro";
 }
@@ -1036,7 +1036,7 @@ background: rgb(255, 255, 255) none no-repeat scroll 50% 50% / 175px padding-box
 visibility: visible;
 width: 150px;
 height: 150px;
-border: 10px solid rgb(0, 0, 0);
+border: 9.09091px solid rgb(0, 0, 0);
 border-radius: 100%;
 background-position-y: 50%;
 background-image: none;
@@ -1045,10 +1045,10 @@ background-repeat: no-repeat;
 background-image: 50% 50%;
 border-radius: 100%;
 border-color: rgb(0, 0, 0);
---text-color: #000000FF;
+--text-color: #e1f464FF;
 --text-font-size: 62px;
 --text-stroke-color: #000000;
---text-stroke-width: 0px;
+--text-stroke-width: 2px;
 --text-content: "T";
 --text-font-family: "Helvetica Neue LT Pro";
 }
@@ -1060,7 +1060,7 @@ background: rgb(255, 255, 255) none no-repeat scroll 50% 50% / 175px padding-box
 visibility: visible;
 width: 150px;
 height: 150px;
-border: 10px solid rgb(0, 0, 0);
+border: 9.09091px solid rgb(0, 0, 0);
 border-radius: 100%;
 background-position-y: 50%;
 background-image: none;
@@ -1069,10 +1069,10 @@ background-repeat: no-repeat;
 background-image: 50% 50%;
 border-radius: 100%;
 border-color: rgb(0, 0, 0);
---text-color: #000000FF;
+--text-color: #2675f5FF;
 --text-font-size: 62px;
 --text-stroke-color: #000000;
---text-stroke-width: 0px;
+--text-stroke-width: 2px;
 --text-content: "P";
 --text-font-family: "Helvetica Neue LT Pro";
 }
@@ -1084,7 +1084,7 @@ background: rgb(255, 255, 255) url("https://raw.githubusercontent.com/KurtMage/K
 visibility: visible;
 width: 150px;
 height: 150px;
-border: 10px solid rgb(0, 0, 0);
+border: 9.09091px solid rgb(0, 0, 0);
 border-radius: 100%;
 background-position-y: 50%;
 background-image: url("https://raw.githubusercontent.com/KurtMage/KurtMage.github.io/main/images/2XKO/2025/Arrow%20Icons/White%20Basic/Arrow%20Left.png");
@@ -1108,7 +1108,7 @@ background: rgb(255, 255, 255) url("https://raw.githubusercontent.com/KurtMage/K
 visibility: visible;
 width: 150px;
 height: 150px;
-border: 10px solid rgb(0, 0, 0);
+border: 9.09091px solid rgb(0, 0, 0);
 border-radius: 100%;
 background-position-y: 50%;
 background-image: url("https://raw.githubusercontent.com/KurtMage/KurtMage.github.io/main/images/2XKO/2025/Arrow%20Icons/White%20Basic/Arrow%20Down.png");
@@ -1132,7 +1132,7 @@ background: rgb(255, 255, 255) url("https://raw.githubusercontent.com/KurtMage/K
 visibility: visible;
 width: 150px;
 height: 150px;
-border: 10px solid rgb(0, 0, 0);
+border: 9.09091px solid rgb(0, 0, 0);
 border-radius: 100%;
 background-position-y: 50%;
 background-image: url("https://raw.githubusercontent.com/KurtMage/KurtMage.github.io/main/images/2XKO/2025/Arrow%20Icons/White%20Basic/Arrow%20Right.png");
@@ -1156,7 +1156,7 @@ background: rgb(255, 255, 255) url("https://raw.githubusercontent.com/KurtMage/K
 visibility: visible;
 width: 150px;
 height: 150px;
-border: 10px solid rgb(0, 0, 0);
+border: 9.09091px solid rgb(0, 0, 0);
 border-radius: 100%;
 background-position-y: 50%;
 background-image: url("https://raw.githubusercontent.com/KurtMage/KurtMage.github.io/main/images/2XKO/2025/Arrow%20Icons/White%20Basic/Arrow%20Up.png");
@@ -1180,7 +1180,7 @@ background: rgb(255, 255, 255) none no-repeat scroll 50% 50% / 175px padding-box
 visibility: visible;
 width: 100px;
 height: 100px;
-border: 7px solid rgb(0, 0, 0);
+border: 5.68182px solid rgb(0, 0, 0);
 border-radius: 100%;
 background-position-y: 50%;
 background-image: none;
@@ -1204,7 +1204,7 @@ background: rgb(255, 255, 255) none no-repeat scroll 50% 50% / 175px padding-box
 visibility: visible;
 width: 100px;
 height: 100px;
-border: 7px solid rgb(0, 0, 0);
+border: 5.68182px solid rgb(0, 0, 0);
 border-radius: 100%;
 background-position-y: 50%;
 background-image: none;
@@ -1228,7 +1228,7 @@ background: rgb(255, 255, 255) none no-repeat scroll 50% 50% / 175px padding-box
 visibility: visible;
 width: 150px;
 height: 150px;
-border: 10px solid rgb(0, 0, 0);
+border: 9.09091px solid rgb(0, 0, 0);
 border-radius: 100%;
 background-position-y: 50%;
 background-image: none;
@@ -1252,7 +1252,7 @@ background: rgb(255, 255, 255) none no-repeat scroll 50% 50% / 175px padding-box
 visibility: visible;
 width: 150px;
 height: 150px;
-border: 10px solid rgb(0, 0, 0);
+border: 9.09091px solid rgb(0, 0, 0);
 border-radius: 100%;
 background-position-y: 50%;
 background-image: none;
@@ -1261,10 +1261,10 @@ background-repeat: no-repeat;
 background-image: 50% 50%;
 border-radius: 100%;
 border-color: rgb(0, 0, 0);
---text-color: #000000FF;
+--text-color: #fdd653FF;
 --text-font-size: 62px;
 --text-stroke-color: #000000;
---text-stroke-width: 0px;
+--text-stroke-width: 2px;
 --text-content: "TH";
 --text-font-family: "Helvetica Neue LT Pro";
 }
